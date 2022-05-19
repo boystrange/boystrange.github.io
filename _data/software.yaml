@@ -1,0 +1,55 @@
+- key:   FairTermination
+  title: A Characterization of Fair Termination in Agda
+  href:  https://github.com/boystrange/FairTermination
+
+  desc: "This Agda module formalizes the fair termination property
+  for an arbitrary reduction system and proves a sound and complete
+  characterization without using the fairness assumption."
+
+- key:   FairCheck
+  title: A Fair Termination Checker for Binary Sessions
+  href:  https://github.com/boystrange/FairCheck
+
+  desc: "FairCheck is a proof-of-concept implementation of a type
+  checker for a calculus of binary sessions such that well-typed
+  processes are guaranteed to be **fairly terminating**."
+
+- key:   FairSubtypingAgda
+  title: Inference Systems with Corules for Fair Subtyping and Liveness Properties of Binary Session Types
+  href:  https://github.com/boystrange/FairSubtypingAgda
+
+  desc:  "An Agda formalization of weak termination, fair compliance and fair subtyping for dependent session types
+  using generalized inference systems."
+
+- key:   DLPi
+  title: DLπ – A Dependently-Typed Linear π-Calculus in Agda
+  href:  https://gitlab.di.unito.it/luca.padovani/DependentLinearPi
+
+  desc: "An Agda formalization of the linear π-calculus with
+  dependent pairs capable of expressing structured conversations
+  involving data-dependent processes and protocols."
+
+- key:   EmacsFiraCode
+  title: EmacsFiraCode
+  href:  https://github.com/boystrange/EmacsFiraCode
+  desc:  "Small Haskell program that automatically generates the Emacs composition table for the Fira Code font."
+- key:   EasyJoin
+  title: EasyJoin – Concurrent Typestate-Oriented Programming in Java
+  href:  easyjoin.html
+  desc:  "**Join pattern** compiler and **code generator** enabling **concurrent TSOP** in Java with runtime detection of protocol violations."
+- key:   MCC
+  title: "MC² – the Mailbox Calculus Checker"
+  href:  mcc.html
+  desc:  "Mailbox conformance and deadlock analysis in the **Mailbox Calculus**, an extension of the actor model where processes communicate through **first-class, unordered** mailboxes."
+- key:   CobaltBlue
+  title: CobaltBlue
+  href:  Software/CobaltBlue/index.html
+  desc:  "Protocol and **deadlock** analysis in the Objective Join-Calculus."
+- key:   FuSe
+  title: FuSe
+  href:  https://github.com/boystrange/FuSe
+  desc:  "OCaml library of **binary sessions** featuring equi-recursive, polymorphic, context-free session types, delegation, subtyping, session type inference."
+- key:   Hypha
+  title: Hypha
+  href:  Software/hypha/index.html
+  desc:  Session type inference, deadlock- and lock-freedom analysis in the linear π-calculus

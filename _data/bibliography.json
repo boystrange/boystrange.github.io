@@ -1,0 +1,2848 @@
+[
+  {
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
+        "family": "Dagnino",
+        "given": "Francesco"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 35<sup>th</sup> european conference on object-oriented programming (ECOOP’22)",
+    "id": "CicconeDagninoPadovani22",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "Fair Termination of Multiparty Sessions",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1016/j.jlamp.2022.100777",
+    "ISSN": "2352-2208",
+    "abstract": "This volume contains the JLAMP special issue on the twelfth edition of the workshop on Programming Language Approaches to Concurrency and Communication-cEntric Software (PLACES 2020). The articles cover topics ranging from the semantics of communicating systems, to static and dynamic analysis techniques for session-based communications, to information flow analysis in heterogeneous organisations.",
+    "author": [
+      {
+        "family": "Balzer",
+        "given": "Stephanie"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Journal of Logical and Algebraic Methods in Programming",
+    "id": "BalzerPadovani22",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "Preface to the special issue on the 12<sup>th</sup> workshop on programming language approaches to concurrency and communication-centric software (PLACES) 2020",
+    "type": "article-journal",
+    "volume": "127"
+  },
+  {
+    "DOI": "10.1145/3498666",
+    "URL": "assets/downloads/fair-termination-preprint.pdf",
+    "abstract": "A binary session is a private communication channel that connects two processes, each adhering to a protocol description called session type. In this work, we study the first type system that ensures the fair termination of binary sessions. A session fairly terminates if all of the infinite executions admitted by its protocol are deemed “unrealistic” because they violate certain fairness assumptions. Fair termination entails the eventual completion of all pending input/output actions, including those that depend on the completion of an unbounded number of other actions in possibly different sessions. This form of lock freedom allows us to address a large family of natural communication patterns that fall outside the scope of existing type systems. Our type system is also the first to adopt fair subtyping, a liveness-preserving refinement of the standard subtyping relation for session types that so far has only been studied theoretically. Fair subtyping is surprisingly subtle not only to characterize concisely but also to use appropriately, to the point that the type system must carefully account for all usages of fair subtyping to avoid compromising its liveness-preserving properties.",
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the ACM on Programming Languages",
+    "id": "CicconePadovani22",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "session types, fair termination, fair subtyping, deadlock freedom",
+    "page": "5:1-5:30",
+    "title": "Fair Termination of Binary Sessions",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.1016/j.future.2021.10.007",
+    "ISSN": "0167-739X",
+    "abstract": "The designers of a new coordination interface enacting complex workflows have to tackle a dichotomy: choosing a language-independent or language-dependent approach. Language-independent approaches decouple workflow models from the host code’s business logic and advocate portability. Language-dependent approaches foster flexibility and performance by adopting the same host language for business and coordination code. Jupyter Notebooks, with their capability to describe both imperative and declarative code in a unique format, allow taking the best of the two approaches, maintaining a clear separation between application and coordination layers but still providing a unified interface to both aspects. We advocate the Jupyter Notebooks’ potential to express complex distributed workflows, identifying the general requirements for a Jupyter-based Workflow Management System (WMS) and introducing a proof-of-concept portable implementation working on hybrid Cloud-HPC infrastructures. As a byproduct, we extended the vanilla IPython kernel with workflow-based parallel and distributed execution capabilities. The proposed Jupyter-workflow (Jw) system is evaluated on common scenarios for High Performance Computing (HPC) and Cloud, showing its potential in lowering the barriers between prototypical Notebooks and production-ready implementations.",
+    "author": [
+      {
+        "family": "Colonnelli",
+        "given": "Iacopo"
+      },
+      {
+        "family": "Aldinucci",
+        "given": "Marco"
+      },
+      {
+        "family": "Cantalupo",
+        "given": "Barbara"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Rabellino",
+        "given": "Sergio"
+      },
+      {
+        "family": "Spampinato",
+        "given": "Concetto"
+      },
+      {
+        "family": "Morelli",
+        "given": "Roberto"
+      },
+      {
+        "family": "Di Carlo",
+        "given": "Rosario"
+      },
+      {
+        "family": "Magini",
+        "given": "Nicolò"
+      },
+      {
+        "family": "Cavazzoni",
+        "given": "Carlo"
+      }
+    ],
+    "container-title": "Future Generation Computer Systems",
+    "id": "ColonnelliEtAl22",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "Distributed computing, Jupyter notebooks, Streamflow, Workflow management systems",
+    "page": "282-298",
+    "title": "Distributed workflows with jupyter",
+    "type": "article-journal",
+    "volume": "128"
+  },
+  {
+    "DOI": "10.4230/LIPIcs.ICALP.2021.125",
+    "URL": "https://drops.dagstuhl.de/opus/volltexte/2021/14194/pdf/LIPIcs-ICALP-2021-125.pdf",
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 48<sup>th</sup> international colloquium on automata, languages, and programming (ICALP’21)",
+    "editor": [
+      {
+        "family": "Bansal",
+        "given": "Nikhil"
+      },
+      {
+        "family": "Merelli",
+        "given": "Emanuela"
+      },
+      {
+        "family": "Worrell",
+        "given": "James"
+      }
+    ],
+    "id": "CicconePadovani21",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "125:1-125:16",
+    "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "Inference Systems with Corules for Fair Subtyping and Liveness Properties of Binary Session Types",
+    "type": "paper-conference",
+    "volume": "198"
+  },
+  {
+    "DOI": "10.1145/3414080.3414109",
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 22<sup>nd</sup> international symposium on principles and practice of declarative programming (PPDP’20)",
+    "id": "CicconePadovani20",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "8:1-8:14",
+    "publisher": "ACM",
+    "title": "A Dependently Typed Linear π-Calculus in Agda",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.4230/LIPIcs.CONCUR.2020.14",
+    "URL": "https://drops.dagstuhl.de/opus/volltexte/2020/12826/pdf/LIPIcs-CONCUR-2020-14.pdf",
+    "author": [
+      {
+        "family": "Inverso",
+        "given": "Omar"
+      },
+      {
+        "family": "Melgratti",
+        "given": "Hernán"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Trubiani",
+        "given": "Catia"
+      },
+      {
+        "family": "Tuosto",
+        "given": "Emilio"
+      }
+    ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 31<sup>st</sup> international conference on concurrency theory (CONCUR’20)",
+    "editor": [
+      {
+        "family": "Konnov",
+        "given": "Igor"
+      },
+      {
+        "family": "Kovács",
+        "given": "Laura"
+      }
+    ],
+    "id": "InversoMelgrattiPadovaniTrubianiTuosto20",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "14:1-14:21",
+    "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "Probabilistic Analysis of Binary Sessions",
+    "type": "paper-conference",
+    "volume": "171"
+  },
+  {
+    "DOI": "10.4230/LIPIcs.ECOOP.2018.15",
+    "URL": "http://drops.dagstuhl.de/opus/volltexte/2018/9220/pdf/LIPIcs-ECOOP-2018-15.pdf",
+    "author": [
+      {
+        "family": "Liguoro",
+        "given": "Ugo",
+        "non-dropping-particle": "de’"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 32<sup>nd</sup> european conference on object-oriented programming (ECOOP’18)",
+    "id": "DeLiguoroPadovani18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "15:1-15:28",
+    "publisher": "Schloss Dagstuhl",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "Mailbox Types for Unordered Interactions",
+    "type": "paper-conference",
+    "volume": "109"
+  },
+  {
+    "DOI": "10.4204/EPTCS.291.3",
+    "URL": "http://eptcs.web.cse.unsw.edu.au/paper.cgi?PLACES2019.3.pdf",
+    "author": [
+      {
+        "family": "Gerbo",
+        "given": "Rosita"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the 11<sup>th</sup> workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’19)",
+    "id": "GerboPadovani19",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "24-34",
+    "publisher": "Open Publishing Association",
+    "title": "Concurrent Typestate-Oriented Programming in Java",
+    "type": "paper-conference",
+    "volume": "291"
+  },
+  {
+    "DOI": "10.1016/j.jlamp.2018.06.001",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Journal of Logical and Algebraic Methods in Programming",
+    "id": "Padovani18B",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "16-35",
+    "publisher": "Elsevier",
+    "title": "A Type Checking Algorithm for Concurrent Object Protocols",
+    "type": "article-journal",
+    "volume": "100"
+  },
+  {
+    "DOI": "10.22152/programming-journal.org/2018/2/15",
+    "URL": "https://arxiv.org/pdf/1803.10670",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Programming Journal",
+    "id": "Padovani18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "article 15",
+    "publisher": "AOSA",
+    "title": "Deadlock-Free Typestate-Oriented Programming",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.1145/3064849",
+    "URL": "http://dl.acm.org/authorize?N30607",
+    "author": [
+      {
+        "family": "Crafa",
+        "given": "Silvia"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "ACM Transactions on Programming Languages and Systems",
+    "id": "CrafaPadovani17",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "13:1-13:45",
+    "publisher": "ACM",
+    "title": "The Chemical Approach to Typestate-Oriented Programming",
+    "type": "article-journal",
+    "volume": "39"
+  },
+  {
+    "DOI": "10.1145/2814270.2814287",
+    "URL": "http://dl.acm.org/authorize?N30609",
+    "author": [
+      {
+        "family": "Crafa",
+        "given": "Silvia"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "ACM SIGPLAN notices",
+    "container-title": "Proceedings of the ACM international conference on object oriented programming systems languages & applications (OOPSLA’15)",
+    "id": "CrafaPadovani15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "917-934",
+    "publisher": "ACM",
+    "title": "The Chemical Approach to Typestate-Oriented Programming",
+    "type": "paper-conference",
+    "volume": "50"
+  },
+  {
+    "DOI": "10.1145/3354166.3356340",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Giachino",
+        "given": "Elena"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 21<sup>st</sup> international ACM SIGPLAN symposium on principles and practice of declarative programming (PPDP’19)",
+    "id": "CastagnaDezaniGiachinoPadovani19",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "1:1-1:3",
+    "publisher": "ACM",
+    "title": "Foundations of Session Types: 10 Years Later",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1145/3229062",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "ACM Transactions on Programming Languages and Systems",
+    "id": "Padovani19",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "9:1-9:37",
+    "publisher": "ACM",
+    "title": "Context-Free Session Type Inference",
+    "type": "article-journal",
+    "volume": "41"
+  },
+  {
+    "DOI": "10.1145/3110279",
+    "author": [
+      {
+        "family": "Melgratti",
+        "given": "Hernán"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the ACM on Programming Languages",
+    "id": "MelgrattiPadovani17bis",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "35:1-35:29",
+    "publisher": "ACM",
+    "title": "Chaperone Contracts for Higher-Order Sessions",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.23638/LMCS-13(2:9)2017",
+    "URL": "https://lmcs.episciences.org/3725/pdf",
+    "author": [
+      {
+        "family": "Severi",
+        "given": "Paula"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Tuosto",
+        "given": "Emilio"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      }
+    ],
+    "container-title": "Logical Methods in Computer Science",
+    "id": "SeveriPadovaniTuostoDezani17",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "1-39",
+    "title": "On Sessions and Infinite Data",
+    "type": "article-journal",
+    "volume": "13"
+  },
+  {
+    "DOI": "10.1017/S0956796816000289",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Journal of Functional Programming",
+    "id": "Padovani17A",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Cambridge University Press",
+    "title": "A Simple Library Implementation of Binary Sessions",
+    "type": "article-journal",
+    "volume": "27"
+  },
+  {
+    "DOI": "10.1007/978-3-662-54434-1\\_30",
+    "URL": "https://hal.archives-ouvertes.fr/hal-01385258/document",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 26<sup>th</sup> european symposium on programming (ESOP’17)",
+    "id": "Padovani17B",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "804-830",
+    "publisher": "Springer",
+    "title": "Context-Free Session Type Inference",
+    "type": "paper-conference",
+    "volume": "10201"
+  },
+  {
+    "DOI": "10.1145/2873052",
+    "URL": "http://dl.acm.org/authorize?N30608",
+    "author": [
+      {
+        "family": "Hüttel",
+        "given": "Hans"
+      },
+      {
+        "family": "Lanese",
+        "given": "Ivan"
+      },
+      {
+        "family": "Vasconcelos",
+        "given": "Vasco T."
+      },
+      {
+        "family": "Caires",
+        "given": "Luı́s"
+      },
+      {
+        "family": "Carbone",
+        "given": "Marco"
+      },
+      {
+        "family": "Deniélou",
+        "given": "Pierre-Malo"
+      },
+      {
+        "family": "Mostrous",
+        "given": "Dimitris"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Ravara",
+        "given": "António"
+      },
+      {
+        "family": "Tuosto",
+        "given": "Emilio"
+      },
+      {
+        "family": "Vieira",
+        "given": "Hugo Torres"
+      },
+      {
+        "family": "Zavattaro",
+        "given": "Gianluigi"
+      }
+    ],
+    "container-title": "ACM Computing Surveys",
+    "id": "HuttelEtAl16",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "3:1-3:36",
+    "publisher": "ACM",
+    "title": "Foundations of Session Types and Behavioural Contracts",
+    "type": "article-journal",
+    "volume": "49"
+  },
+  {
+    "DOI": "10.1561/2500000031",
+    "author": [
+      {
+        "family": "Ancona",
+        "given": "Davide"
+      },
+      {
+        "family": "Bono",
+        "given": "Viviana"
+      },
+      {
+        "family": "Bravetti",
+        "given": "Mario"
+      },
+      {
+        "family": "Campos",
+        "given": "Joana"
+      },
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Deniélou",
+        "given": "Pierre-Malo"
+      },
+      {
+        "family": "Gay",
+        "given": "Simon J."
+      },
+      {
+        "family": "Gesbert",
+        "given": "Nils"
+      },
+      {
+        "family": "Giachino",
+        "given": "Elena"
+      },
+      {
+        "family": "Hu",
+        "given": "Raymond"
+      },
+      {
+        "family": "Johnsen",
+        "given": "Einar Broch"
+      },
+      {
+        "family": "Martins",
+        "given": "Francisco"
+      },
+      {
+        "family": "Mascardi",
+        "given": "Viviana"
+      },
+      {
+        "family": "Montesi",
+        "given": "Fabrizio"
+      },
+      {
+        "family": "Neykova",
+        "given": "Rumyana"
+      },
+      {
+        "family": "Ng",
+        "given": "Nicholas"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Vasconcelos",
+        "given": "Vasco T."
+      },
+      {
+        "family": "Yoshida",
+        "given": "Nobuko"
+      }
+    ],
+    "container-title": "Foundations and Trends in Programming Languages",
+    "id": "AnconaEtAl16",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "95-230",
+    "publisher": "now publishers",
+    "title": "Behavioral Types in Programming Languages",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.1007/978-3-319-39519-7\\_15",
+    "author": [
+      {
+        "family": "Severi",
+        "given": "Paula"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Tuosto",
+        "given": "Emilio"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 18<sup>th</sup> international conference on coordination models and languages (COORDINATION’16)",
+    "id": "SeveriPadovaniTuostoDezani16",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "245-261",
+    "publisher": "Springer",
+    "title": "On Sessions and Infinite Data",
+    "type": "paper-conference",
+    "volume": "9686"
+  },
+  {
+    "DOI": "10.4204/EPTCS.155.9",
+    "URL": "http://rvg.web.cse.unsw.edu.au/eptcs/paper.cgi?PLACES2014.9.pdf",
+    "abstract": "There has been a considerable amount of work on retrieving functions in function libraries using their type as search key. The availability of rich component specifications, in the form of behavioral types, enables similar queries where one can search a component library using the behavioral type of a component as the search key. Just like for function libraries, however, component libraries will contain components whose type differs from the searched one in the order of messages or in the position of the branching points. Thus, it makes sense to also look for those components whose type is different from, but isomorphic to, the searched one.In this article we give semantic and axiomatic characterizations of isomorphic session types. The theory of session type isomorphisms turns out to be subtle. In part this is due to the fact that it relies on a non-standard notion of equivalence between processes. In addition, we do not know whether the axiomatization is complete. It is known that the isomorphisms for arrow, product and sum types are not finitely axiomatisable, but it is not clear yet whether this negative results holds also for the family of types we consider in this work.",
+    "author": [
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Pantović",
+        "given": "Jovanka"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’14)",
+    "id": "DezaniPadovaniPantovic14",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "61-71",
+    "publisher": "Open Publishing Association",
+    "title": "Session Type Isomorphisms",
+    "type": "paper-conference",
+    "volume": "155"
+  },
+  {
+    "DOI": "10.4204/EPTCS.137.2",
+    "abstract": "Inspired by Kobayashi’s type system for lock freedom, we define a behavioral type system for ensuring progress in a language of binary sessions. The key idea is to annotate actions in session types with priorities representing the urgency with which such actions must be performed and to verify that processes perform such actions with the required priority. Compared to related systems for session-based languages, the presented type system is relatively simpler and establishes progress for a wider range of processes.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’13)",
+    "id": "Padovani13A",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "3-19",
+    "publisher": "Open Publishing Association",
+    "title": "From Lock Freedom to Progress Using Session Types",
+    "type": "paper-conference",
+    "volume": "137"
+  },
+  {
+    "DOI": "10.2168/LMCS-8(1:24)2012",
+    "URL": "http://arxiv.org/pdf/1203.0780.pdf",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Logical Methods in Computer Science",
+    "id": "CastagnaDezaniPadovani12",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "1-45",
+    "title": "On Global Types and Multi-Party Sessions",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.1017/S0960129511000405",
+    "abstract": "We define session types as projections of the behavior of processes with respect to the operations processes perform on channels. This calls for a parallel composition operator over session types denoting the simultaneous access to a channel by two or more processes. The proposed approach allows us to define a semantically grounded theory of session types that does not require the linear usage of channels. However, type preservation and progress can only be guaranteed for processes that never receive channels they already own. A number of examples show that the resulting framework validates existing session type theories and unifies them to some extent.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Mathematical Structures in Computer Science",
+    "id": "Padovani12",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "237-289",
+    "publisher": "Cambridge University Press",
+    "title": "On Projecting Processes into Session Types",
+    "type": "article-journal",
+    "volume": "22"
+  },
+  {
+    "DOI": "10.1007/978-3-642-21461-5\\_1",
+    "abstract": "We present a new, streamlined language of global types equipped with a trace-based semantics and whose features and restrictions are semantically justified. The multi-party sessions obtained projecting our global types enjoy a liveness property in addition to the traditional progress and are shown to be sound and complete with respect to the set of traces of the originating global type. Our notion of completeness is less demanding than the classical ones, allowing a multi-party session to leave out redundant traces from an underspecified global type.",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the IFIP international conference on formal methods for open object-based distributed systems (FMOODS’11)",
+    "id": "CastagnaDezaniPadovani11",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "1-28",
+    "publisher": "Springer",
+    "title": "On Global Types and Multi-Party Sessions",
+    "type": "paper-conference",
+    "volume": "6722"
+  },
+  {
+    "DOI": "10.4204/EPTCS.45.6",
+    "abstract": "We propose a semantically grounded theory of session types which relies on intersection and union types. We argue that intersection and union types are natural candidates for modeling branching points in session types and we show that the resulting theory overcomes some important defects of related behavioral theories. In particular, intersections and unions provide a native solution to the problem of computing joins and meets of session types. Also, the subtyping relation turns out to be a pre-congruence, while this is not always the case in related behavioral theories.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the workshop on intersection types and related systems (ITRS’10)",
+    "id": "Padovani11B",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "71-89",
+    "publisher": "Open Publishing Association",
+    "title": "Session Types = Intersection Types + Union Types",
+    "type": "paper-conference",
+    "volume": "45"
+  },
+  {
+    "DOI": "10.4204/EPTCS.12.5",
+    "abstract": "We (re)define session types as projections of process behaviors with respect to the communication channels they use. In this setting, we give session types a semantics based on fair testing. The outcome is a unified theory of behavioral types that shares common aspects with conversation types and that encompass features of both dyadic and multi-party session types. The point of view we provide sheds light on the nature of session types and gives us a chance to reason about them in a framework where every notion, from well-typedness to the subtyping relation between session types, is semantically – rather than syntactically – grounded.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the 2<sup>nd</sup> interaction and concurrency experience (ICE’09)",
+    "id": "Padovani09B",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "71-86",
+    "publisher": "Open Publishing Association",
+    "title": "Session Types at the Mirror",
+    "type": "paper-conference",
+    "volume": "12"
+  },
+  {
+    "DOI": "10.1145/1599410.1599437",
+    "abstract": "We present a streamlined theory of session types based on a simple yet general and expressive formalism whose main eatures are semantically characterized and where each design choice is semantically justified. We formally define the semantics of session types and use it to devise the subsessioning relation. We give a coinductive characterization of subsessioning and describe algorithms to decide all the key relations defined in the article. We demonstrate the generality and expressive power of our framework by providing a session-based type system for a pi-calculus variant that does not rely on any specialized construct for session-based communication. The type system is shown to guarantee absence of communication errors and global progress.",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Giachino",
+        "given": "Elena"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 11<sup>th</sup> international ACM SIGPLAN symposium on principles and practice of declarative programming (PPDP’09)",
+    "id": "CastagnaDezaniGiachinoPadovani09",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "219-230",
+    "publisher": "ACM",
+    "title": "Foundations of Session Types",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1007/s00236-017-0293-6",
+    "author": [
+      {
+        "family": "Damiani",
+        "given": "Ferruccio"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Schaefer",
+        "given": "Ina"
+      },
+      {
+        "family": "Seidl",
+        "given": "Christoph"
+      }
+    ],
+    "container-title": "Acta Informatica",
+    "id": "DamianiPadovaniSchaeferSeidl17",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "269-307",
+    "publisher": "Springer",
+    "title": "A Core Calculus for Dynamic Delta-Oriented Programming",
+    "type": "article-journal",
+    "volume": "55"
+  },
+  {
+    "DOI": "10.1145/2371401.2371403",
+    "abstract": "Delta-oriented programming (DOP) is a flexible approach for implementing software product lines (SPLs). Delta-oriented SPLs are implemented by a code base (a set of delta modules encapsulating changes to object-oriented programs) and a product line declaration (providing the connection of the delta modules with the product features). In this paper, we extend DOP by the capability to switch the implemented product configuration at runtime and present a formal foundation for dynamic DOP. A dynamic DOP SPL is a DOP SPL with a dynamic reconfiguration graph that specifies how to switch between different feature configurations. Dynamic DOP supports (unanticipated) software evolution such that at runtime, the product line declaration, the code base and the dynamic reconfiguration graph can be changed in any (unanticipated) way that preserves the currently running product. The type system of our dynamic DOP core calculus ensures that the dynamic reconfigurations lead to type safe products and do not cause runtime type errors.",
+    "author": [
+      {
+        "family": "Damiani",
+        "given": "Ferruccio"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Schaefer",
+        "given": "Ina"
+      }
+    ],
+    "collection-title": "ACM SIGPLAN notices",
+    "container-title": "Proceedings of the 11<sup>th</sup> international conference on generative programming and component engineering (GPCE’12)",
+    "id": "DamianiPadovaniSchaefer12",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "1-10",
+    "publisher": "ACM",
+    "title": "A Formal Foundation for Dynamic Delta-Oriented Software Product Lines",
+    "type": "paper-conference",
+    "volume": "48"
+  },
+  {
+    "DOI": "10.1017/S096012951400022X",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Mathematical Structures in Computer Science",
+    "id": "Padovani16",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "424-464",
+    "publisher": "Cambridge University Press",
+    "title": "Fair Subtyping for Multi-Party Session Types",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
+    "DOI": "10.1007/978-3-642-39212-2\\_34",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 40<sup>th</sup> international colloquium on automata, languages and programming (ICALP’13), part II",
+    "id": "Padovani13B",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "373-384",
+    "publisher": "Springer",
+    "title": "Fair Subtyping for Open Session Types",
+    "type": "paper-conference",
+    "volume": "7966"
+  },
+  {
+    "DOI": "10.1007/978-3-642-21464-6\\_9",
+    "abstract": "The standard subtyping relation used in dyadic session type theories may compromise the liveness of multi-party sessions. In this paper we define a <i>fair</i> subtyping relation for multi-party session types that preserves liveness, we relate it with the standard subtyping relation, and we give algorithms for deciding it. As a side effect, we provide an original and remarkably simple coinductive characterization of the fair testing preorder for nondeterministic, sequential processes consisting of internal choices of outputs and external choices of inputs.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 13<sup>th</sup> international conference on coordination models and languages (COORDINATION’11)",
+    "id": "Padovani11A",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "127-141",
+    "publisher": "Springer",
+    "title": "Fair Subtyping for Multi-Party Session Types",
+    "type": "paper-conference",
+    "volume": "6721"
+  },
+  {
+    "DOI": "10.1017/S0960129514000188",
+    "author": [
+      {
+        "family": "Coppo",
+        "given": "Mario"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Yoshida",
+        "given": "Nobuko"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Mathematical Structures in Computer Science",
+    "id": "CoppoDezaniYoshidaPadovani16",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "238-302",
+    "publisher": "Cambridge University Press",
+    "title": "Global Progress for Dynamically Interleaved Multiparty Sessions",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
+    "DOI": "10.1007/978-3-662-43376-8\\_10",
+    "abstract": "Session type systems are an effective tool to prove that communicating programs do not go wrong, ensuring that the participants of a session follow the protocols described by the types. In a previous work we introduced a typing discipline for the analysis of progress in binary sessions. In this paper we generalize the approach to multiparty sessions following the conversation type approach, while strengthening progress to liveness. We combine the usual session-like fidelity analysis with the liveness analysis and devise an original treatment of recursive types allowing us to address challenging configurations that are out of the reach of existing approaches.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Vasconcelos",
+        "given": "Vasco T."
+      },
+      {
+        "family": "Vieira",
+        "given": "Hugo Torres"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 16<sup>th</sup> international conference on coordination models and languages (COORDINATION’14)",
+    "id": "PadovaniVieiraVasconcelos14",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "147-162",
+    "publisher": "Springer",
+    "title": "Typing Liveness in Multiparty Communicating Systems",
+    "type": "paper-conference",
+    "volume": "8459"
+  },
+  {
+    "DOI": "10.1007/978-3-642-38493-6\\_4",
+    "author": [
+      {
+        "family": "Coppo",
+        "given": "Mario"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Yoshida",
+        "given": "Nobuko"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 15<sup>th</sup> international conference on coordination models and languages (COORDINATION’13)",
+    "id": "CoppoDezaniPadovaniYoshida13B",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "45-59",
+    "publisher": "Springer",
+    "title": "Inference of Global Progress Properties for Dynamically Interleaved Multiparty Sessions",
+    "type": "paper-conference",
+    "volume": "7890"
+  },
+  {
+    "URL": "http://beat13.cs.aau.dk/pdf/BEAT13-proceedings.pdf",
+    "abstract": "A multiparty session forms a unit of structured interactions among several processes which follow a specified protocol described as a global type. Well-known communication-oriented type systems guarantee communication safety and progress within single sessions, but do not take into account the dependencies arising from the interleaving of simultaneously active sessions and from session delegations. As a consequence, a system of well-typed processes may fail to have progress, even assuming that helper processes can join the system after its execution has started. In this paper we develop a static analysis technique, specified as a set of syntax-directed inference rules, that is capable of verifying whether a system of processes engaged in simultaneously active multiparty sessions has the progress property.",
+    "author": [
+      {
+        "family": "Coppo",
+        "given": "Mario"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Yoshida",
+        "given": "Nobuko"
+      }
+    ],
+    "container-title": "Proceedings of the 1<sup>st</sup> international workshop on behavioural types (BEAT’13)",
+    "id": "CoppoDezaniPadovaniYoshida13A",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "16-27",
+    "title": "Inference of Global Progress Properties for Dynamically Interleaved Multiparty Sessions",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.2168/LMCS-11(4:13)2015",
+    "URL": "https://arxiv.org/pdf/1510.01752.pdf",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Logical Methods in Computer Science",
+    "id": "Padovani15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "1-45",
+    "title": "Type Reconstruction for the Linear π-Calculus with Composite Regular Types",
+    "type": "article-journal",
+    "volume": "11"
+  },
+  {
+    "DOI": "10.1007/978-3-319-19195-9\\_1",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Novara",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the IFIP international conference on formal methods and techniques (FORTE’15)",
+    "id": "PadovaniNovara15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "3-18",
+    "publisher": "Springer",
+    "title": "Types for Deadlock-Free Higher-Order Programs",
+    "type": "paper-conference",
+    "volume": "9039"
+  },
+  {
+    "DOI": "10.1007/978-3-319-19282-6\\_6",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Chen",
+        "given": "Tzu-Chun"
+      },
+      {
+        "family": "Tosatto",
+        "given": "Andrea"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 17<sup>th</sup> international conference on coordination models and languages (COORDINATION’15)",
+    "id": "PadovaniChenTosatto15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "83-98",
+    "publisher": "Springer",
+    "title": "Type Reconstruction Algorithms for Deadlock-Free and Lock-Free Linear π-Calculi",
+    "type": "paper-conference",
+    "volume": "9037"
+  },
+  {
+    "DOI": "10.1145/2603088.2603116",
+    "URL": "http://dl.acm.org/authorize?N30600",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the joint EACSL annual conference on computer science logic and annual ACM/IEEE symposium on logic in computer science (CSL-LICS’14)",
+    "id": "Padovani14B",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "72:1-72:10",
+    "publisher": "ACM",
+    "title": "Deadlock and Lock Freedom in the Linear π-Calculus",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1007/978-3-642-54830-7\\_6",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 17<sup>th</sup> international conference on foundations of software science and computation structures (FoSSaCS’14)",
+    "id": "Padovani14A",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "88-102",
+    "publisher": "Springer",
+    "title": "Type Reconstruction for the Linear π-Calculus with Composite and Equi-Recursive Types",
+    "type": "paper-conference",
+    "volume": "8412"
+  },
+  {
+    "DOI": "10.1016/j.scico.2013.05.001",
+    "abstract": "Copyless messaging is a communication paradigm in which only pointers to messages are exchanged between sender and receiver processes. Because of its intrinsically low overhead, copyless messaging is suitable for the efficient implementation of communication-intensive software systems where processes have access to a shared address space. Unfortunately, the very nature of the paradigm fosters the proliferation of programming errors due to the explicit use of pointers and to the sharing of data. In this paper we study a type discipline for copyless messaging that, together with some minimal support from the runtime system, is able to guarantee the absence of communication errors, memory faults, and memory leaks in the presence of exceptions. To formalize the semantics of processes we draw inspiration from software transactional memories: in our case a transaction is a process that is meant to accomplish some exchange of messages and that should either be executed completely, or should have no observable effect if aborted by an exception.",
+    "author": [
+      {
+        "family": "Jakšić",
+        "given": "Svetlana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Science of Computer Programming",
+    "id": "JaksicPadovani14",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "22-51",
+    "publisher": "Elsevier",
+    "title": "Exception Handling for Copyless Messaging",
+    "type": "article-journal",
+    "volume": "84"
+  },
+  {
+    "DOI": "10.1007/978-3-642-38592-6\\_7",
+    "abstract": "Copyless message passing is a communication paradigm in which only pointers are exchanged between sender and receiver processes. Because of its nature, this paradigm requires that messages are treated as linear resources. Yet, even linear type systems leave room for scenarios where apparently well-typed programs may leak memory. In this work we develop a polymorphic type system for leak-free copyless messaging in a functional setting, where first-class functions can be used as messages.",
+    "author": [
+      {
+        "family": "Bono",
+        "given": "Viviana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Tosatto",
+        "given": "Andrea"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the IFIP international conference on formal methods and techniques (FORTE’13)",
+    "id": "BonoPadovaniTosatto13",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "83-98",
+    "publisher": "Springer",
+    "title": "Polymorphic Types for Leak Detection in a Session-Oriented Functional Language",
+    "type": "paper-conference",
+    "volume": "7892"
+  },
+  {
+    "DOI": "10.1145/2370776.2370796",
+    "abstract": "Copyless messaging is a communication mechanism in which only pointers to messages are exchanged between sender and receiver processes. Because of its intrinsically low overhead, copyless messaging can be profitably adopted for the development of complex software systems where processes have access to a shared address space. However, the very same mechanism fosters the proliferation of programming errors due to the explicit use of pointers and to the sharing of data. In this paper we study a type discipline for copyless messaging that, together with some minimal support from the runtime system, is able to guarantee the absence of communication errors, memory faults, and memory leaks in presence of exceptions. To formalize the semantics of processes we draw inspiration from software transactional memories: in our case a transaction is a process that is meant to accomplish some exchange of messages and that should either be executed completely, or should have no observable effect if aborted by an exception.",
+    "author": [
+      {
+        "family": "Jakšić",
+        "given": "Svetlana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 14<sup>th</sup> international ACM SIGPLAN symposium on principles and practice of declarative programming (PPDP’12)",
+    "id": "JaksicPadovani12",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "151-162",
+    "publisher": "ACM",
+    "title": "Exception Handling for Copyless Messaging",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.2168/LMCS-8(1:17)2012",
+    "URL": "http://arxiv.org/pdf/1202.2086.pdf",
+    "abstract": "We present a calculus that models a form of process interaction based on copyless message passing, in the style of Singularity OS. The calculus is equipped with a type system ensuring that well-typed processes are free from memory faults, memory leaks, and communication errors. The type system is essentially linear, but we show that linearity alone is inadequate, because it leaves room for scenarios where well-typed processes leak significant amounts of memory. We address these problems basing the type system upon an original variant of session types.",
+    "author": [
+      {
+        "family": "Bono",
+        "given": "Viviana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Logical Methods in Computer Science",
+    "id": "BonoPadovani12",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "1-50",
+    "title": "Typing Copyless Message Passing",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.4204/EPTCS.59.5",
+    "abstract": "We present PolySing#, a calculus that models process interaction based on copyless message passing, in the style of Singularity OS. We equip the calculus with a type system that accommodates polymorphic endpoint types, which are a variant of polymorphic session types, and we show that well-typed processes are free from faults, leaks, and communication errors. The type system is essentially linear, although linearity alone may leave room for scenarios where well-typed processes leak memory. We identify a condition on endpoint types that prevents these leaks from occurring.",
+    "author": [
+      {
+        "family": "Bono",
+        "given": "Viviana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the 4<sup>th</sup> interaction and concurrency experience (ICE’11)",
+    "id": "BonoPadovani11",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "52-67",
+    "publisher": "Open Publishing Association",
+    "title": "Polymorphic Endpoint Types for Copyless Message Passing",
+    "type": "paper-conference",
+    "volume": "59"
+  },
+  {
+    "DOI": "10.1007/978-3-642-19718-5\\_4",
+    "abstract": "We present a calculus that models a form of process interaction based on copyless message passing, in the style of Singularity OS. The calculus is equipped with a type system ensuring that well-typed processes are free from faults, leaks, and communication errors. The type system is essentially linear, but we show that linearity alone is inadequate. On the one hand, it is too strict when dealing with heap-allocated objects; on the other hand, it leaves room for scenarios where well-typed processes leak significant amounts of memory. We address these problems using dedicated types for keeping track of dereferenced pointers and by basing the type system upon an original variant of session types.",
+    "author": [
+      {
+        "family": "Bono",
+        "given": "Viviana"
+      },
+      {
+        "family": "Messa",
+        "given": "Chiara"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 20<sup>th</sup> european symposium on programming (ESOP’11)",
+    "id": "BonoMessaPadovani11",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "57-76",
+    "publisher": "Springer",
+    "title": "Typing Copyless Message Passing",
+    "type": "paper-conference",
+    "volume": "6602"
+  },
+  {
+    "DOI": "10.1007/s00165-015-0334-2",
+    "author": [
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Formal Aspects of Computing",
+    "id": "LanevePadovani15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "613-640",
+    "publisher": "Springer",
+    "title": "An Algebraic Theory for Web Service Contracts",
+    "type": "article-journal",
+    "volume": "27"
+  },
+  {
+    "DOI": "10.1007/978-3-642-38613-8\\_21",
+    "abstract": "We study a natural notion of compliance between clients and services in terms of their BPEL (abstract) descriptions. The induced preorder shows interesting connections with the must preorder and has normal form representatives that are parallel-free finite-state activities, called contracts. The preorder also admits the notion of least service contract that is compliant with a client contract, called principal dual contract. Our framework serves as a foundation of Web service technologies for connecting abstract and concrete service definitions and for service discovery.",
+    "author": [
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 10<sup>th</sup> international conference on integrated formal methods (IFM’13)",
+    "id": "LanevePadovani13",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "301-315",
+    "publisher": "Springer",
+    "title": "An Algebraic Theory for Web Service Contracts",
+    "type": "paper-conference",
+    "volume": "7940"
+  },
+  {
+    "DOI": "10.1016/j.tcs.2010.05.002",
+    "abstract": "Web services are distributed processes exposing a public description of their behavior, or contract. The availability of repositories of Web service descriptions enables interesting forms of dynamic Web service discovery, such as searching for Web services having a specified contract. This calls for a formal notion of contract equivalence satisfying two contrasting goals: being as coarse as possible so as to favor Web services reuse, and guaranteeing successful client/service interaction. We study an equivalence relation that achieves both goals under the assumption that client/service interactions may be mediated by simple orchestrators. In the framework we develop, orchestrators play the role of proofs (in the Curry-Howard sense) justifying an equivalence relation between contracts. This makes it possible to automatically synthesize orchestrators out of Web services contracts.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Theoretical Computer Science",
+    "id": "Padovani10",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "page": "3328-3347",
+    "publisher": "Elsevier",
+    "title": "Contract-Based Discovery of Web Services Modulo Simple Orchestrators",
+    "type": "article-journal",
+    "volume": "411"
+  },
+  {
+    "DOI": "10.1016/j.scico.2009.03.002",
+    "abstract": "The PiDuce project comprises a programming language and a distributed runtime environment devised for experimenting Web services technologies by relying on solid theories about process calculi and formal languages for XML documents and schemas. The language features values and datatypes that extend XML documents and schemas with channels, an expressive type system with subtyping, a pattern matching mechanism for deconstructing XML values, and control constructs that are based on Milner’s asynchronous pi calculus. PiDuce programs are compiled into typesafe object code. The runtime environment supports the execution of PiDuce object code over networks by relying on state-of-the-art technologies, such as XML schema and WSDL, thus enabling interoperability with existing Web services. We thoroughly describe the PiDuce project: the programming language and its semantics, the architecture of the distributed runtime and its implementation. A running prototype is available at http://www.cs.unibo.it/PiDuce/.",
+    "author": [
+      {
+        "family": "Carpineti",
+        "given": "Samuele"
+      },
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Science of Computer Programming",
+    "id": "CarpinetiLanevePadovani09",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "777-811",
+    "publisher": "Elsevier",
+    "title": "PiDuce - A Project for Experimenting Web Services Technologies",
+    "type": "article-journal",
+    "volume": "74"
+  },
+  {
+    "DOI": "10.1007/978-3-642-04081-8\\_15",
+    "abstract": "Theories identifying well-formed systems of processes – those that lack communication errors and enjoy strong properties such as deadlock freedom – are based either on session types, which are inhabited by channels, or on contracts, which are inhabited by processes. Current session type theories impose overly restrictive disciplines while contract theories only work for networks with fixed topology. Here we fill the gap between the two approaches by defining a theory of contracts for so-called mobile processes, those whose communications may include delegations and channel references.",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 20<sup>th</sup> international conference on concurrency theory (CONCUR’09)",
+    "id": "CastagnaPadovani09",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "211-228",
+    "publisher": "Springer",
+    "title": "Contracts for Mobile Processes",
+    "type": "paper-conference",
+    "volume": "5710"
+  },
+  {
+    "DOI": "10.1145/1538917.1538920",
+    "abstract": "Contracts are behavioral descriptions of Web services. We devise a theory of contracts that formalizes the compatibility of a client to a service, and the safe replacement of a service with another service. The use of contracts statically ensures the successful completion of every possible interaction between compatible clients and services. The technical device that underlies the theory is the filter, which is an explicit coercion preventing some possible behaviors of services and, in doing so, make services compatible with different usage scenarios. We show that filters can be seen as proofs of a sound and complete subcontracting deduction system which simultaneously refines and extends Hennessy’s classical axiomatization of the must testing preorder. The relation is decidable and the decision algorithm is obtained via a cut-elimination process that proves the coherence of subcontracting as a logical system. Despite the richness of the technical development, the resulting approach is based on simple ideas and basic intuitions. Remarkably, its application is mostly independent of the language used to program the services or the clients. We outline the practical aspects of our theory by studying two different concrete syntaxes for contracts and applying each of them to Web services languages. We also explore implementation issues of filters and discuss the perspectives of future research this work opens.",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Gesbert",
+        "given": "Nils"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "ACM Transactions on Programming Languages and Systems",
+    "id": "CastagnaGesbertPadovani09",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "19:1-19:61",
+    "publisher": "ACM",
+    "title": "A Theory of Contracts for Web Services",
+    "type": "article-journal",
+    "volume": "31"
+  },
+  {
+    "DOI": "10.1007/978-3-540-85361-9\\_13",
+    "abstract": "The availability of repositories of Web service descriptions enables interesting forms of dynamic Web service discovery, such as searching for Web services exposing a specified behavior – or contract. This calls for a formal notion of contract equivalence satisfying two contrasting goals: being as coarse as possible so as to favor Web services reuse, and guaranteeing smooth client/service interaction. We study an equivalence relation under the assumption that interactions are controlled by orchestrators. We build a simple orchestration language on top of this theory and we show how to synthesize orchestrators out of Web services contracts.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 19<sup>th</sup> international conference on concurrency theory (CONCUR’08)",
+    "id": "Padovani08",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "page": "131-146",
+    "publisher": "Springer",
+    "title": "Contract-Directed Synthesis of Simple Orchestrators",
+    "type": "paper-conference",
+    "volume": "5201"
+  },
+  {
+    "DOI": "10.1007/978-3-540-68679-8\\_42",
+    "abstract": "We pair session types and contracts using two encodings. The encoding of session types accommodates width and depth subtyping, two properties that partially hold in contracts. The encoding of contracts accommodates complex synchronization patterns, since session types own a simple control protocol. The encodings allow one to use the two formalisms interchangeably, within the context of dyadic interactions.",
+    "author": [
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Concurrency, graphs and models (Ugo65’08)",
+    "id": "LanevePadovani08",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "page": "681-700",
+    "publisher": "Springer",
+    "title": "The Pairing of Contracts and Session Types",
+    "type": "paper-conference",
+    "volume": "5065"
+  },
+  {
+    "DOI": "10.1145/1328438.1328471",
+    "abstract": "Contracts are behavioural descriptions of Web services. We devise a theory of contracts that formalises the compatibility of a client to a service, and the safe replacement of a service with another service. The use of contracts statically ensures the successful completion of every possible interaction between compatible clients and services. The technical device that underlies the theory is the definition of filters, which are explicit coercions that prevent some possible behaviours of services and, in doing so, they make services compatible with different usage scenarios. We show that filters can be seen as proofs of a sound and complete subcontracting deduction system which simultaneously refines and extends Hennessy’s classical axiomatisation of the must testing preorder. The relation is decidable and the decision algorithm is obtained via a cut-elimination process that proves the coherence of subcontracting as a logical system. Despite the richness of the technical development, the resulting approach is based on simple ideas and basic intuitions. Remarkably, its application is mostly independent of the language used to program the services or the clients. We also outline the possible practical impact of such a work and the perspectives of future research it opens.",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Gesbert",
+        "given": "Nils"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "ACM SIGPLAN notices",
+    "container-title": "Proceedings of the 35<sup>th</sup> ACM SIGPLAN-SIGACT symposium on principles of programming languages (POPL’08)",
+    "id": "CastagnaGesbertPadovani08",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "page": "261-272",
+    "publisher": "ACM",
+    "title": "A Theory of Contracts for Web Services",
+    "type": "paper-conference",
+    "volume": "43"
+  },
+  {
+    "DOI": "10.1007/978-3-540-74407-8\\_15",
+    "abstract": "We define a language for Web services contracts as a parallel-free fragment of <span style=\"font-variant:small-caps;\">ccs</span> and we study a natural notion of compliance between clients and services in terms of their corresponding contracts. The induced contract preorder turns out to be valuable in searching and querying registries of Web services, it shows interesting connections with the must preorder, and it exhibits good precongruence properties when choreographies of Web services are considered. Our contract language may be used as a foundation of Web services technologies, such as <span style=\"font-variant:small-caps;\">wsdl</span> and <span style=\"font-variant:small-caps;\">wscl</span>.",
+    "author": [
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 18<sup>th</sup> international conference on concurrency theory (CONCUR’07)",
+    "id": "LanevePadovani07",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "page": "212-225",
+    "publisher": "Springer",
+    "title": "The <i>Must</i> Preorder Revisited - An Algebraic Theory for Web Services Contracts",
+    "type": "paper-conference",
+    "volume": "4703"
+  },
+  {
+    "DOI": "10.1007/978-3-540-72952-5\\_17",
+    "abstract": "The behavior of a Web service can be described by means of a contract, which is a specification of the legal interactions with the service. Given a repository of Web services, from the client viewpoint a proper service selection should be based on functional as well as non-functional aspects of the interactions. In this paper we provide a technique that enables a client both to discover compatible services and to compare them on the basis of specific performance requirements. Our technique, which is illustrated on a simple probabilistic calculus, relies on two families of client-specific probabilistic testing preorders. These are shown to be precongruences with respect to the operators of the language and not to collapse into equivalences unlike some more general probabilistic testing preorders appeared in the literature.",
+    "author": [
+      {
+        "family": "Bernardo",
+        "given": "Marco"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 9<sup>th</sup> IFIP international conference on formal methods for open object-based distributed systems (FMOODS’07)",
+    "id": "BernardoPadovani07",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "page": "269-284",
+    "publisher": "Springer",
+    "title": "Performance-Oriented Comparison of Web Services via Client-Specific Testing Preorders",
+    "type": "paper-conference",
+    "volume": "4468"
+  },
+  {
+    "abstract": "We report preliminary results on our attempt to devise a type theory to decribe the detailed behaviour of web services and relate them. Our goal is to devise a type system that is as much minimal and language neutral as possible. We outline the possible practical impact of such a work, and the perspectives of future research it opens.",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Gesbert",
+        "given": "Nils"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the ACM SIGPLAN workshop on programming language technologies for XML (PLAN-x’07)",
+    "id": "CastagnaGesbertPadovani07",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "page": "37-48",
+    "publisher": "ACM",
+    "title": "A Theory of Contracts for Web Services",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1007/11841197\\_10",
+    "abstract": "We define a formal contract language along with subcontract and compliance relations. We then extrapolate contracts out of processes, that are a recursion-free fragment of <span style=\"font-variant:small-caps;\">ccs</span>. We finally demonstrate that a client completes its interactions with a service provided the corresponding contracts comply. Our contract language may be used as a foundation of Web services technologies, such as <span style=\"font-variant:small-caps;\">wsdl</span> and <span style=\"font-variant:small-caps;\">wscl</span>.",
+    "author": [
+      {
+        "family": "Carpineti",
+        "given": "Samuele"
+      },
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 3<sup>rd</sup> international workshop on web services and formal methods (WS-FM’06)",
+    "id": "CarpinetiCastagnaLanevePadovani06",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "page": "148-162",
+    "publisher": "Springer",
+    "title": "A Formal Account of Contracts for Web Services",
+    "type": "paper-conference",
+    "volume": "4184"
+  },
+  {
+    "DOI": "10.1007/978-3-030-31175-9\\_4",
+    "author": [
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "The art of modelling computational systems: A journey from logic and concurrency to security and privacy",
+    "id": "LanevePadovani19",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "50-67",
+    "publisher": "Springer",
+    "title": "Deadlock Analysis of Wait-Notify Coordination",
+    "type": "paper-conference",
+    "volume": "11760"
+  },
+  {
+    "DOI": "10.1145/2535838.2535840",
+    "author": [
+      {
+        "family": "Castagna",
+        "given": "Giuseppe"
+      },
+      {
+        "family": "Nguyễn",
+        "given": "Kim"
+      },
+      {
+        "family": "Xu",
+        "given": "Zhiwu"
+      },
+      {
+        "family": "Im",
+        "given": "Hyeonseung"
+      },
+      {
+        "family": "Lenglet",
+        "given": "Sergueı̈"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "ACM SIGPLAN notices",
+    "container-title": "Proceedings of the 41<sup>st</sup> ACM SIGPLAN-SIGACT symposium on principles of programming languages (POPL’14)",
+    "id": "CastagnaEtAl14",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "5-17",
+    "publisher": "ACM",
+    "title": "Polymorphic Functions with Set-Theoretic Types - Part 1: Syntax, Semantics, and Evaluation",
+    "type": "paper-conference",
+    "volume": "49"
+  },
+  {
+    "URL": "http://CEUR-WS.org/Vol-627/coin_9.pdf",
+    "abstract": "This is a position paper reporting the motivations, the starting point and the guidelines that characterise the MERCURIO project proposal, submitted to MIUR PRIN 2009. The aim is to develop formal models of interactions and of the related support infrastructures, that overcome the limits of the current approaches by explicitly representing not only the agents but also the computational environment in terms of rules, conventions, resources, tools, and services that are functional to the coordination and cooperation of the agents. The models will enable the verification of interaction properties of MAS from the global point of view of the system as well as from the point of view of the single agents, due to the introduction a novel social semantic of interaction based on commitments and on an explicit account of the regulative rules.",
+    "author": [
+      {
+        "family": "Baldoni",
+        "given": "Matteo"
+      },
+      {
+        "family": "Baroglio",
+        "given": "Cristina"
+      },
+      {
+        "family": "Bergenti",
+        "given": "Federico"
+      },
+      {
+        "family": "Boccalatte",
+        "given": "Antonio"
+      },
+      {
+        "family": "Marengo",
+        "given": "Elisa"
+      },
+      {
+        "family": "Martelli",
+        "given": "Maurizio"
+      },
+      {
+        "family": "Mascardi",
+        "given": "Viviana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Patti",
+        "given": "Viviana"
+      },
+      {
+        "family": "Ricci",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Rossi",
+        "given": "Gianfranco"
+      },
+      {
+        "family": "Santi",
+        "given": "Andrea"
+      }
+    ],
+    "container-title": "Proceedings of the 11<sup>th</sup> international workshop on coordination, organization, institutions and norms in multi-agent systems (COIN’10)",
+    "id": "BaldoniEtAl10",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "page": "134-149",
+    "publisher": "CEUR",
+    "title": "MERCURIO: An Interaction-oriented Framework for Designing, Verifying and Programming Multi-Agent Systems",
+    "type": "paper-conference",
+    "volume": "627"
+  },
+  {
+    "DOI": "10.1007/11690634\\_3",
+    "abstract": "A smooth orchestrator is a process with several alternative branches, every one defining synchronizations among co-located channels. Smooth orchestrators constitute a basic mechanism that may express standard workflow patterns in Web services as well as common synchronization constructs in programming languages. Smooth orchestrators may be created in one location and migrated to a different one, still not manifesting problems that usually afflict generic mobile agents. We encode an extension of Milner’s (asynchronous) pi calculus with join patterns into a calculus of smooth orchestrators and we yield a strong correctness result (full abstraction) when the subjects of the join patterns are co-located. We also study the translation of smooth orchestrators into finite-state automata, therefore addressing the implementation of co-location constraints and the case when synchronizations are not linear with respect to subjects.",
+    "author": [
+      {
+        "family": "Laneve",
+        "given": "Cosimo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of international conference on foundations of software science and computation structures (FoSSaCS’06)",
+    "id": "LanevePadovani06",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "page": "32-46",
+    "publisher": "Springer",
+    "title": "Smooth Orchestrators",
+    "type": "paper-conference",
+    "volume": "3921"
+  },
+  {
+    "DOI": "10.1007/11494881\\_17",
+    "abstract": "Mobile nets arise as a combination of the name managing techniques of the \\pi-calculus with the representation of concurrency and locality of Petri nets. We propose MAGNETs, a variant of mobile nets that are suitable for an effective, distributed implementation. Such implementation extends an implementation of the Join calculus virtual machine with dynamic reconfiguration features.",
+    "author": [
+      {
+        "family": "Busi",
+        "given": "Nadia"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 7<sup>th</sup> IFIP international conference on formal methods for open object-based distributed systems (FMOODS’05)",
+    "id": "BusiPadovani05",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "page": "259-274",
+    "publisher": "Springer",
+    "title": "A Distributed Implementation of Mobile Nets as Mobile Agents",
+    "type": "paper-conference",
+    "volume": "3535"
+  },
+  {
+    "DOI": "10.1007/978-3-540-31985-6\\_3",
+    "abstract": "Various techniques for the navigation and matching of data structures using path expressions have been the subject of extensive investigations. No matter whether such techniques are based on type information, indexing, automata, it is desirable to synthesize implementations automatically, starting from a high-level description of the path expressions to be traversed. In this paper we present a library of C++ templates for the representation of regular path expressions and their compilation into efficient backtracking algorithms. The resulting code can be used to implement visitors, pattern matchers, node collectors on regular paths over possibly heterogeneous, linked data structures. The point of the paper is on the path compilation technique, which was inspired by a continuation-passing, functional semantics of the path expressions. We rely on some peculiar aspects of C++ templates to create a compilation framework that closely follows the given semantics.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 14<sup>th</sup> international conference on compiler construction (CC’05)",
+    "id": "Padovani05",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "page": "27-42",
+    "publisher": "Springer",
+    "title": "Compilation of Generic Regular Path Expressions Using C++ Class Templates",
+    "type": "paper-conference",
+    "volume": "3443"
+  },
+  {
+    "DOI": "10.1007/11812289\\_16",
+    "abstract": "Mathematical notation is a structured, open, and ambiguous language. In order to support mathematical notation in MKM applications one must necessarily take into account presentational as well as semantic aspects. The former are required to create a familiar, comfortable, and usable interface to interact with. The latter are necessary in order to process the information meaningfully. In this paper we investigate a framework for dealing with mathematical notation in a meaningful, extensible way, and we show an effective instantiation of its architecture to the field of interactive theorem proving. The framework builds upon well-known concepts and widely-used technologies and it can be easily adopted by other MKM applications.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Zacchiroli",
+        "given": "Stefano"
+      }
+    ],
+    "collection-title": "LNAI",
+    "container-title": "Proceedings of the 5<sup>th</sup> international conference on mathematical knowledge management (MKM’06)",
+    "id": "PadovaniZacchiroli06",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "page": "194-207",
+    "publisher": "Springer",
+    "title": "From Notation to Semantics: There and Back Again",
+    "type": "paper-conference",
+    "volume": "4108"
+  },
+  {
+    "DOI": "10.1007/978-3-540-30175-2\\_25",
+    "abstract": "The availability of a C implementation of the Document Object Model (DOM) offers the interesting opportunity of generating bindings for different programming languages automatically. Because of the DOM bias towards Java-like languages, a C implementation that fakes objects, inheritance, polymorphism, exceptions and uses reference-counting introduces a gap between the API specification and its actual implementation that the bindings should try to close. In this paper we overview the generative approach in this particular context and apply it for the generation of C++ and OCaml bindings.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Coen",
+        "given": "Claudio Sacerdoti"
+      },
+      {
+        "family": "Zacchiroli",
+        "given": "Stefano"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 3<sup>rd</sup> international conference on generative programming and component engineering (GPCE’04)",
+    "id": "PadovaniSacerdotiCoenZacchiroli04",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "page": "469-487",
+    "publisher": "Springer",
+    "title": "A Generative Approach to the Implementation of Language Bindings for the Document Object Model",
+    "type": "paper-conference",
+    "volume": "3286"
+  },
+  {
+    "DOI": "10.1007/978-3-540-27818-4\\_22",
+    "abstract": "Mathematical expressions are pieces of structured information that could benefit from direct-manipulation approaches for document authoring. Yet, not only there is disagreement on the behaviors of authoring tools, but also these behaviors are often ill-designed and poorly implemented. This situation leads to dissatisfaction amid users who prefer more classical editing approaches. In this paper we compare the behaviors of several state-of-the-art editors for mathematical content and we try to synthesize a set of rules and principles to make the authoring experience pleasant and effective.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Solmi",
+        "given": "Riccardo"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 3<sup>rd</sup> international conference on mathematical knowledge management (MKM’04)",
+    "id": "PadovaniSolmi04",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "page": "302-316",
+    "publisher": "Springer",
+    "title": "An Investigation on the Dynamics of Direct-Manipulation Editors for Mathematics",
+    "type": "paper-conference",
+    "volume": "3119"
+  },
+  {
+    "abstract": "In this paper we describe GtkMathView’s features for the creation of interactive, customizable applications involving rendering of mathematical markup. We also give an overview of the GtkMathView’s internal architecture and suggest some of the most promising future developments of the widget.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 5<sup>th</sup> annual GNOME user and developer european conference (GUADEC’04)",
+    "id": "Padovani04B",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "publisher": "Agder University College",
+    "title": "A Math Canvas for the GNOME Desktop",
+    "type": "paper-conference",
+    "volume": "107"
+  },
+  {
+    "DOI": "10.1007/978-3-540-27773-6\\_9",
+    "abstract": "We describe the architecture of a syntax-directed editor for authoring structured mathematical documents that can be used for the generation of MathML markup. The author interacts with the editor by typing TeX markup as in a normal text editor, with the difference that the typed markup is parsed and displayed on-the-fly. We discuss issues regarding both the parsing and presentation phases and we propose implementations for them. In contrast with existing similar tools, the architecture we propose offers better compatibility with TeX syntax, a pervasive use of standard technologies and a clearer separation of content and presentation aspects of the information.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the international conference on TeX, XML, and digital typography (TUG’04)",
+    "id": "Padovani04A",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "page": "125-138",
+    "publisher": "Springer",
+    "title": "Interactive Editing of MathML Markup Using TeX Syntax",
+    "type": "paper-conference",
+    "volume": "3130"
+  },
+  {
+    "DOI": "10.1007/3-540-36469-2\\_6",
+    "abstract": "The Mathematical Markup Language (MathML), a standard language for the encoding of mathematical expressions, is going to have a deep impact on a vast community of users, from people interested in publishing scientific documents to researchers who seek new forms of communication and management of mathematical information. In this paper we survey the worlds of LaTeX, a well-established language for typesetting, and MathML, whose diffusion is promisingly taking off in these days, with an emphasis on the management of mathematics. We will try to understand how they relate to each other, and why we will still need both in the years to come.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the 2<sup>nd</sup> international conference on mathematical knowledge management (MKM’03)",
+    "id": "Padovani03A",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "page": "66-79",
+    "publisher": "Springer",
+    "title": "On the Roles of LaTeX and MathML in Encoding and Processing Mathematical Expressions",
+    "type": "paper-conference",
+    "volume": "2594"
+  },
+  {
+    "URL": "http://www.tug.org/TUGboat/tb24-1/padovani.pdf",
+    "abstract": "In this paper we investigate the architecture of a MathML formatting engine based on an abstraction of the TeX box primitives. This engine is carefully designed so that the TeX-dependent formatting rules are isolated from the independent ones and is capable of achieving TeX-comparable output quality when used in conjunction with TeX fonts. We show how the formatting rules presented in Appendix G of the TeXbook can be easily adapted for MathML formatting, and how the semantically-rich MathML markup simplifies the rules themselves.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "The Communications of the TeX Users Group",
+    "id": "Padovani03B",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "page": "53-61",
+    "title": "MathML Formatting with TeX Rules, TeX Fonts, and TeX Quality",
+    "type": "article-journal",
+    "volume": "24"
+  },
+  {
+    "DOI": "10.1023/A:1022907629104",
+    "abstract": "The paper describes the general philosophy and the main architectural and technological solutions adopted in the HELM Project for the management of large repositories of mathematical knowledge. The leitmotiv is the extensive use of XML technology, and the exploitation of information in the \"Web way\", that is without a central authority, with few basic rules, in a scalable, adaptable, and extensible manner.",
+    "author": [
+      {
+        "family": "Asperti",
+        "given": "Andrea"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Coen",
+        "given": "Claudio Sacerdoti"
+      },
+      {
+        "family": "Guidi",
+        "given": "Ferruccio"
+      },
+      {
+        "family": "Schena",
+        "given": "Irene"
+      }
+    ],
+    "container-title": "Annals of Mathematics and Artificial Intelligence",
+    "id": "AspertiPadovaniSacerdotiCoenGuidiSchena03",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "page": "27-46",
+    "publisher": "Kluwer Academic Publishers",
+    "title": "Mathematical Knowledge Management in HELM",
+    "type": "article-journal",
+    "volume": "38"
+  },
+  {
+    "abstract": "The widespread use of Web technologies and, in particular, the ever growing number of applications adopting XML as the standard language for the encoding of any piece of structured information, naturally calls for efficient implementations of DOM, the standard interface to access the internal structure of documents. The DOM level 2 API, which has been conceived as a suitable hierarchy of classes, has its most natural mapping in object-oriented languages such as C++ and Java. This is also testified by the already existing implementations in those languages. However, as of today, most applications are commonly developed in C, because of its standardization, flexibility, efficiency and availability. In this paper we describe the current state of Gdome2, which provides a DOM implementation for the C programming language. The library is meant to become a key module of the Gnome architecture, supplying a range of facilities for an efficient, portable, and easy management of XML documents in the Gnome way. We conclude with a comparison between Gdome2 and Xerces, one of the more advanced and actively developed DOM implementations.",
+    "author": [
+      {
+        "family": "Casarini",
+        "given": "Paolo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Markup Languages: Theory & Practice",
+    "id": "CasariniPadovani02",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "page": "173-190",
+    "publisher": "The MIT press",
+    "title": "The GNOME DOM Engine",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the MathML international conference (MathML’02)",
+    "id": "Padovani02",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "page": "109-114",
+    "title": "A Standalone Rendering Engine for MathML",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Yuzhen"
+      },
+      {
+        "family": "Watt",
+        "given": "Stephen M."
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the MathML international conference (MathML’02)",
+    "id": "XieWattPadovani02",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "page": "101-108",
+    "title": "A Lisp Subset Based on MathML",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1007/3-540-44755-5\\_6",
+    "abstract": "The eXtensible Markup Language (XML) opens the possibility to start anew, on a solid technological ground, the ambitious goal of developing a suitable technology for the creation and maintenance of a virtual, distributed, hypertextual library of formal mathematical knowledge. In particular, XML provides a central technology for storing, retrieving and processing mathematical documents, comprising sophisticated web-publishing mechanisms (stylesheets) covering notational and stylistic issues. By the application of XML technology to the large repositories of structured, content oriented information offered by Logical Frameworks we meet the ultimate goal of the Semantic Web, that is to allow machines the sharing and exploitation of knowledge in the Web way, i.e. without central authority, with few basic rules, in a scalable, adaptable, extensible manner.",
+    "author": [
+      {
+        "family": "Asperti",
+        "given": "Andrea"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Coen",
+        "given": "Claudio Sacerdoti"
+      },
+      {
+        "family": "Schena",
+        "given": "Irene"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "Proceedings of the international conference on theorem proving in higher order logics (TPHOLs’01)",
+    "id": "AspertiPadovaniSacerdotiCoenSchena01A",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "page": "59-74",
+    "publisher": "Springer",
+    "title": "HELM and the Semantic Math-Web",
+    "type": "paper-conference",
+    "volume": "2152"
+  },
+  {
+    "abstract": "An important part of the descriptive power of mathematics derives from its ability to represent formal concepts in a highly evolved, two-dimensional system of symbolic notations. Tools for the mechanisation of mathematics and the automation of formal reasoning must eventually face the problem of re-mathematization of the logical, symbolic content of the information, especially in view of their integration with the World Wide Web. In a different work we already discussed the pivotal role that XML (eXtensible Markup Language) technology is likely to play in such an integration. In this paper, we focus on the problem of (Web) publishing, advocating the use of XSL (eXtensible Stylesheet Language) Transformations, in conjunction with MathML (Mathematical Markup Language), as a standard, application independent and modular way for associating notation to formal mathematical content.",
+    "author": [
+      {
+        "family": "Asperti",
+        "given": "Andrea"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Coen",
+        "given": "Claudio Sacerdoti"
+      },
+      {
+        "family": "Schena",
+        "given": "Irene"
+      }
+    ],
+    "container-title": "Proceedings of the extreme markup languages conference (EXTREME’01)",
+    "id": "AspertiPadovaniSacerdotiCoenSchena01B",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "page": "17-27",
+    "title": "XML, Stylesheets and the Re-mathematization of Formal Content",
+    "type": "paper-conference"
+  },
+  {
+    "abstract": "The widespread use of Web technologies and, in particular, the ever growing number of applications adopting XML as the standard language for the encoding of any piece of structured information, naturally calls for efficient implementations of DOM, the standard interface to access the internal structure of documents. The DOM level 2 API, which has been conceived as a suitable hierarchy of classes, has its most natural mapping in object-oriented languages such as C++ and Java. This is also testified by the already existing implementations in those languages. However, as of today, most applications are commonly developed in C, because of its standardization, flexibility, efficiency and availability. In this paper we describe the current state of Gdome2, which provides a DOM implementation for the C programming language. The library is meant to become a key module of the Gnome architecture, supplying a range of facilities for an efficient, portable, and easy management of XML documents in the Gnome way. We conclude with a comparison between Gdome2 and Xerces, one of the more advanced and actively developed DOM implementations.",
+    "author": [
+      {
+        "family": "Casarini",
+        "given": "Paolo"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the extreme markup languages conference (EXTREME’01)",
+    "id": "CasariniPadovani01",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "page": "45-53",
+    "title": "The GNOME DOM Engine",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Asperti",
+        "given": "Andrea"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Coen",
+        "given": "Claudio Sacerdoti"
+      },
+      {
+        "family": "Schena",
+        "given": "Irene"
+      }
+    ],
+    "container-title": "Proceedings of the 8<sup>th</sup> international conference on libraries and associations in the transient world: New technologies and new forms of cooperation (crimea’01)",
+    "id": "AspertiPadovaniSacerdotiCoenSchena01C",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "page": "342-346",
+    "title": "Formal Mathematics on the Web",
+    "type": "paper-conference",
+    "volume": "1"
+  },
+  {
+    "author": [
+      {
+        "family": "Melgratti",
+        "given": "Hernán"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Behavioural types: From theory to tools",
+    "id": "MelgrattiPadovani17",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "243-263",
+    "publisher": "River Publishers",
+    "title": "An OCaml Implementation of Binary Sessions",
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Behavioural types: From theory to tools",
+    "id": "Padovani17C",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "193-217",
+    "publisher": "River Publishers",
+    "title": "Type-Based Analysis of Linear Communications",
+    "type": "chapter"
+  },
+  {
+    "DOI": "10.1007/978-3-319-18941-3\\_4",
+    "author": [
+      {
+        "family": "Coppo",
+        "given": "Mario"
+      },
+      {
+        "family": "Dezani-Ciancaglini",
+        "given": "Mariangiola"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Yoshida",
+        "given": "Nobuko"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "International school on formal methods for the design of computer, communication and software systems (SFM’15)",
+    "id": "CoppoDezaniPadovaniYoshida15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "146-178",
+    "publisher": "Springer",
+    "title": "A Gentle Introduction to Multiparty Asynchronous Session Types",
+    "type": "chapter",
+    "volume": "9104"
+  },
+  {
+    "DOI": "10.1007/978-3-642-01918-0\\_6",
+    "abstract": "A contract describes the observable behavior of a Web service. When looking for Web services providing specific capabilities, the contract can be used as an important search key. This calls for a notion of contract equivalence that goes beyond nominal or structural equivalence. In this paper we define a simple, yet expressive formal language for describing Web service contracts. We provide a natural, set-theoretic semantics of contracts and we use it for defining a family of equivalence relations that can be effectively used for discovering and adapting Web services implementing a specific contract.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LNCS",
+    "container-title": "International school on formal methods for the design of computer, communication and software systems (SFM’09)",
+    "id": "Padovani09A",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "page": "213-260",
+    "publisher": "Springer",
+    "title": "Contract-based Discovery and Adaptation of Web Services",
+    "type": "chapter",
+    "volume": "5569"
+  },
+  {
+    "DOI": "10.4204/EPTCS.314",
+    "collection-title": "EPTCS",
+    "editor": [
+      {
+        "family": "Balzer",
+        "given": "Stephanie"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "id": "BalzerPadovani20",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "Open Publishing Association",
+    "title": "Proceedings of the 12<sup>th</sup> International Workshop on Programming Language Approaches to Concurrency- and Communication-cEntric Software",
+    "type": "book",
+    "volume": "314"
+  },
+  {
+    "DOI": "10.1007/978-3-319-96983-1",
+    "collection-title": "LNCS",
+    "editor": [
+      {
+        "family": "Aldinucci",
+        "given": "Marco"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Torquati",
+        "given": "Massimo"
+      }
+    ],
+    "id": "AldinucciPadovaniTorquati18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "title": "Euro-Par 2018: Parallel Processing",
+    "type": "book",
+    "volume": "11014"
+  },
+  {
+    "DOI": "10.1007/978-3-642-01918-0",
+    "collection-title": "LNCS",
+    "editor": [
+      {
+        "family": "Bernardo",
+        "given": "Marco"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Zavattaro",
+        "given": "Gianluigi"
+      }
+    ],
+    "id": "BernardoPadovaniZavattaro09",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "title": "Formal Methods for Web Services, International School on Formal Methods for the Design of Computer, Communication and Software Systems (SFM’09), Advanced Lectures",
+    "type": "book",
+    "volume": "5569"
+  }
+]

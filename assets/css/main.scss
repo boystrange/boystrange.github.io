@@ -1,0 +1,183 @@
+---
+---
+
+@import url('https://use.fontawesome.com/releases/v5.11.0/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap&subset=latin-ext');
+
+$my-base-font-size:        18px;
+
+$my-primary-font-family:   "Alegreya", serif;
+$my-secondary-font-family: "Roboto Condensed", sans-serif;
+$my-code-font-family:      "Fira Code", monospace;
+
+$my-primary-color:    #303030;
+$my-secondary-color:  #909090;
+$my-link-color:       #0070A0;
+$my-background-color: #FFFFF8;
+
+$my-border-radius: 3px;
+
+$background-color:    $my-background-color;
+$link-color:          $my-link-color;
+
+$title-1-size: 2rem;
+$title-2-size: 1.5rem;
+$title-3-size: 1.25rem;
+$title-4-size: 1rem;
+
+$thin-line-color: lightgray;
+
+$button-text-color:       white;
+$button-background-color: $my-link-color;
+$button-border-color:     $my-link-color;
+
+@import "../node_modules/frow/frow.sass";
+@import "vs.css";
+
+// IMPORTANT: UNDO DISPLAY BLOCK SETTING IN FROW
+svg {
+    display: inline;
+}
+
+.secondary-font-family {
+    font-family: $my-secondary-font-family;
+}
+
+.code-font-family {
+    font-family: $my-code-font-family;
+}
+
+body {
+    background-color: $background-color;
+    background-repeat: repeat;
+    line-height: 1.5;
+    font-size: $my-base-font-size;
+    font-family: $my-primary-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $my-primary-color;
+    font-weight: normal;
+}
+
+i {
+    color: $my-secondary-color;
+}
+
+h1 {
+    font-size: $title-1-size;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: $thin-line-color;
+    margin: 1rem 0;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: $title-4-size;
+    font-family: $my-secondary-font-family;
+    color: gray;
+}
+
+a {
+    color: $my-link-color;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+header {
+    font-family: $my-secondary-font-family;
+    background-color: $my-primary-color;
+    font-size: $title-3-size;
+    a, a:hover {
+	text-transform: uppercase;
+	display: inline-block;
+	color: white;
+	padding: 16px;
+	transition: background-color 0.3s;
+	text-decoration: none !important;
+    }
+
+    a.is-active, a:hover {
+	background-color: darken($my-primary-color, 10%);
+    }
+
+    div.item {
+	text-align: center;
+	vertical-align: middle;
+    }
+
+    div.item:first-child > a {
+	margin-left: -16px;
+    }
+}
+
+footer {
+    border-style: solid none none none;
+    border-width: 1px;
+    border-color: $thin-line-color;
+    padding-bottom: 16px;
+    opacity: 0.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.rounded {
+    border-radius: $my-border-radius;
+}
+
+.avatar {
+    float: left;
+    margin: 0.5rem 0.5rem 0 0;
+}
+
+pre, code {
+    border-radius: $my-border-radius;
+    font-family: $my-code-font-family;
+    background-color: #EEE;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+pre {
+    padding: 0.5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $my-secondary-color;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.btn {
+    font-family: $my-secondary-font-family;
+    font-size: small;
+    padding: 1px;
+    margin-right: 4px;
+    min-width: 2rem;
+}
+
+.tag {
+    cursor: default !important;
+    border-color: $my-primary-color;
+    background-color: transparent;
+    color: $my-primary-color;
+    text-transform: uppercase;
+}
+
+span.email::after {
+    content: "unito.it";
+}
+
+span.email::before {
+    content: "luca.padovani";
+}
