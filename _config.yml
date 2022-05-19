@@ -20,3 +20,5 @@ menu:
   - software
 
 permalink: /:year/:month/:day/:title/
+
+theme: jekyll-theme-minimal
