@@ -11,12 +11,11 @@ title:	EasyJoin – Concurrent Typestate-Oriented Programming in Java
 TypeState-Oriented Programming (TSOP) is a programming methodology
 for implementing objects with a state-sensitive public
 interface. Common examples of such objects are *iterators*, *files*,
-and *containers*. Concurrent
-[TSOP](publications.html#CrafaPadovani17) is an extension of TSOP to
-*concurrent objects* such as *locks*, *future variables*,
-*barriers*, and the like.
-[EasyJoin](publications.html#GerboPadovani19) is a _code generator_
-that allows Java programmers to use concurrent TSOP when
+and *containers*. Concurrent [TSOP]({% link publications.md
+%}#CrafaPadovani17) is an extension of TSOP to *concurrent objects*
+such as *locks*, *future variables*, *barriers*, and the like.
+[EasyJoin]({% link publications.md %}#GerboPadovani19) is a _code
+generator_ that allows Java programmers to use concurrent TSOP when
 implementing and using object with state-sensitive interfaces. Below
 is an example of Java class for future variables written using
 concurrent TSOP and EasyJoin.
