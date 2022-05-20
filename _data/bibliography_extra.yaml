@@ -1,22 +1,33 @@
+ColonnelliEtAl22:
+  dblp: journals/fgcs/ColonnelliACPRS22
 CicconePadovani22:
   preprint: ../assets/downloads/fair-termination-preprint.pdf
   long:	    ../assets/downloads/fair-termination-long.pdf
+  dblp: journals/pacmpl/CicconeP22
 CicconePadovani21:
   pdf:      https://drops.dagstuhl.de/opus/volltexte/2021/14194/pdf/LIPIcs-ICALP-2021-125.pdf
   long:     https://arxiv.org/pdf/2108.01503.pdf
+  dblp: conf/icalp/CicconeP21
+BalzerPadovani20:
+  dblp: journals/corr/abs-2004-01062
 CicconePadovani20:
   preprint: https://iris.unito.it/retrieve/handle/2318/1739403/612000/main.pdf
+  dblp: conf/ppdp/CicconeP20
 InversoMelgrattiPadovaniTrubianiTuosto20:
-  pdf:      https://drops.dagstuhl.de/opus/volltexte/2020/12826/pdf/LIPIcs-CONCUR-2020-14.pdf
-  long:	    https://arxiv.org/pdf/2007.11832.pdf
-  slides:   concur_2020
+  pdf: https://drops.dagstuhl.de/opus/volltexte/2020/12826/pdf/LIPIcs-CONCUR-2020-14.pdf
+  long: https://arxiv.org/pdf/2007.11832.pdf
+  slides: concur_2020
+  dblp: conf/concur/InversoMPTT20
 DeLiguoroPadovani18:
   pdf: http://drops.dagstuhl.de/opus/volltexte/2018/9220/pdf/LIPIcs-ECOOP-2018-15.pdf
   long: https://arxiv.org/pdf/1801.04167.pdf
   slides: ecoop_2018
+Padovani19:
+  dblp: journals/toplas/Padovani19
 GerboPadovani19:
   pdf: http://eptcs.web.cse.unsw.edu.au/paper.cgi?PLACES2019.3.pdf
   slides: places_2019
+  dblp: journals/corr/abs-1904-01286
 Padovani18:
   pdf: https://arxiv.org/pdf/1803.10670
   slides: programming_2018
@@ -45,6 +56,8 @@ Padovani11B:
   slides: itrs_2010
 Padovani09B:
   slides: ice_2009
+CastagnaDezaniGiachinoPadovani19:
+  dblp: conf/ppdp/CastagnaDGP19
 CastagnaDezaniGiachinoPadovani09:
   award: "ppdp Most Influential Paper 10-Year Award"
 DamianiPadovaniSchaefer12:
@@ -79,6 +92,8 @@ CastagnaPadovani09:
   slides: concur_2009
 Padovani08:
   slides: concur_2008
+LanevePadovani19:
+  dblp: conf/birthday/LaneveP19
 LanevePadovani07:
   slides: concur_2007
 BaldoniEtAl10:

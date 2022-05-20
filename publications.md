@@ -62,6 +62,10 @@ title: Publications
     <a class="btn" type="button" onclick="$('#abstract-{{ entry.id }}').toggle(100);">abstract</a>
 {% endif %}
 
+{% if extra.dblp %}
+  <a class="btn" type="button" href="https://dblp.uni-trier.de/rec/{{ extra.dblp }}?view=bibtex">.bib</a>
+{% endif %}
+
 {% if extra.html %}
   <div class="mylabel">
     <div>text</div>
