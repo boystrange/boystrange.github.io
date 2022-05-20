@@ -55,35 +55,52 @@ title: Publications
 
   <div class="frow inline">
 {% if entry.DOI %}
-    <a class="btn" type="button" href="http://dx.doi.org/{{ entry.DOI }}">doi></a>
-{% endif %}
-
-{% if extra.html %}
-    <a class="btn" type="button" href="{{ extra.html }}">.html</a>
-{% endif %}
-
-{% if extra.pdf %}
-    <a class="btn" type="button" href="{{ extra.pdf }}">.pdf</a>
-{% endif %}
-
-{% if extra.preprint %}
-    <a class="btn" type="button" href="{{ extra.preprint }}">.pdf (preprint)</a>
-{% endif %}
-
-{% if extra.long %}
-    <a class="btn" type="button" href="{{ extra.long }}">.pdf (long version)</a>
-{% endif %}
-
-{% if extra.slides %}
-    <a class="btn" type="button" href="assets/talks/{{ extra.slides }}.pdf">.pdf (slides)</a>
+  <a class="btn" type="button" href="http://dx.doi.org/{{ entry.DOI }}">doi></a>
 {% endif %}
 
 {% if entry.abstract %}
     <a class="btn" type="button" onclick="$('#abstract-{{ entry.id }}').toggle(100);">abstract</a>
 {% endif %}
 
+{% if extra.html %}
+  <div class="mylabel">
+    <div>text</div>
+    <a href="{{ extra.html }}">.html</a>
+  </div>
+{% endif %}
+
+{% if extra.pdf %}
+  <div class="mylabel">
+    <div>text</div>
+	<a href="{{ extra.pdf }}">.pdf</a>
+  </div>
+{% endif %}
+
+{% if extra.preprint %}
+  <div class="mylabel">
+    <div>preprint</div>
+    <a href="{{ extra.preprint }}">.pdf</a>
+  </div>
+{% endif %}
+
+{% if extra.long %}
+  <div class="mylabel">
+    <div>long version</div>
+    <a href="{{ extra.long }}">.pdf</a>
+  </div>
+{% endif %}
+
+{% if extra.slides %}
+	<div class="mylabel">
+		<div>slides</div>
+		<a href="assets/talks/{{ extra.slides }}.pdf">.pdf</a>
+	</div>
+{% endif %}
+
 {% if extra.award %}
-    <button class="btn tag">{{ extra.award }}</button>
+  <div class="mylabel">
+    <div class="award">{{ extra.award }}</div>
+  </div>
 {% endif %}
   </div>
 

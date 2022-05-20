@@ -15,7 +15,7 @@ $my-code-font-family:      "Fira Code", monospace;
 $my-primary-color:    #303030;
 $my-secondary-color:  #909090;
 $my-link-color:       #0070A0;
-$my-background-color: #FFFFF8;
+$my-background-color: #FFFFFF;
 
 $my-border-radius: 3px;
 
@@ -172,6 +172,35 @@ pre {
     background-color: transparent;
     color: $my-primary-color;
     text-transform: uppercase;
+}
+
+.mylabel {
+    border: none;
+    border-radius: 4px;
+    font-family: $my-secondary-font-family;
+    font-size: small;
+    padding: 0px 2px;
+    margin-right: 4px;
+    background-color: $my-primary-color;
+    color: white;
+
+    div {
+	display: inline-block;
+
+    }
+
+    div.award {
+	text-transform: uppercase;
+    }
+
+    a {
+	display: inline-block;
+	background-color: $my-link-color;
+	color: white;
+	padding: 0 2px;
+	margin-right: -2px;
+	border-radius: 0 4px 4px 0;
+    }
 }
 
 span.email::after {
