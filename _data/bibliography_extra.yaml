@@ -1,6 +1,6 @@
 CicconePadovani22:
-  preprint: assets/downloads/fair-termination-preprint.pdf
-  long:	    assets/downloads/fair-termination-long.pdf
+  preprint: ../assets/downloads/fair-termination-preprint.pdf
+  long:	    ../assets/downloads/fair-termination-long.pdf
 CicconePadovani21:
   pdf:      https://drops.dagstuhl.de/opus/volltexte/2021/14194/pdf/LIPIcs-ICALP-2021-125.pdf
   long:     https://arxiv.org/pdf/2108.01503.pdf
