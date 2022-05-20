@@ -74,10 +74,7 @@ title: Publications
 {% endif %}
 
 {% if extra.pdf %}
-  <div class="mylabel">
-    <div>text</div>
-	<a href="{{ extra.pdf }}">.pdf</a>
-  </div>
+  <a class="btn" type="button" href="{{ extra.pdf }}">.pdf</a>
 {% endif %}
 
 {% if extra.preprint %}
