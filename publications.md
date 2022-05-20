@@ -93,7 +93,7 @@ title: Publications
 {% if extra.slides %}
 	<div class="mylabel">
 		<div>slides</div>
-		<a href="assets/talks/{{ extra.slides }}.pdf">.pdf</a>
+		<a href="../assets/talks/{{ extra.slides }}.pdf">.pdf</a>
 	</div>
 {% endif %}
 

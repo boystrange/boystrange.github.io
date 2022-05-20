@@ -23,7 +23,6 @@ Padovani18:
 CrafaPadovani17:
   pdf: http://dl.acm.org/authorize?N30607
 CrafaPadovani15:
-  pdf: http://dl.acm.org/authorize?N30609
   slides: oopsla_2015
 MelgrattiPadovani17bis:
   slides: icfp_2017
@@ -58,7 +57,6 @@ Padovani11A:
 CoppoDezaniPadovaniYoshida13B:
   slides: coordination_2013
 CoppoDezaniPadovaniYoshida13A:
-  pdf: http://beat13.cs.aau.dk/pdf/BEAT13-proceedings.pdf
   slides: beat_2013
 Padovani15:
   long: https://arxiv.org/pdf/1510.01752.pdf
@@ -67,7 +65,6 @@ PadovaniNovara15:
 PadovaniChenTosatto15:
   slides: coordination_2015
 Padovani14B:
-  pdf: http://dl.acm.org/authorize?N30600
   slides: lics_2014
 Padovani14A:
   slides: fossacs_2014
@@ -103,4 +100,4 @@ Padovani09A:
 AspertiPadovaniSacerdotiCoenSchena01C:
   html: https://www.gpntb.ru/win/inter-events/crimea2001/tom/sec4/Doc24.html
 CasariniPadovani01:
-  pdf: assets/downloads/CasariniPadovani01.pdf
+  pdf: ../assets/downloads/CasariniPadovani01.pdf
