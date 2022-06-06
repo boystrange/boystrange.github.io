@@ -186,6 +186,7 @@ pre {
 
     div {
 	display: inline-block;
+    padding: 0 4px;
 
     }
 
@@ -197,7 +198,7 @@ pre {
 	display: inline-block;
 	background-color: $my-link-color;
 	color: white;
-	padding: 0 2px;
+	padding: 0 4px;
 	margin-right: -2px;
 	border-radius: 0 4px 4px 0;
     }
