@@ -8,7 +8,7 @@ title:  "Fair Termination of Multiparty Sessions"
 The paper [**Fair Termination of Multiparty Sessions**]({% link
 publications.md %}#CicconeDagninoPadovani22), written with Luca
 Ciccone and Francesco Dagnino, has been accepted at the
-*35<sup>th</sup> European Conference on Object-Oriented Programming*
+*36<sup>th</sup> European Conference on Object-Oriented Programming*
 ([ECOOP 2022]). This is a follow up of [previous work]({% link
 publications.md %}#CicconePadovani22) in which we apply our
 technique ensuring fair termination to multiparty sessions. In this
