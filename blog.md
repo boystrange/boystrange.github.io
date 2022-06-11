@@ -8,7 +8,6 @@ title: Blog
 </p>
 
 {% for post in site.posts %}
-<h4 class="date">{{ post.date | date: "%d %B %Y" }}</h4>
 <h2>
 	{{ post.title }}
 	{% if post.link %}
@@ -16,7 +15,11 @@ title: Blog
 		<a href="{{ post.link }}"><i class="fas fa-link"></i></a>
 	</small>
 	{% endif %}
+	{% if post.image %}
+	<img src="{{ post.image }}" alt="{{ post.title }}" class="post-image shadow-light"/>
+	{% endif %}
 </h2>
+<h4 class="date">{{ post.date | date: "%d %B %Y" }}</h4>
 
 {{ post.content }}
 {% endfor %}
