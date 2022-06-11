@@ -211,10 +211,18 @@ pre {
     }
 }
 
-span.email::after {
-    content: "unicam.it";
+span.email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
 }
 
 span.email::before {
-    content: "luca.padovani";
+    content: "m.it";
 }
+
+span.email::after {
+    content: "luc";
+}
+
