@@ -138,6 +138,13 @@ footer {
     margin: 0.5rem 0.5rem 0 0;
 }
 
+.post-image {
+    float: right;
+    max-width: 33%;
+    margin: 0 0 0.5rem 0.5rem;
+    border-radius: $my-border-radius;
+}
+
 pre, code {
     border-radius: $my-border-radius;
     font-family: $my-code-font-family;
