@@ -110,10 +110,8 @@ header {
     div.item {
 	text-align: center;
 	vertical-align: middle;
-    }
-
-    div.item:first-child > a {
 	margin-left: -16px;
+	margin-right: 16px;
     }
 }
 
