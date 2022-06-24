@@ -6,6 +6,31 @@
         "given": "Luca"
       },
       {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Logical Methods in Computer Science",
+    "id": "CicconePadovani22b",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "note": "to appear",
+    "title": "Inference Systems with Corules for Combined Safety and Liveness Properties of Binary Session Types",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.4230/LIPIcs.ECOOP.2022.26",
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
         "family": "Dagnino",
         "given": "Francesco"
       },
@@ -15,7 +40,17 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 35<sup>th</sup> european conference on object-oriented programming (ECOOP’22)",
+    "container-title": "Proceedings of the 36<sup>th</sup> european conference on object-oriented programming (ECOOP’22)",
+    "editor": [
+      {
+        "family": "Ali",
+        "given": "Karim"
+      },
+      {
+        "family": "Vitek",
+        "given": "Jan"
+      }
+    ],
     "id": "CicconeDagninoPadovani22",
     "issued": {
       "date-parts": [
@@ -24,10 +59,12 @@
         ]
       ]
     },
+    "page": "26:1-26:26",
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
     "publisher-place": "Dagstuhl, Germany",
     "title": "Fair Termination of Multiparty Sessions",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "volume": "222"
   },
   {
     "DOI": "10.1016/j.jlamp.2022.100777",
