@@ -10,16 +10,48 @@
         "given": "Luca"
       }
     ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 33<sup>rd</sup> international conference  on concurrency theory (CONCUR’22)",
+    "editor": [
+      {
+        "family": "Klin",
+        "given": "Bartek"
+      },
+      {
+        "family": "Lasota",
+        "given": "Sławomir"
+      },
+      {
+        "family": "Muscholl",
+        "given": "Anca"
+      }
+    ],
+    "id": "CicconePadovani22c",
+    "issued": {
+      "date-parts": []
+    },
+    "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "An Infinitary Proof Theory of Linear Logic Ensuring Fair Termination in the Linear π-Calculus",
+    "type": "paper-conference",
+    "volume": "243"
+  },
+  {
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
     "container-title": "Logical Methods in Computer Science",
     "id": "CicconePadovani22b",
     "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
+      "date-parts": []
     },
-    "note": "to appear",
     "title": "Inference Systems with Corules for Combined Safety and Liveness Properties of Binary Session Types",
     "type": "article-journal"
   },

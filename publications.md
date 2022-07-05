@@ -12,7 +12,7 @@ title: Publications
 <ul class="fa-ul">
 {% for entry in site.data.bibliography %}
 {% assign entryyear = entry.issued.date-parts[0][0] | plus: 0 %}
-{% if entryyear == year %}
+{% if entryyear == year or entryyear == 0 %}
   <li>
 {% case entry.type %}
   {% when "article-journal" %}
@@ -49,7 +49,11 @@ title: Publications
   pages {{ entry.page }},
 {% endif %}
 
-{{ entryyear }}.
+{% if entryyear == 0 %}
+  to appear
+{%- else %}
+  {{ entryyear -}}
+{% endif %}.
 
 {% assign extra = site.data.bibliography_extra[entry.id] %}
 
