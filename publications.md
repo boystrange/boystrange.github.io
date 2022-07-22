@@ -12,7 +12,7 @@ title: Publications
 <ul class="fa-ul">
 {% for entry in site.data.bibliography %}
 {% assign entryyear = entry.issued.date-parts[0][0] | plus: 0 %}
-{% if entryyear == year or entryyear == 0 %}
+{% if entryyear == year or current_year == year and entryyear == 0 %}
   <li>
 {% case entry.type %}
   {% when "article-journal" %}
