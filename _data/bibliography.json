@@ -11,7 +11,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 33<sup>rd</sup> international conference  on concurrency theory (CONCUR’22)",
+    "container-title": "Proceedings of the 33<sup>rd</sup> international conference on concurrency theory (CONCUR’22)",
     "editor": [
       {
         "family": "Klin",
@@ -30,6 +30,7 @@
     "issued": {
       "date-parts": []
     },
+    "page": "36:1-36:18",
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
     "publisher-place": "Dagstuhl, Germany",
     "title": "An Infinitary Proof Theory of Linear Logic Ensuring Fair Termination in the Linear π-Calculus",
