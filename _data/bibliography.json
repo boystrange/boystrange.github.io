@@ -38,6 +38,8 @@
     "volume": "243"
   },
   {
+    "DOI": "10.46298/LMCS-18(3:27)2022",
+    "URL": "https://arxiv.org/pdf/2108.01503.pdf",
     "author": [
       {
         "family": "Ciccone",
@@ -51,10 +53,16 @@
     "container-title": "Logical Methods in Computer Science",
     "id": "CicconePadovani22b",
     "issued": {
-      "date-parts": []
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
     },
+    "page": "27:1-27:29",
     "title": "Inference Systems with Corules for Combined Safety and Liveness Properties of Binary Session Types",
-    "type": "article-journal"
+    "type": "article-journal",
+    "volume": "18"
   },
   {
     "DOI": "10.4230/LIPIcs.ECOOP.2022.26",
