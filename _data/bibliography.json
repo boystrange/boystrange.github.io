@@ -1,5 +1,6 @@
 [
   {
+    "DOI": "10.4230/LIPIcs.CONCUR.2022.36",
     "author": [
       {
         "family": "Ciccone",
@@ -28,7 +29,11 @@
     ],
     "id": "CicconePadovani22c",
     "issued": {
-      "date-parts": []
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
     },
     "page": "36:1-36:18",
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
