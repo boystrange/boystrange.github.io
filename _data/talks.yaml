@@ -1,3 +1,12 @@
+- title:   An Infinitary Proof Theory of Linear Logic Ensuring Fair Termination in the Linear π-Calculus
+  venue:   CONCUR
+  city:    Warsaw
+  country: pl
+  year:    2022
+  file:    concur_2022.pdf
+  related:
+    - CicconePadovani22c
+
 - title:   Fair Termination of Binary Sessions
   city:	   Imperial College
   country: gb
