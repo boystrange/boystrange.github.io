@@ -10,16 +10,6 @@ onclick="Calendly.initPopupWidget({url:
 false;">questo servizio</a>.  Il ricevimento dell'insegnamento *x* è
 **sospeso** nei tre giorni lavorativi precedenti un appello di *x*.
 
-<i class="fas fa-question-circle"></i> Il mio ufficio si trova al **terzo
-piano** del Dipartimento di Informatica. Per raggiungerlo prendere
-la **scala L** (c'è l’ascensore corrispondente) alla quale si ha
-accesso dal cortile retrostante le aule. Una volta al piano
-attraversare le due porte a sinistra fino a raggiungere un corridoio
-rosa/arancio, girare di nuovo a sinistra fino all'ingresso della
-nuova ala del dipartimento a destra. All'interno proseguire dritto,
-a destra e di nuovo sempre dritto. In caso di difficoltà chiamare il
-numero **011 670 6777**.
-
 {% assign current_year = 'now' | date: "%Y" %}
 {% for y in (2001..current_year) %}
   {% assign year = current_year | minus: y | plus: 2001 %}
