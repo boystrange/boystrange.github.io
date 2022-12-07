@@ -657,7 +657,7 @@
     "volume": "27"
   },
   {
-    "DOI": "10.1007/978-3-662-54434-1\\_30",
+    "DOI": "10.1007/978-3-662-54434-1_30",
     "URL": "https://hal.archives-ouvertes.fr/hal-01385258/document",
     "author": [
       {
@@ -845,7 +845,7 @@
     "volume": "3"
   },
   {
-    "DOI": "10.1007/978-3-319-39519-7\\_15",
+    "DOI": "10.1007/978-3-319-39519-7_15",
     "author": [
       {
         "family": "Severi",
@@ -995,7 +995,7 @@
     "volume": "22"
   },
   {
-    "DOI": "10.1007/978-3-642-21461-5\\_1",
+    "DOI": "10.1007/978-3-642-21461-5_1",
     "abstract": "We present a new, streamlined language of global types equipped with a trace-based semantics and whose features and restrictions are semantically justified. The multi-party sessions obtained projecting our global types enjoy a liveness property in addition to the traditional progress and are shown to be sound and complete with respect to the set of traces of the originating global type. Our notion of completeness is less demanding than the classical ones, allowing a multi-party session to leave out redundant traces from an underspecified global type.",
     "author": [
       {
@@ -1204,7 +1204,7 @@
     "volume": "26"
   },
   {
-    "DOI": "10.1007/978-3-642-39212-2\\_34",
+    "DOI": "10.1007/978-3-642-39212-2_34",
     "author": [
       {
         "family": "Padovani",
@@ -1228,7 +1228,7 @@
     "volume": "7966"
   },
   {
-    "DOI": "10.1007/978-3-642-21464-6\\_9",
+    "DOI": "10.1007/978-3-642-21464-6_9",
     "abstract": "The standard subtyping relation used in dyadic session type theories may compromise the liveness of multi-party sessions. In this paper we define a <i>fair</i> subtyping relation for multi-party session types that preserves liveness, we relate it with the standard subtyping relation, and we give algorithms for deciding it. As a side effect, we provide an original and remarkably simple coinductive characterization of the fair testing preorder for nondeterministic, sequential processes consisting of internal choices of outputs and external choices of inputs.",
     "author": [
       {
@@ -1288,7 +1288,7 @@
     "volume": "26"
   },
   {
-    "DOI": "10.1007/978-3-662-43376-8\\_10",
+    "DOI": "10.1007/978-3-662-43376-8_10",
     "abstract": "Session type systems are an effective tool to prove that communicating programs do not go wrong, ensuring that the participants of a session follow the protocols described by the types. In a previous work we introduced a typing discipline for the analysis of progress in binary sessions. In this paper we generalize the approach to multiparty sessions following the conversation type approach, while strengthening progress to liveness. We combine the usual session-like fidelity analysis with the liveness analysis and devise an original treatment of recursive types allowing us to address challenging configurations that are out of the reach of existing approaches.",
     "author": [
       {
@@ -1321,7 +1321,7 @@
     "volume": "8459"
   },
   {
-    "DOI": "10.1007/978-3-642-38493-6\\_4",
+    "DOI": "10.1007/978-3-642-38493-6_4",
     "author": [
       {
         "family": "Coppo",
@@ -1414,7 +1414,7 @@
     "volume": "11"
   },
   {
-    "DOI": "10.1007/978-3-319-19195-9\\_1",
+    "DOI": "10.1007/978-3-319-19195-9_1",
     "author": [
       {
         "family": "Padovani",
@@ -1442,7 +1442,7 @@
     "volume": "9039"
   },
   {
-    "DOI": "10.1007/978-3-319-19282-6\\_6",
+    "DOI": "10.1007/978-3-319-19282-6_6",
     "author": [
       {
         "family": "Padovani",
@@ -1497,7 +1497,7 @@
     "type": "paper-conference"
   },
   {
-    "DOI": "10.1007/978-3-642-54830-7\\_6",
+    "DOI": "10.1007/978-3-642-54830-7_6",
     "author": [
       {
         "family": "Padovani",
@@ -1549,7 +1549,7 @@
     "volume": "84"
   },
   {
-    "DOI": "10.1007/978-3-642-38592-6\\_7",
+    "DOI": "10.1007/978-3-642-38592-6_7",
     "abstract": "Copyless message passing is a communication paradigm in which only pointers are exchanged between sender and receiver processes. Because of its nature, this paradigm requires that messages are treated as linear resources. Yet, even linear type systems leave room for scenarios where apparently well-typed programs may leak memory. In this work we develop a polymorphic type system for leak-free copyless messaging in a functional setting, where first-class functions can be used as messages.",
     "author": [
       {
@@ -1666,7 +1666,7 @@
     "volume": "59"
   },
   {
-    "DOI": "10.1007/978-3-642-19718-5\\_4",
+    "DOI": "10.1007/978-3-642-19718-5_4",
     "abstract": "We present a calculus that models a form of process interaction based on copyless message passing, in the style of Singularity OS. The calculus is equipped with a type system ensuring that well-typed processes are free from faults, leaks, and communication errors. The type system is essentially linear, but we show that linearity alone is inadequate. On the one hand, it is too strict when dealing with heap-allocated objects; on the other hand, it leaves room for scenarios where well-typed processes leak significant amounts of memory. We address these problems using dedicated types for keeping track of dereferenced pointers and by basing the type system upon an original variant of session types.",
     "author": [
       {
@@ -1726,7 +1726,7 @@
     "volume": "27"
   },
   {
-    "DOI": "10.1007/978-3-642-38613-8\\_21",
+    "DOI": "10.1007/978-3-642-38613-8_21",
     "abstract": "We study a natural notion of compliance between clients and services in terms of their BPEL (abstract) descriptions. The induced preorder shows interesting connections with the must preorder and has normal form representatives that are parallel-free finite-state activities, called contracts. The preorder also admits the notion of least service contract that is compliant with a client contract, called principal dual contract. Our framework serves as a foundation of Web service technologies for connecting abstract and concrete service definitions and for service discovery.",
     "author": [
       {
@@ -1811,7 +1811,7 @@
     "volume": "74"
   },
   {
-    "DOI": "10.1007/978-3-642-04081-8\\_15",
+    "DOI": "10.1007/978-3-642-04081-8_15",
     "abstract": "Theories identifying well-formed systems of processes – those that lack communication errors and enjoy strong properties such as deadlock freedom – are based either on session types, which are inhabited by channels, or on contracts, which are inhabited by processes. Current session type theories impose overly restrictive disciplines while contract theories only work for networks with fixed topology. Here we fill the gap between the two approaches by defining a theory of contracts for so-called mobile processes, those whose communications may include delegations and channel references.",
     "author": [
       {
@@ -1872,7 +1872,7 @@
     "volume": "31"
   },
   {
-    "DOI": "10.1007/978-3-540-85361-9\\_13",
+    "DOI": "10.1007/978-3-540-85361-9_13",
     "abstract": "The availability of repositories of Web service descriptions enables interesting forms of dynamic Web service discovery, such as searching for Web services exposing a specified behavior – or contract. This calls for a formal notion of contract equivalence satisfying two contrasting goals: being as coarse as possible so as to favor Web services reuse, and guaranteeing smooth client/service interaction. We study an equivalence relation under the assumption that interactions are controlled by orchestrators. We build a simple orchestration language on top of this theory and we show how to synthesize orchestrators out of Web services contracts.",
     "author": [
       {
@@ -1897,7 +1897,7 @@
     "volume": "5201"
   },
   {
-    "DOI": "10.1007/978-3-540-68679-8\\_42",
+    "DOI": "10.1007/978-3-540-68679-8_42",
     "abstract": "We pair session types and contracts using two encodings. The encoding of session types accommodates width and depth subtyping, two properties that partially hold in contracts. The encoding of contracts accommodates complex synchronization patterns, since session types own a simple control protocol. The encodings allow one to use the two formalisms interchangeably, within the context of dyadic interactions.",
     "author": [
       {
@@ -1959,7 +1959,7 @@
     "volume": "43"
   },
   {
-    "DOI": "10.1007/978-3-540-74407-8\\_15",
+    "DOI": "10.1007/978-3-540-74407-8_15",
     "abstract": "We define a language for Web services contracts as a parallel-free fragment of <span style=\"font-variant:small-caps;\">ccs</span> and we study a natural notion of compliance between clients and services in terms of their corresponding contracts. The induced contract preorder turns out to be valuable in searching and querying registries of Web services, it shows interesting connections with the must preorder, and it exhibits good precongruence properties when choreographies of Web services are considered. Our contract language may be used as a foundation of Web services technologies, such as <span style=\"font-variant:small-caps;\">wsdl</span> and <span style=\"font-variant:small-caps;\">wscl</span>.",
     "author": [
       {
@@ -1988,7 +1988,7 @@
     "volume": "4703"
   },
   {
-    "DOI": "10.1007/978-3-540-72952-5\\_17",
+    "DOI": "10.1007/978-3-540-72952-5_17",
     "abstract": "The behavior of a Web service can be described by means of a contract, which is a specification of the legal interactions with the service. Given a repository of Web services, from the client viewpoint a proper service selection should be based on functional as well as non-functional aspects of the interactions. In this paper we provide a technique that enables a client both to discover compatible services and to compare them on the basis of specific performance requirements. Our technique, which is illustrated on a simple probabilistic calculus, relies on two families of client-specific probabilistic testing preorders. These are shown to be precongruences with respect to the operators of the language and not to collapse into equivalences unlike some more general probabilistic testing preorders appeared in the literature.",
     "author": [
       {
@@ -2047,7 +2047,7 @@
     "type": "paper-conference"
   },
   {
-    "DOI": "10.1007/11841197\\_10",
+    "DOI": "10.1007/11841197_10",
     "abstract": "We define a formal contract language along with subcontract and compliance relations. We then extrapolate contracts out of processes, that are a recursion-free fragment of <span style=\"font-variant:small-caps;\">ccs</span>. We finally demonstrate that a client completes its interactions with a service provided the corresponding contracts comply. Our contract language may be used as a foundation of Web services technologies, such as <span style=\"font-variant:small-caps;\">wsdl</span> and <span style=\"font-variant:small-caps;\">wscl</span>.",
     "author": [
       {
@@ -2084,7 +2084,7 @@
     "volume": "4184"
   },
   {
-    "DOI": "10.1007/978-3-030-31175-9\\_4",
+    "DOI": "10.1007/978-3-030-31175-9_4",
     "author": [
       {
         "family": "Laneve",
@@ -2224,7 +2224,7 @@
     "volume": "627"
   },
   {
-    "DOI": "10.1007/11690634\\_3",
+    "DOI": "10.1007/11690634_3",
     "abstract": "A smooth orchestrator is a process with several alternative branches, every one defining synchronizations among co-located channels. Smooth orchestrators constitute a basic mechanism that may express standard workflow patterns in Web services as well as common synchronization constructs in programming languages. Smooth orchestrators may be created in one location and migrated to a different one, still not manifesting problems that usually afflict generic mobile agents. We encode an extension of Milner’s (asynchronous) pi calculus with join patterns into a calculus of smooth orchestrators and we yield a strong correctness result (full abstraction) when the subjects of the join patterns are co-located. We also study the translation of smooth orchestrators into finite-state automata, therefore addressing the implementation of co-location constraints and the case when synchronizations are not linear with respect to subjects.",
     "author": [
       {
@@ -2253,7 +2253,7 @@
     "volume": "3921"
   },
   {
-    "DOI": "10.1007/11494881\\_17",
+    "DOI": "10.1007/11494881_17",
     "abstract": "Mobile nets arise as a combination of the name managing techniques of the \\pi-calculus with the representation of concurrency and locality of Petri nets. We propose MAGNETs, a variant of mobile nets that are suitable for an effective, distributed implementation. Such implementation extends an implementation of the Join calculus virtual machine with dynamic reconfiguration features.",
     "author": [
       {
@@ -2282,7 +2282,7 @@
     "volume": "3535"
   },
   {
-    "DOI": "10.1007/978-3-540-31985-6\\_3",
+    "DOI": "10.1007/978-3-540-31985-6_3",
     "abstract": "Various techniques for the navigation and matching of data structures using path expressions have been the subject of extensive investigations. No matter whether such techniques are based on type information, indexing, automata, it is desirable to synthesize implementations automatically, starting from a high-level description of the path expressions to be traversed. In this paper we present a library of C++ templates for the representation of regular path expressions and their compilation into efficient backtracking algorithms. The resulting code can be used to implement visitors, pattern matchers, node collectors on regular paths over possibly heterogeneous, linked data structures. The point of the paper is on the path compilation technique, which was inspired by a continuation-passing, functional semantics of the path expressions. We rely on some peculiar aspects of C++ templates to create a compilation framework that closely follows the given semantics.",
     "author": [
       {
@@ -2307,7 +2307,7 @@
     "volume": "3443"
   },
   {
-    "DOI": "10.1007/11812289\\_16",
+    "DOI": "10.1007/11812289_16",
     "abstract": "Mathematical notation is a structured, open, and ambiguous language. In order to support mathematical notation in MKM applications one must necessarily take into account presentational as well as semantic aspects. The former are required to create a familiar, comfortable, and usable interface to interact with. The latter are necessary in order to process the information meaningfully. In this paper we investigate a framework for dealing with mathematical notation in a meaningful, extensible way, and we show an effective instantiation of its architecture to the field of interactive theorem proving. The framework builds upon well-known concepts and widely-used technologies and it can be easily adopted by other MKM applications.",
     "author": [
       {
@@ -2336,7 +2336,7 @@
     "volume": "4108"
   },
   {
-    "DOI": "10.1007/978-3-540-30175-2\\_25",
+    "DOI": "10.1007/978-3-540-30175-2_25",
     "abstract": "The availability of a C implementation of the Document Object Model (DOM) offers the interesting opportunity of generating bindings for different programming languages automatically. Because of the DOM bias towards Java-like languages, a C implementation that fakes objects, inheritance, polymorphism, exceptions and uses reference-counting introduces a gap between the API specification and its actual implementation that the bindings should try to close. In this paper we overview the generative approach in this particular context and apply it for the generation of C++ and OCaml bindings.",
     "author": [
       {
@@ -2369,7 +2369,7 @@
     "volume": "3286"
   },
   {
-    "DOI": "10.1007/978-3-540-27818-4\\_22",
+    "DOI": "10.1007/978-3-540-27818-4_22",
     "abstract": "Mathematical expressions are pieces of structured information that could benefit from direct-manipulation approaches for document authoring. Yet, not only there is disagreement on the behaviors of authoring tools, but also these behaviors are often ill-designed and poorly implemented. This situation leads to dissatisfaction amid users who prefer more classical editing approaches. In this paper we compare the behaviors of several state-of-the-art editors for mathematical content and we try to synthesize a set of rules and principles to make the authoring experience pleasant and effective.",
     "author": [
       {
@@ -2420,7 +2420,7 @@
     "volume": "107"
   },
   {
-    "DOI": "10.1007/978-3-540-27773-6\\_9",
+    "DOI": "10.1007/978-3-540-27773-6_9",
     "abstract": "We describe the architecture of a syntax-directed editor for authoring structured mathematical documents that can be used for the generation of MathML markup. The author interacts with the editor by typing TeX markup as in a normal text editor, with the difference that the typed markup is parsed and displayed on-the-fly. We discuss issues regarding both the parsing and presentation phases and we propose implementations for them. In contrast with existing similar tools, the architecture we propose offers better compatibility with TeX syntax, a pervasive use of standard technologies and a clearer separation of content and presentation aspects of the information.",
     "author": [
       {
@@ -2445,7 +2445,7 @@
     "volume": "3130"
   },
   {
-    "DOI": "10.1007/3-540-36469-2\\_6",
+    "DOI": "10.1007/3-540-36469-2_6",
     "abstract": "The Mathematical Markup Language (MathML), a standard language for the encoding of mathematical expressions, is going to have a deep impact on a vast community of users, from people interested in publishing scientific documents to researchers who seek new forms of communication and management of mathematical information. In this paper we survey the worlds of LaTeX, a well-established language for typesetting, and MathML, whose diffusion is promisingly taking off in these days, with an emphasis on the management of mathematics. We will try to understand how they relate to each other, and why we will still need both in the years to come.",
     "author": [
       {
@@ -2608,7 +2608,7 @@
     "type": "paper-conference"
   },
   {
-    "DOI": "10.1007/3-540-44755-5\\_6",
+    "DOI": "10.1007/3-540-44755-5_6",
     "abstract": "The eXtensible Markup Language (XML) opens the possibility to start anew, on a solid technological ground, the ambitious goal of developing a suitable technology for the creation and maintenance of a virtual, distributed, hypertextual library of formal mathematical knowledge. In particular, XML provides a central technology for storing, retrieving and processing mathematical documents, comprising sophisticated web-publishing mechanisms (stylesheets) covering notational and stylistic issues. By the application of XML technology to the large repositories of structured, content oriented information offered by Logical Frameworks we meet the ultimate goal of the Semantic Web, that is to allow machines the sharing and exploitation of knowledge in the Web way, i.e. without central authority, with few basic rules, in a scalable, adaptable, extensible manner.",
     "author": [
       {
@@ -2782,7 +2782,7 @@
     "type": "chapter"
   },
   {
-    "DOI": "10.1007/978-3-319-18941-3\\_4",
+    "DOI": "10.1007/978-3-319-18941-3_4",
     "author": [
       {
         "family": "Coppo",
@@ -2818,7 +2818,7 @@
     "volume": "9104"
   },
   {
-    "DOI": "10.1007/978-3-642-01918-0\\_6",
+    "DOI": "10.1007/978-3-642-01918-0_6",
     "abstract": "A contract describes the observable behavior of a Web service. When looking for Web services providing specific capabilities, the contract can be used as an important search key. This calls for a notion of contract equivalence that goes beyond nominal or structural equivalence. In this paper we define a simple, yet expressive formal language for describing Web service contracts. We provide a natural, set-theoretic semantics of contracts and we use it for defining a family of equivalence relations that can be effectively used for discovering and adapting Web services implementing a specific contract.",
     "author": [
       {
