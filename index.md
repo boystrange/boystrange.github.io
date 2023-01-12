@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Latest News
+title: Latest Posts
 ---
 
 {% for post in site.posts limit:3 %}
