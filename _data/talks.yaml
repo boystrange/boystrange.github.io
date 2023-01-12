@@ -1,3 +1,11 @@
+- title:   On Sessions, Linear Logic and Unbounded Interactions
+  city:    Sophia-Antipolis
+  country: fr
+  year:    2023
+  file:    forum_numerica_2023.pdf
+  related:
+    - CicconePadovani22c
+
 - title:   An Infinitary Proof Theory of Linear Logic Ensuring Fair Termination in the Linear π-Calculus
   venue:   CONCUR
   city:    Warsaw
