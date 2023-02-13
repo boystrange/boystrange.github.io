@@ -16,6 +16,7 @@
 [ICALP 2021]:        http://easyconferences.eu/icalp2021/
 [POPL 2022]:         https://popl22.sigplan.org/
 [TYPES 2022]:        https://types22.inria.fr/
+[TYPES 2023]:        https://types2023.webs.upv.es/Index.html
 [ECOOP 2022]:        https://2022.ecoop.org/
 [CONCUR 2022]:       https://concur2022.mimuw.edu.pl/
 
