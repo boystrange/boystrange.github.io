@@ -4,7 +4,7 @@ title: Publications
 ---
 
 {% assign current_year = 'now' | date: "%Y" %}
-{% assign current_year = 2022 %}
+{% assign current_year = 2023 %}
 {% for y in (2001..current_year) %}
 {% assign year = current_year | minus: y | plus: 2001 %}
 <h2>{{ year }}</h2>

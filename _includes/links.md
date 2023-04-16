@@ -3,6 +3,7 @@
 [CSD]:   http://www.di.unito.it/ "Dipartimento di Informatica"
 [FORMS]: http://beta.di.unito.it/index.php/english/research/groups/formal-methods-software-development/about "Formal Methods in Software Development"
 
+[Ross Horne]:        https://satoss.uni.lu/members/ross/
 [Stephanie Balzer]:  http://www.cs.cmu.edu/~balzers/
 [Giuseppe Castagna]: https://www.irif.fr/~gc/
 [Marco Aldinucci]:   http://alpha.di.unito.it/marco-aldinucci/
@@ -19,6 +20,7 @@
 [TYPES 2023]:        https://types2023.webs.upv.es/Index.html
 [ECOOP 2022]:        https://2022.ecoop.org/
 [CONCUR 2022]:       https://concur2022.mimuw.edu.pl/
+[PLACES 2023]:       https://places-workshop.github.io/2023/
 
 [EasyJoin]:          easyjoin.html
 [DLπ]:               https://gitlab.di.unito.it/luca.padovani/DependentLinearPi

@@ -1,5 +1,43 @@
 [
   {
+    "DOI": "10.4204/EPTCS.378.3",
+    "author": [
+      {
+        "family": "Horne",
+        "given": "Ross"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the 14<sup>th</sup> workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’23)",
+    "editor": [
+      {
+        "family": "Castellani",
+        "given": "Ilaria"
+      },
+      {
+        "family": "Scalas",
+        "given": "Alceste"
+      }
+    ],
+    "id": "HornePadovani23",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "26-37",
+    "publisher": "Open Publishing Association",
+    "title": "A Logical Account of Subtyping for Session Types",
+    "type": "paper-conference",
+    "volume": "378"
+  },
+  {
     "DOI": "10.4230/LIPIcs.CONCUR.2022.36",
     "author": [
       {
