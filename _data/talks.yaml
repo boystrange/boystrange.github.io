@@ -1,3 +1,11 @@
+- title:   A Logical Account of Subtyping for Session Types
+  city:    Paris
+  country: fr
+  year:    2023
+  file:    places_2023.pdf
+  related:
+    - HornePadovani23
+
 - title:   On Sessions, Linear Logic and Unbounded Interactions
   city:    Sophia-Antipolis
   country: fr
