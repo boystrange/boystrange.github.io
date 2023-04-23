@@ -1,5 +1,27 @@
 [
   {
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 28<sup>th</sup> international conference on types for proofs and programs (TYPES’22)",
+    "id": "Padovani23",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "On the Fair Termination of Client-Server Sessions",
+    "type": "paper-conference"
+  },
+  {
     "DOI": "10.4204/EPTCS.378.3",
     "author": [
       {
