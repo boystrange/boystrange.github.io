@@ -16,10 +16,12 @@
         ]
       ]
     },
+    "page": "5:1-5:21",
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
     "publisher-place": "Dagstuhl, Germany",
     "title": "On the Fair Termination of Client-Server Sessions",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "volume": "269"
   },
   {
     "DOI": "10.4204/EPTCS.378.3",
