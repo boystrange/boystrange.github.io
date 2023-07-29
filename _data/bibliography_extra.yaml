@@ -43,6 +43,9 @@ DeLiguoroPadovani18:
   pdf: http://drops.dagstuhl.de/opus/volltexte/2018/9220/pdf/LIPIcs-ECOOP-2018-15.pdf
   long: https://arxiv.org/pdf/1801.04167.pdf
   slides: ecoop_2018
+  dblp: conf/ecoop/deLiguoroP18
+Padovani18B:
+  dblp: journals/jlp/Padovani18
 Padovani19:
   dblp: journals/toplas/Padovani19
 GerboPadovani19:
@@ -52,6 +55,7 @@ GerboPadovani19:
 Padovani18:
   pdf: https://arxiv.org/pdf/1803.10670
   slides: programming_2018
+  dblp: journals/programming/Padovani18
 CrafaPadovani17:
   pdf: http://dl.acm.org/authorize?N30607
 CrafaPadovani15:
