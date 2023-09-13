@@ -1,8 +1,9 @@
-Padovani23:
-  slides: opct_2023
 HornePadovani23:
   dblp: journals/corr/abs-2304-06398
   slides: places_2023
+Padovani22:
+  dblp: conf/types/Padovani22
+  slides: opct_2023
 CicconePadovani22c:
   long: https://arxiv.org/pdf/2207.03749.pdf
   dblp: conf/concur/CicconeP22
