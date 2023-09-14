@@ -1,5 +1,51 @@
 [
   {
+    "DOI": "10.4204/EPTCS.387.2",
+    "author": [
+      {
+        "family": "Castellani",
+        "given": "Ilaria"
+      },
+      {
+        "family": "Dardha",
+        "given": "Ornela"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Sangiorgi",
+        "given": "Davide"
+      }
+    ],
+    "collection-title": "EPTCS",
+    "container-title": "Proceedings of the combined 30<sup>th</sup> international workshop on expressiveness in concurrency and 20<sup>th</sup> workshop on structural operational semantics",
+    "editor": [
+      {
+        "family": "Mezzina",
+        "given": "Claudio Antares"
+      },
+      {
+        "family": "Caltais",
+        "given": "Georgiana"
+      }
+    ],
+    "id": "CastellaniDardhaPadovaniSangiorgi23",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "8-25",
+    "publisher": "Open Publishing Association",
+    "title": "EXPRESSing Session Types",
+    "type": "paper-conference",
+    "volume": "387"
+  },
+  {
     "DOI": "10.4230/LIPIcs.TYPES.2022.5",
     "author": [
       {
