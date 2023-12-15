@@ -1,0 +1,301 @@
+- key:		Sun
+  title:	Sun
+  targets:
+    - date:	"2023-05-06"
+    - date:	"2023-04-15A"
+    - date:	"2023-04-15B"
+- key:		Ven
+  title:	Venus
+  targets:
+    - date:	2023-07-09
+    - date:	2023-07-01
+    - date:	2023-06-17
+    - date:	2023-06-02
+    - date:	2023-05-29
+    - date:	2023-05-27
+- key:		Mar
+  title:	Mars
+  targets:
+    - date:	2023-05-26
+    - date:	2023-04-11
+- key:		Jup
+  title:	Jupiter
+  targets:
+    - date:	"2023-10-13"
+      title:	Jupiter and Europe
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      location:	Ravenna
+      bortle:	7
+    - date:	"2023-09-12"
+      title:	Jupiter and Europe
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      location:	Ravenna
+      bortle:	7
+    - date:	"2023-08-21"
+      title:	Io transit on Jupiter
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      location:	Ravenna
+      bortle:	7
+    - date:	"2023-07-23"
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      location:	Ravenna
+      bortle:	7
+    - date:	"2023-07-14"
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      location:	Gagliole
+      bortle:	4
+    - date:	"2023-08-13"
+    - date:	"2023-08-02"
+    - date:	"2023-07-23"
+      title:	Jupiter, Ganymede and Io
+- key:		Sat
+  title:	Saturn
+  targets:
+    - date:	2023-10-13
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      bortle:	7
+    - date:	2023-10-01
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      bortle:	7
+    - date:	2023-08-17
+    - date:	2023-08-02
+    - date:	2023-07-19
+    - date:	2023-07-10
+    - date:	2023-06-30
+    - date:	2023-06-13
+    - date:	2023-05-28
+- key:		Nep
+  title:	Neptune
+  targets:
+    - date:	2023-08-13
+      title:	Neptune and Triton
+    - date:	2023-07-10
+- key:		Pluto
+  title:	Pluto
+  targets:
+    - date:	2023-06-26
+- key:		M3
+  title:	M3
+  targets:
+    - date:	2023-08-12
+    - date:	2023-07-18
+- key:		M5
+  title:	M5
+  targets:
+    - date:	2023-08-07
+- key:		M8
+  title:	M8 Lagoon Nebula
+  targets:
+    - date:	2023-08-07
+- key:		M11
+  title:	M11 Wild Duck Cluster
+  targets:
+    - date:	2023-08-21
+- key:		M13
+  title:	M13
+  targets:
+    - date:	2023-09-04
+    - date:	2023-08-13
+    - date:	2023-08-12
+- key:		M14
+  title:	M14
+  targets:
+    - date:	2023-06-26
+- key:		M16
+  title:	M16 Eagle Nebula
+  targets:
+    - date:	2023-09-16
+    - date:	2023-09-07
+    - date:	2023-08-09
+    - date:	2023-08-08
+    - date:	2023-07-17
+    - date:	2023-07-10
+    - date:	2023-06-25
+- key:		M17
+  title:	M17 Omega Nebula / Swan Nebula
+  targets:
+    - date:	2023-08-14
+- key:		M20
+  title:	M20 Trifid Nebula
+  targets:
+    - date:	2023-08-10
+    - date:	2023-08-09
+- key:		M22
+  title:	M22
+  targets:
+    - date:	2023-07-10
+- key:		M24
+  title:	M24 Small Sagittarius Star Cloud
+  targets:
+    - date:	2023-08-20
+      scope:	SharpStar 76EDPH + reducer
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      location:	Ravenna
+      bortle:	7
+- key:		M27
+  title:	M27 Dumbbell Nebula
+  targets:
+    - date:	"2023-08-15B"
+    - date:	"2023-08-15A"
+    - date:	"2023-08-10"
+    - date:	"2023-07-19"
+    - date:	"2023-07-10"
+- key:		M31
+  title:	M31 Andromeda Galaxy
+  targets:
+    - date:	2023-10-10
+      scope:	SharpStar 76EDPH + reducer
+      mount:	Skywatcher AZ-GTi
+      camera:	Canon EOS 250D
+      location:	Gagliole
+      bortle:	4
+    - date:	2023-10-08
+      scope:	SharpStar 76EDPH + reducer
+      mount:	Skywatcher AZ-GTi
+      camera:	Canon EOS 250D
+      location:	Ravenna
+      bortle:	7
+    - date:	2023-09-27
+      scope:	SharpStar 76EDPH + reducer
+      mount:	Skywatcher AZ-GTi
+      camera:	Canon EOS 250D
+      location:	Gagliole
+      bortle:	4
+- key:		M42
+  title:	M42 Orion Nebula
+  targets:
+    - date:     2023-12-07
+      scope:    SharpStar 76EDPH + reducer
+      mount:    ZWO AM5
+      camera:   ASI585MC
+      filter:   Svbony UV/IR cut 2"
+      location: Ravenna
+      bortle:   7
+      exposure: 200 × 20s
+      gain:     252
+      notes:    darks, no flats, no biases
+    - date:	2023-03-22
+- key:		M51
+  title:	M51 Whirlpool Galaxy
+  targets:
+    - date:	2023-07-13
+- key:		M57
+  title:	M57 Ring Nebula
+  targets:
+    - date:	2023-08-19
+    - date:	2023-07-12
+- key:		M71
+  title:	M71
+  targets:
+    - date:	2023-08-07
+- key:		M101
+  title:	M101 Pinwheel Galaxy
+  targets:
+    - date:	2023-09-07
+- key:		M104
+  title:	M104 Sombrero Galaxy
+  targets:
+    - date:	2023-06-25
+- key:		C22
+  title:	C22 North America Nebula
+  targets:
+    - date:	2023-09-20
+- key:		C27
+  title:	C27 Crescent Nebula
+  targets:
+    - date:	2023-07-12
+- key:          C34
+  title:	C34 Western Veil / Witch's Broom
+  targets:
+    - date:	2023-11-17
+      scope:	SharpStar 76EDPH + reducer
+      mount:	Skywatcher AZ-GTi
+      camera:	ASI585MC
+      filter:	Svbony UV/IR cut 2"
+      location:	Ravenna
+      bortle:	7
+- key:		C38
+  title:	C38 Needle Galaxy
+  targets:
+    - date:	2023-06-29
+- key:		C63
+  title:	C63 Helix Nebula
+  targets:
+    - date:	2023-08-06
+- key:		NGC6633
+  title:	NGC 6633
+  targets:
+    - date:	2023-08-29
+- key:		NGC6818
+  title:	NGC 6818 Little Gem Nebula
+  targets:
+    - date:	2023-07-19
+- key:          Cr399
+  title:	Collinder 399 / Coathanger
+  targets:
+    - date:	2023-08-22
+- key:          Albireo
+  title:	Albireo
+  targets:
+    - date:	2023-08-15
+    - date:	2023-08-12
+    - date:	2023-07-10
+- key:		Moon
+  title:	Moon
+  targets:
+    - date:	"2023-10-28"
+      title:	Partial lunar eclipse
+      scope:	Vixen A80Mf
+      mount:	Skywatcher AZ-GTi
+      camera:	Canon EOS 250D
+      location: Ravenna
+      bortle:	7
+    - date:	"2023-08-30"
+    - date:	"2023-08-02"
+      title:	Super Moon
+    - date:	"2023-07-22"
+    - date:	"2023-06-29"
+      title:	"Moon (Mare Humorum and Gassendi)"
+    - date:	"2023-06-25"
+      title:	"Moon (Theophilus, Cyrillus and Catharina)"
+    - date:	"2023-06-24"
+    - date:	"2023-05-27"
+    - date:	"2023-04-28A"
+    - date:	"2023-04-28B"
+    - date:	"2023-04-27A"
+    - date:	"2023-04-27B"
+      title:	"Moon (Theophilus, Cyrillus and Catharina)"
+    - date:	"2023-04-08"
+      title:	"Moon (Mare Crisium)"
+    - date:	"2023-04-02A"
+    - date:	"2023-04-02B"
+      title:	"Moon (Copernicus)"
+    - date:	"2023-03-31A"
+      title:	"Moon (Appennines)"
+    - date:	"2023-03-31B"
+    - date:	"2023-03-30"
+    - date:	"2023-03-28A"
+    - date:	"2023-03-28B"
+    - date:	"2023-03-25"
