@@ -197,6 +197,16 @@
       gain:     252
       notes:    darks, no flats, no biases
     - date:	2023-03-22
+    - date: 2023-12-17
+      scope:    SharpStar 76EDPH + reducer
+      mount:    ZWO AM5
+      camera:   ASI585MC
+      filter:   Optolong L-PRO 2"
+      location: Ravenna
+      bortle:   7
+      exposure: 40 × 180s
+      gain:     0
+      notes:    2 darks, no flats, no biases
 - key:		M51
   title:	M51 Whirlpool Galaxy
   targets:
