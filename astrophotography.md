@@ -24,7 +24,7 @@ photos are not available from this site.
 	{% for target in targets %}
 	<div class="pr-5 col-md-1-3">
 	  <div class="astro-container">
-		<img class="rounded shadow-dark" src='/assets/astro/{{ section.key }}-{{ target.date }}.small.png' alt="{{ section.key }}" width="100%"/>
+		<img class="rounded shadow-dark" src='/assets/astro/{{ section.key }}-{{ target.date }}.small.jpg' alt="{{ section.key }}" width="100%"/>
 		{%- if target.title -%}
 		<div class="astro-title">{{ target.title }}</div>
 		{%- else -%}
