@@ -27,7 +27,6 @@
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
-      location:	Ravenna
       bortle:	7
     - date:	"2023-09-12"
       title:	Jupiter and Europe
@@ -35,7 +34,6 @@
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
-      location:	Ravenna
       bortle:	7
     - date:	"2023-08-21"
       title:	Io transit on Jupiter
@@ -43,21 +41,18 @@
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
-      location:	Ravenna
       bortle:	7
     - date:	"2023-07-23"
       scope:	Vixen A80Mf
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
-      location:	Ravenna
       bortle:	7
     - date:	"2023-07-14"
       scope:	Vixen A80Mf
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
-      location:	Gagliole
       bortle:	4
     - date:	"2023-08-13"
     - date:	"2023-08-02"
@@ -152,7 +147,6 @@
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
-      location:	Ravenna
       bortle:	7
 - key:		M27
   title:	M27 Dumbbell Nebula
@@ -169,19 +163,16 @@
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
       camera:	Canon EOS 250D
-      location:	Gagliole
       bortle:	4
     - date:	2023-10-08
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
       camera:	Canon EOS 250D
-      location:	Ravenna
       bortle:	7
     - date:	2023-09-27
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
       camera:	Canon EOS 250D
-      location:	Gagliole
       bortle:	4
 - key:		M42
   title:	M42 Orion Nebula
@@ -191,7 +182,6 @@
       mount:    ZWO AM5
       camera:   ASI585MC
       filter:   Svbony UV/IR cut 2"
-      location: Ravenna
       bortle:   7
       exposure: 200 × 20s
       gain:     252
@@ -202,7 +192,6 @@
       mount:    ZWO AM5
       camera:   ASI585MC
       filter:   Optolong L-PRO 2"
-      location: Ravenna
       bortle:   7
       exposure: 40 × 180s
       gain:     0
@@ -244,7 +233,6 @@
       mount:	Skywatcher AZ-GTi
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
-      location:	Ravenna
       bortle:	7
 - key:		C38
   title:	C38 Needle Galaxy
@@ -272,6 +260,18 @@
     - date:	2023-08-15
     - date:	2023-08-12
     - date:	2023-07-10
+- key:		Alnitak
+  title:	Alnitak (Flame and horsehead nebulae)
+  targets:
+    - date:	2023-12-19
+      scope:    SharpStar 76EDPH + reducer
+      mount:    ZWO AM5
+      camera:   ASI585MC
+      filter:	Optolong L-PRO 2"
+      bortle:   7
+      exposure: 40 × 180s
+      gain:     252
+      notes:    2 darks, no flats, no biases
 - key:		Moon
   title:	Moon
   targets:
@@ -280,7 +280,6 @@
       scope:	Vixen A80Mf
       mount:	Skywatcher AZ-GTi
       camera:	Canon EOS 250D
-      location: Ravenna
       bortle:	7
     - date:	"2023-08-30"
     - date:	"2023-08-02"
