@@ -261,7 +261,7 @@
     - date:	2023-08-12
     - date:	2023-07-10
 - key:		Alnitak
-  title:	Alnitak (Flame and horsehead nebulae)
+  title:	Flame and horsehead nebulae
   targets:
     - date:	2023-12-19
       scope:    SharpStar 76EDPH + reducer
@@ -272,6 +272,18 @@
       exposure: 40 × 180s
       gain:     252
       notes:    2 darks, no flats, no biases
+- key:      Rosette
+  title:    Rosette nebula
+  targets:
+    - date:		2023-12-24
+      scope:    SharpStar 76EDPH + reducer
+      mount:    ZWO AM5
+      camera:   ASI585MC
+      filter:	Optolong L-ENHANCE 2"
+      bortle:   7
+      exposure: 30 × 120s
+      gain:     0
+      moon:     96
 - key:		Moon
   title:	Moon
   targets:
