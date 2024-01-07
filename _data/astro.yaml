@@ -148,6 +148,7 @@
   title:	M27 Dumbbell Nebula
   targets:
     - date:	"2023-08-15B"
+      hidden:	true
     - date:	"2023-08-15A"
     - date:	"2023-08-10"
 - key:		M31
@@ -159,6 +160,7 @@
       camera:	Canon EOS 250D
       bortle:	4
     - date:	2023-10-08
+      hidden:	true
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
       camera:	Canon EOS 250D
@@ -252,7 +254,6 @@
   title:	Albireo
   targets:
     - date:	2023-08-15
-    - date:	2023-08-12
     - date:	2023-07-10
 - key:		Alnitak
   title:	Flame and horsehead nebulae
