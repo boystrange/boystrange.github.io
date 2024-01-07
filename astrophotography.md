@@ -22,6 +22,7 @@ photos are not available from this site.
 	<!-- </div> -->
     {% assign targets = section.targets | sort: "date" | reverse %}
 	{% for target in targets %}
+	{% unless target.hidden %}
 	<div class="pr-5 col-md-1-3">
 	  <div class="astro-container">
 		<img class="rounded shadow-dark" src='/assets/astro/{{ section.key }}-{{ target.date }}.small.jpg' alt="{{ section.key }}" width="100%"/>
@@ -33,6 +34,7 @@ photos are not available from this site.
 		<div class="astro-date">{{ target.date | date: "%b %d, %Y" }}</div>
 	  </div>
 	</div>
+	{% endunless %}
 	{% endfor %}
 	{% endfor %}
 </div>

@@ -9,25 +9,20 @@
   targets:
     - date:	2023-07-09
     - date:	2023-07-01
+      hidden:	true
     - date:	2023-06-17
     - date:	2023-06-02
+      hidden:	true
     - date:	2023-05-29
     - date:	2023-05-27
+      hidden:	true
 - key:		Mar
   title:	Mars
   targets:
-    - date:	2023-05-26
     - date:	2023-04-11
 - key:		Jup
   title:	Jupiter
   targets:
-    - date:	"2023-10-13"
-      title:	Jupiter and Europe
-      scope:	Vixen A80Mf
-      mount:	Skywatcher AZ-GTi
-      camera:	ASI585MC
-      filter:	Svbony UV/IR cut 2"
-      bortle:	7
     - date:	"2023-09-12"
       title:	Jupiter and Europe
       scope:	Vixen A80Mf
@@ -54,8 +49,6 @@
       camera:	ASI585MC
       filter:	Svbony UV/IR cut 2"
       bortle:	4
-    - date:	"2023-08-13"
-    - date:	"2023-08-02"
     - date:	"2023-07-23"
       title:	Jupiter, Ganymede and Io
 - key:		Sat
@@ -75,11 +68,17 @@
       bortle:	7
     - date:	2023-08-17
     - date:	2023-08-02
+      hidden:	true
     - date:	2023-07-19
+      hidden:	true
     - date:	2023-07-10
+      hidden:	true
     - date:	2023-06-30
+      hidden:	true
     - date:	2023-06-13
+      hidden:	true
     - date:	2023-05-28
+      hidden:	true
 - key:		Nep
   title:	Neptune
   targets:
@@ -124,9 +123,6 @@
     - date:	2023-09-07
     - date:	2023-08-09
     - date:	2023-08-08
-    - date:	2023-07-17
-    - date:	2023-07-10
-    - date:	2023-06-25
 - key:		M17
   title:	M17 Omega Nebula / Swan Nebula
   targets:
@@ -154,8 +150,6 @@
     - date:	"2023-08-15B"
     - date:	"2023-08-15A"
     - date:	"2023-08-10"
-    - date:	"2023-07-19"
-    - date:	"2023-07-10"
 - key:		M31
   title:	M31 Andromeda Galaxy
   targets:
@@ -296,13 +290,11 @@
     - date:	"2023-08-30"
     - date:	"2023-08-02"
       title:	Super Moon
-    - date:	"2023-07-22"
     - date:	"2023-06-29"
       title:	"Moon (Mare Humorum and Gassendi)"
     - date:	"2023-06-25"
       title:	"Moon (Theophilus, Cyrillus and Catharina)"
     - date:	"2023-06-24"
-    - date:	"2023-05-27"
     - date:	"2023-04-28A"
     - date:	"2023-04-28B"
     - date:	"2023-04-27A"
@@ -317,6 +309,4 @@
       title:	"Moon (Appennines)"
     - date:	"2023-03-31B"
     - date:	"2023-03-30"
-    - date:	"2023-03-28A"
     - date:	"2023-03-28B"
-    - date:	"2023-03-25"
