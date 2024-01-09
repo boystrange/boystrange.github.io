@@ -246,8 +246,17 @@ span.email::after {
 }
 
 .astro-date {
+    opacity: 0.5;
     font-size: xx-small;
     position: absolute;
     bottom: 8px;
     left:   8px;
+}
+
+.astro-distance {
+    opacity: 0.5;
+    font-size: xx-small;
+    position: absolute;
+    bottom: 8px;
+    right:   8px;
 }

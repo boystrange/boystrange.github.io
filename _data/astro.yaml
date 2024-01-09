@@ -1,12 +1,14 @@
 - key:		Sun
   title:	Sun
-  targets:
+  distance:	1.5813e-5
+  pictures:
     - date:	"2023-05-06"
     - date:	"2023-04-15A"
     - date:	"2023-04-15B"
 - key:		Ven
   title:	Venus
-  targets:
+  distance:	1.94494e-5
+  pictures:
     - date:	2023-07-09
     - date:	2023-07-01
       hidden:	true
@@ -18,11 +20,13 @@
       hidden:	true
 - key:		Mar
   title:	Mars
-  targets:
+  distance:	3.795e-5
+  pictures:
     - date:	2023-04-11
 - key:		Jup
   title:	Jupiter
-  targets:
+  distance:	7.28957e-5
+  pictures:
     - date:	"2023-09-12"
       title:	Jupiter and Europe
       scope:	Vixen A80Mf
@@ -53,7 +57,8 @@
       title:	Jupiter, Ganymede and Io
 - key:		Sat
   title:	Saturn
-  targets:
+  distance:	0.0001644501
+  pictures:
     - date:	2023-10-13
       scope:	Vixen A80Mf
       mount:	Skywatcher AZ-GTi
@@ -81,64 +86,77 @@
       hidden:	true
 - key:		Nep
   title:	Neptune
-  targets:
+  distance:	0.00047880272
+  pictures:
     - date:	2023-08-13
       title:	Neptune and Triton
     - date:	2023-07-10
 - key:		Pluto
   title:	Pluto
-  targets:
+  distance:	0.00056751089
+  pictures:
     - date:	2023-06-26
 - key:		M3
   title:	M3
-  targets:
+  distance:	31000
+  pictures:
     - date:	2023-08-12
     - date:	2023-07-18
 - key:		M5
   title:	M5
-  targets:
+  distance:	23000
+  pictures:
     - date:	2023-08-07
 - key:		M8
   title:	M8 Lagoon Nebula
-  targets:
+  distance:	6500
+  pictures:
     - date:	2023-08-07
 - key:		M11
   title:	M11 Wild Duck Cluster
-  targets:
+  distance:	6000
+  pictures:
     - date:	2023-08-21
 - key:		M13
   title:	M13
-  targets:
+  distance:	22000
+  pictures:
     - date:	2023-09-04
     - date:	2023-08-13
     - date:	2023-08-12
 - key:		M14
   title:	M14
-  targets:
+  distance:	27000
+  pictures:
     - date:	2023-06-26
 - key:		M16
   title:	M16 Eagle Nebula
-  targets:
+  distance:	7000
+  pictures:
     - date:	2023-09-16
     - date:	2023-09-07
     - date:	2023-08-09
     - date:	2023-08-08
 - key:		M17
   title:	M17 Omega Nebula / Swan Nebula
-  targets:
+  distance:	5000
+  pictures:
     - date:	2023-08-14
 - key:		M20
   title:	M20 Trifid Nebula
-  targets:
+  distance:	2200
+  pictures:
     - date:	2023-08-10
     - date:	2023-08-09
 - key:		M22
   title:	M22
-  targets:
+  distance:	10000
+  pictures:
     - date:	2023-07-10
 - key:		M24
   title:	M24 Small Sagittarius Star Cloud
-  targets:
+  distance:	10000
+  pictures:
     - date:	2023-08-20
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
@@ -146,14 +164,16 @@
       bortle:	7
 - key:		M27
   title:	M27 Dumbbell Nebula
-  targets:
+  distance:	1300
+  pictures:
     - date:	"2023-08-15B"
       hidden:	true
     - date:	"2023-08-15A"
     - date:	"2023-08-10"
 - key:		M31
   title:	M31 Andromeda Galaxy
-  targets:
+  distance:	2600000
+  pictures:
     - date:	2023-10-10
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
@@ -172,7 +192,8 @@
       bortle:	4
 - key:		M42
   title:	M42 Orion Nebula
-  targets:
+  distance:	1600
+  pictures:
     - date:     2023-12-07
       scope:    SharpStar 76EDPH + reducer
       mount:    ZWO AM5
@@ -194,36 +215,44 @@
       notes:    2 darks, no flats, no biases
 - key:		M51
   title:	M51 Whirlpool Galaxy
-  targets:
+  distance:	37000000
+  pictures:
     - date:	2023-07-13
 - key:		M57
   title:	M57 Ring Nebula
-  targets:
+  distance:	2300
+  pictures:
     - date:	2023-08-19
     - date:	2023-07-12
 - key:		M71
   title:	M71
-  targets:
+  distance:	12000
+  pictures:
     - date:	2023-08-07
 - key:		M101
   title:	M101 Pinwheel Galaxy
-  targets:
+  distance:	24000000
+  pictures:
     - date:	2023-09-07
 - key:		M104
   title:	M104 Sombrero Galaxy
-  targets:
+  distance:	50000000
+  pictures:
     - date:	2023-06-25
 - key:		C22
   title:	C22 North America Nebula
-  targets:
+  distance:	2590
+  pictures:
     - date:	2023-09-20
 - key:		C27
   title:	C27 Crescent Nebula
-  targets:
+  distance:	5000
+  pictures:
     - date:	2023-07-12
-- key:          C34
+- key:		C34
   title:	C34 Western Veil / Witch's Broom
-  targets:
+  distance:	2400
+  pictures:
     - date:	2023-11-17
       scope:	SharpStar 76EDPH + reducer
       mount:	Skywatcher AZ-GTi
@@ -232,32 +261,39 @@
       bortle:	7
 - key:		C38
   title:	C38 Needle Galaxy
-  targets:
+  distance:	42000000
+  pictures:
     - date:	2023-06-29
 - key:		C63
   title:	C63 Helix Nebula
-  targets:
+  distance:	650
+  pictures:
     - date:	2023-08-06
 - key:		NGC6633
   title:	NGC 6633
-  targets:
+  distance:	1040
+  pictures:
     - date:	2023-08-29
 - key:		NGC6818
   title:	NGC 6818 Little Gem Nebula
-  targets:
+  distance:	6000
+  pictures:
     - date:	2023-07-19
-- key:          Cr399
+- key:		Cr399
   title:	Collinder 399 / Coathanger
-  targets:
+  distance:	420
+  pictures:
     - date:	2023-08-22
-- key:          Albireo
+- key:		Albireo
   title:	Albireo
-  targets:
+  distance:	430
+  pictures:
     - date:	2023-08-15
     - date:	2023-07-10
 - key:		Alnitak
   title:	Flame and horsehead nebulae
-  targets:
+  distance:	1375
+  pictures:
     - date:	2023-12-19
       scope:    SharpStar 76EDPH + reducer
       mount:    ZWO AM5
@@ -267,9 +303,10 @@
       exposure: 40 × 180s
       gain:     252
       notes:    2 darks, no flats, no biases
-- key:      Rosette
-  title:    Rosette nebula
-  targets:
+- key:		Rosette
+  title:    	Rosette nebula
+  distance: 	5200
+  pictures:
     - date:		2023-12-24
       scope:    SharpStar 76EDPH + reducer
       mount:    ZWO AM5
@@ -281,7 +318,8 @@
       moon:     96
 - key:		Moon
   title:	Moon
-  targets:
+  distance:	4.0588832e-8
+  pictures:
     - date:	"2023-10-28"
       title:	Partial lunar eclipse
       scope:	Vixen A80Mf
