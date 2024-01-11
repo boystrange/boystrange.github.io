@@ -240,17 +240,17 @@
   pictures:
     - date:	2023-06-25
 - key:		C22
-  title:	C22 North America Nebula
+  title:	NGC 7000 North America Nebula
   distance:	2590
   pictures:
     - date:	2023-09-20
 - key:		C27
-  title:	C27 Crescent Nebula
+  title:	NGC 6888 Crescent Nebula
   distance:	5000
   pictures:
     - date:	2023-07-12
 - key:		C34
-  title:	C34 Western Veil / Witch's Broom
+  title:	NGC 6960 Western Veil / Witch's Broom
   distance:	2400
   pictures:
     - date:	2023-11-17
@@ -260,12 +260,12 @@
       filter:	Svbony UV/IR cut 2"
       bortle:	7
 - key:		C38
-  title:	C38 Needle Galaxy
+  title:	NGC 4565 Needle Galaxy
   distance:	42000000
   pictures:
     - date:	2023-06-29
 - key:		C63
-  title:	C63 Helix Nebula
+  title:	NGC 7293 Helix Nebula
   distance:	650
   pictures:
     - date:	2023-08-06
@@ -291,7 +291,7 @@
     - date:	2023-08-15
     - date:	2023-07-10
 - key:		Alnitak
-  title:	Flame and horsehead nebulae
+  title:	Flame and Horsehead Nebulae
   distance:	1375
   pictures:
     - date:	2023-12-19
@@ -303,8 +303,8 @@
       exposure: 40 × 180s
       gain:     252
       notes:    2 darks, no flats, no biases
-- key:		Rosette
-  title:    	Rosette nebula
+- key:		C49
+  title:    	Rosette Nebula
   distance: 	5200
   pictures:
     - date:		2023-12-24
