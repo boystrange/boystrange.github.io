@@ -294,7 +294,17 @@
   title:	Flame and Horsehead Nebulae
   distance:	1375
   pictures:
+    - date:	2024-01-12
+      scope:    SharpStar 76EDPH + reducer
+      mount:    ZWO AM5
+      camera:   ASI585MC
+      filter:	Optolong L-PRO 2"
+      bortle:   7
+      exposure: 90 × 120s
+      gain:     0
+      notes:    5 darks, no flats, 30 biases
     - date:	2023-12-19
+      hidden:   true
       scope:    SharpStar 76EDPH + reducer
       mount:    ZWO AM5
       camera:   ASI585MC
@@ -307,7 +317,17 @@
   title:    	Rosette Nebula
   distance: 	5200
   pictures:
+    - date:		2024-01-13
+      scope:    SharpStar 76EDPH + reducer
+      mount:    ZWO AM5
+      camera:   ASI585MC
+      filter:	Optolong L-ENHANCE 2"
+      bortle:   7
+      exposure: 40 × 180s
+      gain:     127
+      moon:     0
     - date:		2023-12-24
+      hidden:   true
       scope:    SharpStar 76EDPH + reducer
       mount:    ZWO AM5
       camera:   ASI585MC
