@@ -14,6 +14,6 @@ processes are guaranteed to be fairly terminating. Fair termination
 is a generalized form of termination whereby all infinite executions
 of a process are deemed unrealistic because they violate some
 fairness assumption. The type system on which FairCheck is based is
-also the first one using [**fair subtyping**]({% link
-publications.md %}#Padovani13B), a liveness-preserving refinement of
-the subtyping relation for session types.
+also the first one using [**fair subtyping**](#Padovani13B), a
+liveness-preserving refinement of the subtyping relation for session
+types.

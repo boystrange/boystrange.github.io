@@ -11,15 +11,6 @@ exclude:
   - package.json
   - node_modules
 
-menu:
-  - blog
-  - teaching
-  - projects
-  - publications
-  - talks
-  - software
-  - astrophotography
-
 permalink: /:year/:month/:day/:title/
 
 theme: jekyll-theme-minimal

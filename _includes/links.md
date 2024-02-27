@@ -22,7 +22,7 @@
 [CONCUR 2022]:       https://concur2022.mimuw.edu.pl/
 [PLACES 2023]:       https://places-workshop.github.io/2023/
 
-[EasyJoin]:          easyjoin.html
+[EasyJoin]:          https://github.com/boystrange/EasyJoin
 [DLπ]:               https://gitlab.di.unito.it/luca.padovani/DependentLinearPi
 [Jekyll]:            https://jekyllrb.com/
 [Greg Restall]:      https://consequently.org/

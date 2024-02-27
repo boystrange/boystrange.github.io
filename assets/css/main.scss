@@ -3,18 +3,20 @@
 
 @import url('https://use.fontawesome.com/releases/v5.11.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700&display=swap');
 
 $my-base-font-size:        16px;
 
-$my-primary-font-family:   "PT Sans", sans-serif;
-$my-secondary-font-family: "PT Sans Narrow", sans-serif;
+$my-primary-font-family:   "Alegreya", serif;
+$my-header-font-family:    "Alegreya Sans", sans-serif;
+$my-secondary-font-family: "Alegreya Sans SC", sans-serif;
 $my-code-font-family:      "Fira Code", monospace;
 
 $my-primary-color:    #303030;
 $my-secondary-color:  #909090;
-$my-link-color:       #0070A0;
-$my-background-color: #FFFFFF;
+$my-link-color:       #A04040;
+$my-background-color: #FFFFF0;
 
 $my-border-radius: 3px;
 
@@ -58,7 +60,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: $my-primary-color;
-    font-weight: bold;
+    font-family: $my-header-font-family;
+    font-weight: medium;
 }
 
 i {
@@ -74,46 +77,20 @@ h1 {
 }
 
 h4 {
-    text-transform: uppercase;
-    font-size: $title-4-size;
     font-family: $my-secondary-font-family;
-	font-weight: normal;
+    text-transform: lowercase;
+    font-size: $title-4-size;
+    font-weight: normal;
     color: gray;
 }
 
 a {
     color: $my-link-color;
-    text-decoration: none !important;
+    text-decoration: underline;
 }
 
-a:hover {
-    text-decoration: underline !important;
-}
-
-header {
-    font-family: $my-secondary-font-family;
-	font-weight: normal;
-    background-color: $my-primary-color;
-    font-size: $title-3-size;
-    a, a:hover {
-	text-transform: uppercase;
-	display: inline-block;
-	color: white;
-	padding: 16px;
-	transition: background-color 0.3s;
-	text-decoration: none !important;
-    }
-
-    a.is-active, a:hover {
-	background-color: darken($my-primary-color, 10%);
-    }
-
-    div.item {
-	text-align: center;
-	vertical-align: middle;
-	margin-left: -16px;
-	margin-right: 16px;
-    }
+a.btn {
+    text-decoration: none;
 }
 
 footer {
@@ -166,7 +143,7 @@ pre {
 
 .btn {
     font-family: $my-secondary-font-family;
-	font-weight: normal;
+    font-weight: normal;
     font-size: small;
     padding: 1px;
     margin-right: 4px;
@@ -182,23 +159,23 @@ pre {
 }
 
 .mylabel {
-    border: none;
+    border: solid;
+    border-width: 1px;
     border-radius: 4px;
+    border-color: $my-link-color;
     font-family: $my-secondary-font-family;
     font-size: small;
     padding: 0px 2px;
     margin-right: 4px;
-    background-color: $my-primary-color;
-    color: white;
+    background-color: transparent;
 
     div {
 	display: inline-block;
-    padding: 0 4px;
-
+	padding: 0 4px;
     }
 
     div.award {
-	text-transform: uppercase;
+	text-transform: lowercase;
     }
 
     a {
@@ -207,7 +184,8 @@ pre {
 	color: white;
 	padding: 0 4px;
 	margin-right: -2px;
-	border-radius: 0 4px 4px 0;
+	text-decoration: none;
+	// border-radius: 0 4px 4px 0;
     }
 }
 
