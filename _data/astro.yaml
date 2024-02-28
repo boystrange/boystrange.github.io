@@ -86,6 +86,7 @@
   distance:	1600
   pictures:
     - date:     2024-02-20
+      title:	"M42 (Orion Nebula), M43 (De Mairan's Nebula) and Sh2-279 (Running Man Nebula)"
 - key:		M51
   title:	M51 Whirlpool Galaxy
   distance:	37000000
@@ -95,6 +96,12 @@
 - key:		M71
   title:	M71
   distance:	12000
+- key:          M81
+  title:        "Bode's Galaxy"
+  distance:     11700000
+  pictures:
+    - date:	2024-02-14
+      title:	"M81 (Bode's Galaxy), M82 (Cigar Galaxy) and NGC 3077"
 - key:		M101
   title:	M101 Pinwheel Galaxy
   distance:	24000000
