@@ -125,6 +125,8 @@
 - key:		Alnitak
   title:	Flame and Horsehead Nebulae
   distance:	1375
+  pictures:
+    - date:	2024-02-03
 - key:		Rosette
   title:    	Rosette Nebula
   distance: 	5200
