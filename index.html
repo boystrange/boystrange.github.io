@@ -215,6 +215,7 @@ title: Latest Posts
 
   {% assign targets = site.data.astro | sort: "distance" | reverse %}
   {% for target in targets %}
+  {% if target.pictures %}
   {% assign photos = target.pictures | sort: "date" | reverse %}
   {% for photo in photos %}
   {% unless photo.hidden %}
@@ -240,5 +241,6 @@ title: Latest Posts
   </div>
   {% endunless %}
   {% endfor %}
+  {% endif %}
   {% endfor %}
 </div>
