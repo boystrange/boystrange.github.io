@@ -20,46 +20,53 @@ title: Latest Posts
     and <em>formal verification</em>.
   </p>
 
-  <h2>Contact Information</h2>
+  <div class="frow gutters">
+    <div class="col-md-1-2">
+      <img src="{% link assets/img/carlotta.png %}" alt="carlotta" width="100%"/>
+    </div>
+    <div class="col-md-1-2">
+      <h2>Contact Information</h2>
 
-  <ul class="fa-ul compact">
-    <li><i class="fa-li fa fa-university fa-fw"></i>
-      <a href="https://www.unicam.it/">Università di Camerino</a>
-    </li>
-    <li><i class="fa-li fa fa-desktop fa-fw"></i>
-      <a href="https://computerscience.unicam.it/">Polo di Informatica</a>
-    </li>
-    <li><i class="fa-li fas fa-location-arrow fa-fw"></i>
-      <a href="https://goo.gl/maps/PtBksR2GwaorrAxi8">see map</a>
-    </li>
-    <li><i class="fa-li fas fa-envelope fa-fw"></i>
-      <span class="email">a.padovani@unica</span>
-    </li>
-    <li><i class="fa-li fas fa-phone"></i>+39 0737 402115</li>
-  </ul>
+      <ul class="fa-ul compact">
+	<li><i class="fa-li fa fa-university fa-fw"></i>
+	  <a href="https://www.unicam.it/">Università di Camerino</a>
+	</li>
+	<li><i class="fa-li fa fa-desktop fa-fw"></i>
+	  <a href="https://computerscience.unicam.it/">Polo di Informatica</a>
+	</li>
+	<li><i class="fa-li fas fa-location-arrow fa-fw"></i>
+	  <a href="https://goo.gl/maps/PtBksR2GwaorrAxi8">see map</a>
+	</li>
+	<li><i class="fa-li fas fa-envelope fa-fw"></i>
+	  <span class="email">a.padovani@unica</span>
+	</li>
+	<li><i class="fa-li fas fa-phone"></i>+39 0737 402115</li>
+      </ul>
 
-  <h2>Public Profiles</h2>
+      <h2>Public Profiles</h2>
 
-  <ul class="fa-ul compact">
-    <li><i class="fa-li fas fa-database"></i>
-      <a href="https://dblp.uni-trier.de/pers/hy/p/Padovani:Luca.html">DBLP computer science bibliography</a>
-    </li>
-    <li><i class="fa-li far fa-user-circle"></i>
-      <a href="https://www.scopus.com/authid/detail.uri?authorId=22433816900">Scopus</a>
-    </li>
-    <li><i class="fa-li fab fa-orcid"></i>
-      <a href="https://orcid.org/0000-0001-9097-1297">ORCiD</a>
-    </li>
-    <li><i class="fa-li fab fa-google"></i>
-      <a href="http://scholar.google.com/citations?user=36Zw1AwAAAAJ">Google Scholar</a>
-    </li>
-    <li><i class="fa-li fab fa-github"></i>
-      <a href="https://github.com/boystrange">GitHub</a>
-    </li>
-    <li><i class="fa-li far fa-thumbs-down"></i>
-      Social networks? No thanks.
-    </li>
-  </ul>
+      <ul class="fa-ul compact">
+	<li><i class="fa-li fas fa-database"></i>
+	  <a href="https://dblp.uni-trier.de/pers/hy/p/Padovani:Luca.html">DBLP computer science bibliography</a>
+	</li>
+	<li><i class="fa-li far fa-user-circle"></i>
+	  <a href="https://www.scopus.com/authid/detail.uri?authorId=22433816900">Scopus</a>
+	</li>
+	<li><i class="fa-li fab fa-orcid"></i>
+	  <a href="https://orcid.org/0000-0001-9097-1297">ORCiD</a>
+	</li>
+	<li><i class="fa-li fab fa-google"></i>
+	  <a href="http://scholar.google.com/citations?user=36Zw1AwAAAAJ">Google Scholar</a>
+	</li>
+	<li><i class="fa-li fab fa-github"></i>
+	  <a href="https://github.com/boystrange">GitHub</a>
+	</li>
+	<li><i class="fa-li far fa-thumbs-down"></i>
+	  Social networks? No thanks.
+	</li>
+      </ul>
+    </div>
+  </div>
 
   <h2>Publications</h2>
   {% assign current_year = 'now' | date: "%Y" %}
@@ -124,38 +131,38 @@ title: Latest Posts
 	{% endif %}
 
 	{% if extra.dblp %}
-	<a class="btn" type="button" href="https://dblp.uni-trier.de/rec/{{ extra.dblp }}?view=bibtex">.bib</a>
+	<a class="btn" type="button" href="https://dblp.uni-trier.de/rec/{{ extra.dblp }}?view=bibtex">bib</a>
 	{% endif %}
 
 	{% if extra.html %}
 	<div class="mylabel">
 	  <div>text</div>
-	  <a href="{{ extra.html }}">.html</a>
+	  <a href="{{ extra.html }}">html</a>
 	</div>
 	{% endif %}
 
 	{% if extra.pdf %}
-	<a class="btn" type="button" href="{{ extra.pdf }}">.pdf</a>
+	<a class="btn" type="button" href="{{ extra.pdf }}">pdf</a>
 	{% endif %}
 
 	{% if extra.preprint %}
 	<div class="mylabel">
 	  <div>preprint</div>
-	  <a href="{{ extra.preprint }}">.pdf</a>
+	  <a href="{{ extra.preprint }}">pdf</a>
 	</div>
 	{% endif %}
 
 	{% if extra.long %}
 	<div class="mylabel">
 	  <div>long version</div>
-	  <a href="{{ extra.long }}">.pdf</a>
+	  <a href="{{ extra.long }}">pdf</a>
 	</div>
 	{% endif %}
 
 	{% if extra.slides %}
 	<div class="mylabel">
 	  <div>slides</div>
-	  <a href="../assets/talks/{{ extra.slides }}.pdf">.pdf</a>
+	  <a href="../assets/talks/{{ extra.slides }}.pdf">pdf</a>
 	</div>
 	{% endif %}
 
@@ -182,7 +189,7 @@ title: Latest Posts
 
 <div class="col-md-1-3">
   <h1>News</h1>
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 3 %}
   <h3>
     {{ post.title }}
     {% if post.link %}
@@ -197,5 +204,41 @@ title: Latest Posts
   <h4 class="date">{{ post.date | date: "%d %B %Y" }}</h4>
 
   {{ post.content }}
+  {% endfor %}
+
+  <h1>Astrophotography</h1>
+
+  <p>
+    I like to take pictures of far away objects. Below are a few
+    samples of the pictures I took.
+  </p>
+
+  {% assign targets = site.data.astro | sort: "distance" | reverse %}
+  {% for target in targets %}
+  {% assign photos = target.pictures | sort: "date" | reverse %}
+  {% for photo in photos %}
+  {% unless photo.hidden %}
+  <div class="astro-container">
+    <img class="rounded shadow-dark" src='/assets/astro/{{ target.key }}-{{ photo.date }}.jpg' alt="{{ section.key }}" width="100%"/>
+    {%- if photo.title -%}
+    <div class="astro-title">{{ photo.title }}</div>
+    {%- else -%}
+    <div class="astro-title">{{ target.title }}</div>
+    {%- endif -%}
+    <div class="astro-date">{{ photo.date | date: "%d %B %Y" }}</div>
+    <div class="astro-distance">
+      {% if target.distance >= 1000000 %}
+      {{ target.distance | divided_by: 1000000.0 | round: 2 | append: " Mly" | replace: ".0 ", " " }}
+      {% elsif target.distance >= 1000 %}
+      {{ target.distance | divided_by: 1000.0 | round: 2 | append: " kly " | replace: ".0 ", " " }}
+      {% elsif target.distance >= 1 %}
+      {{ target.distance | round: 2 | append: " ly" }}
+      {% else %}
+      {{ target.distance | times: 63240 | round: 2 | append: " AU" | replace: ".0 ", " " }}
+      {% endif %}
+    </div>
+  </div>
+  {% endunless %}
+  {% endfor %}
   {% endfor %}
 </div>
