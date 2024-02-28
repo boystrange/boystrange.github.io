@@ -217,15 +217,14 @@ span.email::after {
 .astro-title {
     font-size: xx-small;
     position: absolute;
-    top: 8px;
+    bottom: 8px;
     left: 8px;
 }
 
 .astro-date {
-    opacity: 0.5;
     font-size: xx-small;
     position: absolute;
-    bottom: 8px;
+    top: 8px;
     left:   8px;
     text-transform: lowercase;
 }
