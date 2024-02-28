@@ -22,7 +22,10 @@ title: Latest Posts
 
   <div class="frow gutters">
     <div class="col-md-1-2">
-      <img src="{% link assets/img/carlotta.png %}" alt="carlotta" width="100%"/>
+      <img class="rounded shadow-dark"
+	   src="{% link assets/img/carlotta.png %}"
+	   alt="carlotta"
+	   width="100%"/>
     </div>
     <div class="col-md-1-2">
       <h2>Contact Information</h2>
@@ -210,37 +213,16 @@ title: Latest Posts
 
   <p>
     I like to take pictures of far away objects. Below is a
-    selection of the best pictures I took.
+    selection of the best pictures I took in reverse chronological
+    order.
   </p>
 
-  {% assign targets = site.data.astro | sort: "distance" | reverse %}
+  {% assign targets = site.data.astro | sort: "date" | reverse %}
   {% for target in targets %}
-  {% if target.pictures %}
-  {% assign photos = target.pictures | sort: "date" | reverse %}
-  {% for photo in photos %}
-  {% unless photo.hidden %}
   <div class="astro-container">
-    <img class="rounded shadow-dark" src='/assets/astro/{{ target.key }}-{{ photo.date }}.jpg' alt="{{ section.key }}" width="100%"/>
-    {%- if photo.title -%}
-    <div class="astro-title">{{ photo.title }}</div>
-    {%- else -%}
+    <img class="rounded shadow-dark" src='/assets/astro/{{ target.key }}-{{ target.date }}.jpg' alt="{{ section.key }}" width="100%"/>
     <div class="astro-title">{{ target.title }}</div>
-    {%- endif -%}
-    <div class="astro-date">{{ photo.date | date: "%d %B %Y" }}</div>
-    <div class="astro-distance">
-      {% if target.distance >= 1000000 %}
-      {{ target.distance | divided_by: 1000000.0 | round: 2 | append: " Mly" | replace: ".0 ", " " }}
-      {% elsif target.distance >= 1000 %}
-      {{ target.distance | divided_by: 1000.0 | round: 2 | append: " kly " | replace: ".0 ", " " }}
-      {% elsif target.distance >= 1 %}
-      {{ target.distance | round: 2 | append: " ly" }}
-      {% else %}
-      {{ target.distance | times: 63240 | round: 2 | append: " AU" | replace: ".0 ", " " }}
-      {% endif %}
-    </div>
+    <div class="astro-date">{{ target.date | date: "%d %B %Y" }}</div>
   </div>
-  {% endunless %}
-  {% endfor %}
-  {% endif %}
   {% endfor %}
 </div>

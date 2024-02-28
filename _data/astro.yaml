@@ -1,147 +1,27 @@
-- key:		Sun
-  title:	Sun
-  distance:	1.5813e-5
-- key:		Ven
-  title:	Venus
-  distance:	1.94494e-5
-- key:		Mar
-  title:	Mars
-  distance:	3.795e-5
 - key:		Jup
-  title:	Jupiter
-  distance:	7.28957e-5
-  pictures:
-    - date:	"2023-09-12"
-      title:	Jupiter and Europe
-      scope:	Vixen A80Mf
-      mount:	Skywatcher AZ-GTi
-      camera:	ASI585MC
-      filter:	Svbony UV/IR cut 2"
-      bortle:	7
-    - date:	"2023-08-21"
-      title:	Io transit on Jupiter
-      scope:	Vixen A80Mf
-      mount:	Skywatcher AZ-GTi
-      camera:	ASI585MC
-      filter:	Svbony UV/IR cut 2"
-      bortle:	7
+  title:	Jupiter and Europe
+  date:		2023-09-12
+- key:		Jup
+  date:		2023-08-21
+  title:	Io transit on Jupiter
 - key:		Sat
   title:	Saturn
-  distance:	0.0001644501
-  pictures:
-    - date:	2023-08-16
-- key:		Nep
-  title:	Neptune
-  distance:	0.00047880272
-- key:		Pluto
-  title:	Pluto
-  distance:	0.00056751089
-- key:		M3
-  title:	M3
-  distance:	31000
-- key:		M5
-  title:	M5
-  distance:	23000
-- key:		M8
-  title:	M8 Lagoon Nebula
-  distance:	6500
-- key:		M11
-  title:	M11 Wild Duck Cluster
-  distance:	6000
-- key:		M13
-  title:	M13
-  distance:	22000
-- key:		M14
-  title:	M14
-  distance:	27000
-- key:		M16
-  title:	M16 Eagle Nebula
-  distance:	7000
-- key:		M17
-  title:	M17 Omega Nebula / Swan Nebula
-  distance:	5000
-- key:		M20
-  title:	M20 Trifid Nebula
-  distance:	2200
-- key:		M22
-  title:	M22
-  distance:	10000
-- key:		M24
-  title:	M24 Small Sagittarius Star Cloud
-  distance:	10000
-- key:		M27
-  title:	M27 Dumbbell Nebula
-  distance:	1300
+  date:		2023-08-16
 - key:		M31
   title:	M31 Andromeda Galaxy
-  distance:	2600000
-  pictures:
-    - date:	2023-09-27
-      scope:	SharpStar 76EDPH + reducer
-      mount:	Skywatcher AZ-GTi
-      camera:	Canon EOS 250D
-      bortle:	4
+  date:		2023-09-27
 - key:		M42
-  title:	M42 Orion Nebula
-  distance:	1600
-  pictures:
-    - date:     2024-02-20
-      title:	"M42 (Orion Nebula), M43 (De Mairan's Nebula) and Sh2-279 (Running Man Nebula)"
-- key:		M51
-  title:	M51 Whirlpool Galaxy
-  distance:	37000000
-- key:		M57
-  title:	M57 Ring Nebula
-  distance:	2300
-- key:		M71
-  title:	M71
-  distance:	12000
+  date:		2024-02-20
+  title:	"M42 (Orion Nebula), M43 (De Mairan's Nebula) and Sh2-279 (Running Man Nebula)"
 - key:          M81
-  title:        "Bode's Galaxy"
-  distance:     11700000
-  pictures:
-    - date:	2024-02-14
-      title:	"M81 (Bode's Galaxy), M82 (Cigar Galaxy) and NGC 3077"
-- key:		M101
-  title:	M101 Pinwheel Galaxy
-  distance:	24000000
-- key:		M104
-  title:	M104 Sombrero Galaxy
-  distance:	50000000
-- key:		C22
-  title:	NGC 7000 North America Nebula
-  distance:	2590
-- key:		C27
-  title:	NGC 6888 Crescent Nebula
-  distance:	5000
-- key:		C34
-  title:	NGC 6960 Western Veil / Witch's Broom
-  distance:	2400
-- key:		C38
-  title:	NGC 4565 Needle Galaxy
-  distance:	42000000
-- key:		C63
-  title:	NGC 7293 Helix Nebula
-  distance:	650
-- key:		NGC6633
-  title:	NGC 6633
-  distance:	1040
-- key:		NGC6818
-  title:	NGC 6818 Little Gem Nebula
-  distance:	6000
+  date:		2024-02-14
+  title:	"M81 (Bode's Galaxy), M82 (Cigar Galaxy) and NGC 3077"
 - key:		Alnitak
   title:	Flame and Horsehead Nebulae
-  distance:	1375
-  pictures:
-    - date:	2024-02-03
+  date:		2024-02-03
 - key:		Rosette
   title:    	Rosette Nebula
-  distance: 	5200
-  pictures:
-    - date:		2024-02-13
+  date:		2024-02-13
 - key:		Moon
-  title:	Moon
-  distance:	4.0588832e-8
-  pictures:
-    - date:     "2024-02-25"
-      title:	Mineral moon
+  title:	Mineral moon
+  date:		2024-02-25
