@@ -9,12 +9,23 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   </head>
   <body>
+    <header class="shadow-light">
+      <div class="frow-container">
+	<h1>Hi, I'm <strong>Luca Padovani</strong> and this is my
+	personal website.</h1>
+      </div>
+    </header>
     <div class="frow-container">
       <div class="frow gutters">
 	{{ content }}
       </div>
     </div>
-    {% include footer.html %}
+    <footer>
+      <div class="frow-container">
+	© {{ site.time | date: "%Y" }} Luca Padovani. <em>This page
+	  was generated on {{ site.time | date: "%d %B %Y" }}</em>.
+      </div>
+    </footer>
     <script type="text/javascript">
       window.MathJax = {
 	  options: {
