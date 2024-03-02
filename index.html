@@ -125,49 +125,51 @@ title: Luca Padovani
 
       <div class="frow inline">
 	{% if entry.abstract %}
-	<a class="btn" type="button" onclick="$('#abstract-{{ entry.id }}').toggle(100);">abstract</a>
+	<span class="tag">
+	  <a onclick="$('#abstract-{{ entry.id }}').toggle(100);">abstract</a>
+	</span>
 	{% endif %}
 
 	{% if extra.dblp %}
-	<a class="btn" type="button" href="https://dblp.uni-trier.de/rec/{{ extra.dblp }}?view=bibtex">bib</a>
+	<span class="tag">
+	  <a href="https://dblp.uni-trier.de/rec/{{ extra.dblp }}?view=bibtex">bib</a>
+	</span>
 	{% endif %}
 
 	{% if extra.html %}
-	<div class="mylabel">
-	  <div>text</div>
-	  <a href="{{ extra.html }}">html</a>
-	</div>
+	<span class="tag">
+	  <span>text</span><a href="{{ extra.html }}">html</a>
+	</span>
 	{% endif %}
 
 	{% if extra.pdf %}
-	<a class="btn" type="button" href="{{ extra.pdf }}">pdf</a>
+	<span class="tag">
+	  <a href="{{ extra.pdf }}">pdf</a>
+	</span>
 	{% endif %}
 
 	{% if extra.preprint %}
-	<div class="mylabel">
-	  <div>preprint</div>
-	  <a href="{{ extra.preprint }}">pdf</a>
-	</div>
+	<span class="tag">
+	  <span>preprint</span><a href="{{ extra.preprint }}">pdf</a>
+	</span>
 	{% endif %}
 
 	{% if extra.long %}
-	<div class="mylabel">
-	  <div>long version</div>
-	  <a href="{{ extra.long }}">pdf</a>
-	</div>
+	<span class="tag">
+	  <span>long version</span><a href="{{ extra.long }}">pdf</a>
+	</span>
 	{% endif %}
 
 	{% if extra.slides %}
-	<div class="mylabel">
-	  <div>slides</div>
-	  <a href="../assets/talks/{{ extra.slides }}.pdf">pdf</a>
-	</div>
+	<span class="tag">
+	  <span>slides</span><a href="../assets/talks/{{ extra.slides }}.pdf">pdf</a>
+	</span>
 	{% endif %}
 
 	{% if extra.award %}
-	<div class="mylabel">
-	  <div class="award">{{ extra.award }}</div>
-	</div>
+	<span class="tag">
+	  <span>{{ extra.award }}</span>
+	</span>
 	{% endif %}
       </div>
 
