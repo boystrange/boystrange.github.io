@@ -47,22 +47,29 @@ DeLiguoroPadovani18:
   long: https://arxiv.org/pdf/1801.04167.pdf
   slides: ecoop_2018
   dblp: conf/ecoop/deLiguoroP18
+  git: https://github.com/boystrange/MCC
 Padovani18B:
   dblp: journals/jlp/Padovani18
 Padovani19:
   dblp: journals/toplas/Padovani19
+  git: https://github.com/boystrange/FuSe
 GerboPadovani19:
   pdf: http://eptcs.web.cse.unsw.edu.au/paper.cgi?PLACES2019.3.pdf
   slides: places_2019
   dblp: journals/corr/abs-1904-01286
+  git: https://github.com/boystrange/EasyJoin
 Padovani18:
   pdf: https://arxiv.org/pdf/1803.10670
   slides: programming_2018
   dblp: journals/programming/Padovani18
 CrafaPadovani17:
   pdf: http://dl.acm.org/authorize?N30607
+  dblp: journals/toplas/CrafaP17
+  git: https://github.com/boystrange/CobaltBlue
 CrafaPadovani15:
   slides: oopsla_2015
+  dblp: conf/oopsla/CrafaP15
+  git: https://github.com/boystrange/CobaltBlue
 MelgrattiPadovani17bis:
   slides: icfp_2017
   long: https://iris.unito.it/retrieve/handle/2318/1643911/348493/techreport.pdf
@@ -107,6 +114,11 @@ PadovaniChenTosatto15:
   slides: coordination_2015
 Padovani14B:
   slides: lics_2014
+  git: https://github.com/boystrange/Hypha
+Padovani17A:
+  git: https://github.com/boystrange/FuSe
+Padovani17B:
+  git: https://github.com/boystrange/FuSe
 Padovani14A:
   slides: fossacs_2014
   award: "best paper nomination"
