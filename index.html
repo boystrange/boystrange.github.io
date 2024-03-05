@@ -170,11 +170,18 @@ title: Luca Padovani
 	<span class="tag">
 	  <span>artifact</span>
 	  <a href="{{ extra.git }}">git</a>
+	</span>
 	{% endif %}
 
 	{% if extra.award %}
 	<span class="tag">
-	  <span>{{ extra.award }}</span>
+	  <span><i class="fas fa-star"></i> {{ extra.award }}</span>
+	</span>
+	{% endif %}
+
+	{% if extra.nomination %}
+	<span class="tag">
+	  <span><i class="far fa-star"></i> {{ extra.nomination }}</span>
 	</span>
 	{% endif %}
       </div>

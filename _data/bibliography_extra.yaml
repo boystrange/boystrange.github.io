@@ -12,10 +12,11 @@ CicconePadovani22c:
   slides: concur_2022
 CicconePadovani22b:
   dblp: journals/lmcs/CicconeP22
+  git: https://github.com/boystrange/FairSubtypingAgda
 CicconeDagninoPadovani22:
   pdf: https://drops.dagstuhl.de/opus/volltexte/2022/16254/pdf/LIPIcs-ECOOP-2022-26.pdf
   long: https://arxiv.org/pdf/2205.08786
-  award: "distinguished paper award"
+  award: "distinguished paper"
   award_link: https://2022.ecoop.org/track/ecoop-2022-awards
   dblp: conf/ecoop/CicconeDP22
 BalzerPadovani22:
@@ -28,10 +29,12 @@ CicconePadovani22:
   preprint: ../assets/downloads/fair-termination-preprint.pdf
   long:	    ../assets/downloads/fair-termination-long.pdf
   dblp: journals/pacmpl/CicconeP22
+  git: https://github.com/boystrange/FairCheck
 CicconePadovani21:
   pdf:      https://drops.dagstuhl.de/opus/volltexte/2021/14194/pdf/LIPIcs-ICALP-2021-125.pdf
   long:     https://arxiv.org/pdf/2108.01503.pdf
   dblp: conf/icalp/CicconeP21
+  git: https://github.com/boystrange/FairSubtypingAgda
 BalzerPadovani20:
   dblp: journals/corr/abs-2004-01062
 CicconePadovani20:
@@ -77,10 +80,11 @@ SeveriPadovaniTuostoDezani17:
   pdf: https://lmcs.episciences.org/3725/pdf
 Padovani17B:
   long: https://hal.archives-ouvertes.fr/hal-01385258/document
-  award: "best paper nomination"
+  nomination: "best paper nomination"
   slides: esop_2017
+  git: https://github.com/boystrange/FuSe
 SeveriPadovaniTuostoDezani16:
-  award: "best paper nomination"
+  nomination: "best paper nomination"
 DezaniPadovaniPantovic14:
   pdf: http://rvg.web.cse.unsw.edu.au/eptcs/paper.cgi?PLACES2014.9.pdf
 Padovani13A:
@@ -94,7 +98,7 @@ Padovani09B:
 CastagnaDezaniGiachinoPadovani19:
   dblp: conf/ppdp/CastagnaDGP19
 CastagnaDezaniGiachinoPadovani09:
-  award: "ppdp Most Influential Paper 10-Year Award"
+  award: "ppdp Most Influential Paper"
 DamianiPadovaniSchaefer12:
   award: "eapls best paper"
 Padovani13B:
@@ -117,11 +121,9 @@ Padovani14B:
   git: https://github.com/boystrange/Hypha
 Padovani17A:
   git: https://github.com/boystrange/FuSe
-Padovani17B:
-  git: https://github.com/boystrange/FuSe
 Padovani14A:
   slides: fossacs_2014
-  award: "best paper nomination"
+  nomination: "best paper nomination"
 JaksicPadovani12:
   slides: ppdp_2012
 BonoPadovani12:
