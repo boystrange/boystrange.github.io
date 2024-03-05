@@ -164,14 +164,6 @@ pre {
     min-width: 2rem;
 }
 
-// .tag {
-//     cursor: default !important;
-//     border-color: $my-primary-color;
-//     background-color: transparent;
-//     color: $my-primary-color;
-//     text-transform: uppercase;
-// }
-
 .tag {
     display: inline-block;
     border: solid;
@@ -181,23 +173,16 @@ pre {
     font-family: $my-secondary-font-family;
     font-size: small;
     text-transform: lowercase;
-    opacity: 0.75;
-    padding: 0;
     margin: 0 4px 0 0;
+    white-space: normal;
+    opacity: 0.75;
 
-    &:hover {
-	opacity: 1;
-    }
-
-    span, a {
+    span {
 	border: none;
 	display: inline-block;
-	padding: 0 3px;
-    }
-
-    a {
-	background-color: $my-link-color;
-	color: white;
+	background-color: white;
+	color: $my-link-color;
+	padding: 0 2px;
     }
 
     i {
@@ -205,26 +190,25 @@ pre {
     }
 }
 
-// .label {
-//     color: $my-primary-color;
-//     padding: 0;
-//     width: auto;
-//     margin: 0 4px 0 0;
+span.tag {
+    color: $my-link-color;
+    background-color: white;
+}
 
-//     span {
-// 	padding: 0 4px;
-// 	margin: 0px;
-//     }
-// }
+a.tag {
+    background-color: $my-link-color;
+    color: white;
 
-// .label > a, .tag {
-//     display: inline-block;
-//     background-color: $my-link-color;
-//     color: white;
-//     padding: 0 4px;
-//     margin: 0px;
-//     text-decoration: none;
-// }
+    span:last-child {
+	background-color: $my-link-color;
+	color: white;
+    }
+
+    &:hover {
+	opacity: 1;
+	color: white;
+    }
+}
 
 span.email {
     display: flex;
