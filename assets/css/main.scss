@@ -4,7 +4,6 @@
 @import url('https://use.fontawesome.com/releases/v5.11.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700&display=swap');
 
 $my-base-font-size:        16px;
 
@@ -13,12 +12,12 @@ $my-header-font-family:    "Alegreya Sans SC", sans-serif;
 $my-secondary-font-family: "Alegreya Sans SC", sans-serif;
 $my-code-font-family:      "Fira Code", monospace;
 
-$my-primary-color:    #303030;
-$my-secondary-color:  #909090;
-$my-link-color:       #A03040;
-$my-background-color: #FFFFFF;
+$my-primary-color:    #333;
+$my-secondary-color:  #999;
+$my-link-color:       #A34;
+$my-background-color: #FFF;
 
-$my-border-radius: 3px;
+$my-border-radius: 1px;
 
 $background-color:    $my-background-color;
 $link-color:          $my-link-color;
@@ -71,13 +70,9 @@ i[class^="fa"] {
 
 h1 {
     font-size: $title-1-size;
-    // font-size: 40px;
     font-family: $my-primary-font-family;
     font-weight: normal;
     font-style: italic;
-    // border-style: none none solid none;
-    // border-width: 2px;
-    // border-color: $thick-line-color;
     padding: 1ex 0;
     margin: 0;
     color: white;
@@ -116,10 +111,6 @@ a {
     text-decoration: none !important;
 }
 
-// a.btn {
-//     text-decoration: none;
-// }
-
 .hidden {
     display: none;
 }
@@ -153,15 +144,6 @@ pre {
     border-color: $my-secondary-color;
     text-overflow: ellipsis;
     overflow: hidden;
-}
-
-.btn {
-    font-family: $my-secondary-font-family;
-    font-weight: normal;
-    font-size: small;
-    padding: 1px;
-    margin-right: 4px;
-    min-width: 2rem;
 }
 
 .tag {
@@ -247,6 +229,6 @@ span.email::after {
     font-size: xx-small;
     position: absolute;
     top: 8px;
-    left:   8px;
+    left: 8px;
     text-transform: lowercase;
 }
