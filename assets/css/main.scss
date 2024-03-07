@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url('https://use.fontawesome.com/releases/v5.11.0/css/all.css');
+@import url('https://use.fontawesome.com/releases/v6.5.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -13,7 +13,7 @@ $my-secondary-font-family: "Alegreya Sans SC", sans-serif;
 $my-code-font-family:      "Fira Code", monospace;
 
 $my-primary-color:    #333;
-$my-secondary-color:  #999;
+$my-icon-color:       #04A;
 $my-link-color:       #A34;
 $my-background-color: #FFF;
 
@@ -65,7 +65,7 @@ h2, h3, h4, h5, h6 {
 }
 
 i[class^="fa"] {
-    color: $my-secondary-color;
+    color: $my-link-color;
 }
 
 h1 {
@@ -141,7 +141,6 @@ pre {
     padding: 0.5rem;
     border-style: solid;
     border-width: 1px;
-    border-color: $my-secondary-color;
     text-overflow: ellipsis;
     overflow: hidden;
 }
