@@ -142,21 +142,46 @@ BaldoniEtAl10:
   pdf: http://CEUR-WS.org/Vol-627/coin_9.pdf
 LanevePadovani06:
   slides: fossacs_2005
+BusiPadovani05:
+  dblp: conf/fmoods/BusiP05
 Padovani05:
+  dblp: conf/cc/Padovani05
   slides: cc_2005
+PadovaniSacerdotiCoenZacchiroli04:
+  dblp: conf/gpce/PadovaniCZ04
+  artifact_html: https://gmetadom.sourceforge.net
 Padovani04B:
   slides: guadec_2004
+PadovaniSolmi04:
+  dblp: conf/mkm/PadovaniS04
+Padovani04A:
+  dblp: conf/tex/Padovani04
+  slides: tug_2004
+Padovani03A:
+  dblp: conf/mkm/Padovani03
 Padovani03B:
   pdf: http://www.tug.org/TUGboat/tb24-1/padovani.pdf
+  artifact_html: http://helm.cs.unibo.it/mml-widget/
 MelgrattiPadovani17:
   pdf: http://riverpublishers.com/downloadchapter.php?file=RP_9788793519817C11.pdf
 Padovani17C:
   pdf: http://riverpublishers.com/downloadchapter.php?file=RP_9788793519817C9.pdf
 Padovani09A:
   slides: sfm_2009
+AspertiPadovaniSacerdotiCoenGuidiSchena03:
+  dblp: journals/amai/AspertiPCGS03
 AspertiPadovaniSacerdotiCoenSchena01C:
   html: https://www.gpntb.ru/win/inter-events/crimea2001/tom/sec4/Doc24.html
 XieWattPadovani02:
   pdf: ../assets/downloads/2002-xie-watt-padovani.pdf
+Padovani02:
+  artifact_html: http://helm.cs.unibo.it/mml-widget/
+CasariniPadovani02:
+  artifact_html: http://gdome2.cs.unibo.it
 CasariniPadovani01:
   pdf: ../assets/downloads/2001-casarini-padovani.pdf
+  artifact_html: http://gdome2.cs.unibo.it
+AspertiPadovaniSacerdotiCoenSchena01B:
+  pdf: ../assets/downloads/2001-asperti-padovani-sacerdoti-schena.pdf
+AspertiPadovaniSacerdotiCoenSchena01A:
+  dblp: conf/tphol/AspertiPCS01

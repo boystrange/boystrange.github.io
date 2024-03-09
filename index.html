@@ -176,6 +176,11 @@ title: Luca Padovani
 	  <span>artifact</span>
 	  <span>git</span>
 	</a>
+	{% elsif extra.artifact_html %}
+	<a class="tag" href="{{ extra.artifact_html }}">
+	  <span>artifact</span>
+	  <span>html</span>
+	</a>
 	{% endif %}
 
 	{% if extra.award %}
