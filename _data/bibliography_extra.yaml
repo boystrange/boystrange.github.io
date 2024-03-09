@@ -53,6 +53,8 @@ DeLiguoroPadovani18:
   git: https://github.com/boystrange/MCC
 Padovani18B:
   dblp: journals/jlp/Padovani18
+AldinucciPadovaniTorquati18:
+  dblp: conf/europar/2018
 Padovani19:
   dblp: journals/toplas/Padovani19
   git: https://github.com/boystrange/FuSe
@@ -76,72 +78,155 @@ CrafaPadovani15:
 MelgrattiPadovani17bis:
   slides: icfp_2017
   long: https://iris.unito.it/retrieve/handle/2318/1643911/348493/techreport.pdf
+  dblp: journals/pacmpl/MelgrattiP17
 SeveriPadovaniTuostoDezani17:
   pdf: https://lmcs.episciences.org/3725/pdf
+  dblp: journals/lmcs/SeveriPTD17
 Padovani17B:
   long: https://hal.archives-ouvertes.fr/hal-01385258/document
   nomination: "best paper nomination"
   slides: esop_2017
   git: https://github.com/boystrange/FuSe
+  dblp: conf/esop/Padovani17
+Padovani16:
+  dblp: journals/mscs/Padovani16
+CoppoDezaniYoshidaPadovani16:
+  dblp: journals/mscs/CoppoDYP16
+HuttelEtAl16:
+  dblp: journals/csur/HuttelLVCCDMPRT16
+AnconaEtAl16:
+  dblp: journals/ftpl/AnconaBB0CDGGGH16
 SeveriPadovaniTuostoDezani16:
   nomination: "best paper nomination"
+  dblp: conf/coordination/SeveriPTD16
+CoppoDezaniPadovaniYoshida15:
+  dblp: conf/sfm/CoppoDPY15
 DezaniPadovaniPantovic14:
   pdf: http://rvg.web.cse.unsw.edu.au/eptcs/paper.cgi?PLACES2014.9.pdf
+  dblp: journals/corr/Dezani-CiancagliniPP14
 Padovani13A:
   slides: places_2013
 CastagnaDezaniPadovani12:
   pdf: http://arxiv.org/pdf/1203.0780.pdf
 Padovani11B:
   slides: itrs_2010
+  dblp: journals/corr/abs-1101-4429
 Padovani09B:
   slides: ice_2009
 CastagnaDezaniGiachinoPadovani19:
   dblp: conf/ppdp/CastagnaDGP19
 CastagnaDezaniGiachinoPadovani09:
   award: "ppdp Most Influential Paper"
+  dblp: conf/ppdp/CastagnaDGP09
+CastagnaDezaniPadovani12:
+  dblp: journals/corr/abs-1203-0780
 DamianiPadovaniSchaefer12:
   award: "eapls best paper"
+  dblp: conf/gpce/DamianiPS12
+BonoPadovaniTosatto13:
+  dblp: conf/forte/BonoPT13
+Padovani13A:
+  dblp: journals/corr/Padovani13
 Padovani13B:
   slides: icalp_2013
   long: https://iris.unito.it/retrieve/handle/2318/137477/139272/OpenFairSubtyping.pdf
+  dblp: conf/icalp/Padovani13
+CastagnaDezaniPadovani11:
+  dblp: conf/forte/CastagnaDP11
 Padovani11A:
   slides: coordination_2011
+  dblp: conf/coordination/Padovani11
 CoppoDezaniPadovaniYoshida13B:
   slides: coordination_2013
+  dblp: conf/coordination/CoppoDPY13
 CoppoDezaniPadovaniYoshida13A:
   slides: beat_2013
 Padovani15:
   long: https://arxiv.org/pdf/1510.01752.pdf
+  dblp: journals/corr/Padovani15
 PadovaniNovara15:
   slides: forte_2015
+  dblp: conf/forte/PadovaniN15
 PadovaniChenTosatto15:
   slides: coordination_2015
+  dblp: conf/coordination/PadovaniCT15
+LanevePadovani15:
+  dblp: journals/fac/LaneveP15
+CastagnaEtAl14:
+  dblp: conf/popl/Castagna0XILP14
+PadovaniVieiraVasconcelos14:
+  dblp: conf/coordination/PadovaniVV14
 Padovani14B:
   slides: lics_2014
   git: https://github.com/boystrange/Hypha
+  dblp: conf/csl/Padovani14
+JaksicPadovani14:
+  dblp: journals/scp/JaksicP14
 Padovani17A:
   git: https://github.com/boystrange/FuSe
+  dblp: journals/jfp/Padovani17
 Padovani14A:
   slides: fossacs_2014
   nomination: "best paper nomination"
+  dblp: conf/fossacs/Padovani14
+LanevePadovani13:
+  dblp: conf/ifm/LaneveP13
+Padovani12:
+  dblp: journals/mscs/Padovani12
 JaksicPadovani12:
   slides: ppdp_2012
+  dblp: conf/ppdp/JaksicP12
 BonoPadovani12:
+  dblp: journals/corr/abs-1202-2086
   pdf: http://arxiv.org/pdf/1202.2086.pdf
 BonoPadovani11:
   slides: ice_2011
+  dblp: journals/corr/abs-1108-0466
+BonoMessaPadovani11:
+  dblp: conf/esop/BonoMP11
+CastagnaGesbertPadovani09:
+  dblp: journals/toplas/CastagnaGP09
+Padovani09B:
+  dblp: journals/corr/abs-0911-5449
+  slides: ice_2009
+Padovani09A:
+  dblp: conf/sfm/Padovani09
+CarpinetiLanevePadovani09:
+  dblp: journals/scp/CarpinetiLP09
+BernardoPadovaniZavattaro09:
+  dblp: conf/sfm/2009
 CastagnaPadovani09:
   slides: concur_2009
+  dblp: conf/concur/CastagnaP09
 Padovani08:
   slides: concur_2008
+  dblp: conf/concur/Padovani08
+CastagnaGesbertPadovani08:
+  dblp: conf/popl/CastagnaGP08
+LanevePadovani08:
+  dblp: conf/birthday/LaneveP08
 LanevePadovani19:
   dblp: conf/birthday/LaneveP19
 LanevePadovani07:
   slides: concur_2007
+  dblp: conf/concur/LaneveP07
+BernardoPadovani07:
+  dblp: conf/fmoods/BernardoP07
+CastagnaGesbertPadovani07:
+  dblp: conf/planX/CastagnaGP07
+Padovani10:
+  dblp: journals/tcs/Padovani10
 BaldoniEtAl10:
   pdf: http://CEUR-WS.org/Vol-627/coin_9.pdf
+  dblp: conf/mallow/BaldoniBBBMMMPPRRS10
+CarpinetiCastagnaLanevePadovani06:
+  dblp: conf/wsfm/CarpinetiCLP06
+  slides: wsfm_2006
 LanevePadovani06:
   slides: fossacs_2005
+  dblp: conf/fossacs/LaneveP06
+PadovaniZacchiroli06:
+  dblp: conf/mkm/PadovaniZ06
 BusiPadovani05:
   dblp: conf/fmoods/BusiP05
 Padovani05:
