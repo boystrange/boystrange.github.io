@@ -104,8 +104,6 @@ CoppoDezaniPadovaniYoshida15:
 DezaniPadovaniPantovic14:
   pdf: http://rvg.web.cse.unsw.edu.au/eptcs/paper.cgi?PLACES2014.9.pdf
   dblp: journals/corr/Dezani-CiancagliniPP14
-Padovani13A:
-  slides: places_2013
 CastagnaDezaniPadovani12:
   pdf: http://arxiv.org/pdf/1203.0780.pdf
 Padovani11B:
@@ -126,6 +124,7 @@ DamianiPadovaniSchaefer12:
 BonoPadovaniTosatto13:
   dblp: conf/forte/BonoPT13
 Padovani13A:
+  slides: places_2013
   dblp: journals/corr/Padovani13
 Padovani13B:
   slides: icalp_2013
