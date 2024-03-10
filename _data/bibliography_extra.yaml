@@ -266,7 +266,9 @@ CasariniPadovani02:
 CasariniPadovani01:
   pdf: ../assets/downloads/2001-casarini-padovani.pdf
   artifact_html: http://gdome2.cs.unibo.it
+  dblp: conf/extreme/CasariniP01
 AspertiPadovaniSacerdotiCoenSchena01B:
   pdf: ../assets/downloads/2001-asperti-padovani-sacerdoti-schena.pdf
+  dblp: conf/extreme/AspertiPCS01
 AspertiPadovaniSacerdotiCoenSchena01A:
   dblp: conf/tphol/AspertiPCS01
