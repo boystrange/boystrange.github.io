@@ -11,6 +11,8 @@ SOURCES = \
   M42-2024-02-20 \
   M81-2024-02-14 \
   Rosette-2024-02-13 \
+  leo-triplet-closeup-2024-03-12 \
+  12P-Pons-Brooks-2024-03-12 \
   $(NULL)
 
 FOLDER = /Users/luca/Documents/Astro/Final
