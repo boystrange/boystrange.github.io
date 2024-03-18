@@ -13,6 +13,7 @@ SOURCES = \
   Rosette-2024-02-13 \
   leo-triplet-closeup-2024-03-12 \
   12P-Pons-Brooks-2024-03-12 \
+  IC443-2024-03-13 \
   $(NULL)
 
 FOLDER = /Users/luca/Documents/Astro/Final
