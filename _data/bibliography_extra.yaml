@@ -230,7 +230,7 @@ BusiPadovani05:
   dblp: conf/fmoods/BusiP05
 Padovani05:
   dblp: conf/cc/Padovani05
-  artifact_git: https://github.com/boystrange/PET
+  git: https://github.com/boystrange/PET
   slides: cc_2005
 PadovaniSacerdotiCoenZacchiroli04:
   dblp: conf/gpce/PadovaniCZ04
