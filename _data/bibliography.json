@@ -1,5 +1,33 @@
 [
   {
+    "DOI": "https://doi.org/10.1016/j.jlamp.2024.100964",
+    "author": [
+      {
+        "family": "Ciccone",
+        "given": "Luca"
+      },
+      {
+        "family": "Dagnino",
+        "given": "Francesco"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Journal of Logical and Algebraic Methods in Programming",
+    "id": "CicconeDagninoPadovani24",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Fair Termination of Multiparty Sessions",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.4204/EPTCS.387.2",
     "author": [
       {
@@ -153,7 +181,6 @@
   },
   {
     "DOI": "10.46298/LMCS-18(3:27)2022",
-    "URL": "https://arxiv.org/pdf/2108.01503.pdf",
     "author": [
       {
         "family": "Ciccone",
@@ -250,7 +277,6 @@
   },
   {
     "DOI": "10.1145/3498666",
-    "URL": "assets/downloads/fair-termination-preprint.pdf",
     "abstract": "A binary session is a private communication channel that connects two processes, each adhering to a protocol description called session type. In this work, we study the first type system that ensures the fair termination of binary sessions. A session fairly terminates if all of the infinite executions admitted by its protocol are deemed “unrealistic” because they violate certain fairness assumptions. Fair termination entails the eventual completion of all pending input/output actions, including those that depend on the completion of an unbounded number of other actions in possibly different sessions. This form of lock freedom allows us to address a large family of natural communication patterns that fall outside the scope of existing type systems. Our type system is also the first to adopt fair subtyping, a liveness-preserving refinement of the standard subtyping relation for session types that so far has only been studied theoretically. Fair subtyping is surprisingly subtle not only to characterize concisely but also to use appropriately, to the point that the type system must carefully account for all usages of fair subtyping to avoid compromising its liveness-preserving properties.",
     "author": [
       {
@@ -340,7 +366,6 @@
   },
   {
     "DOI": "10.4230/LIPIcs.ICALP.2021.125",
-    "URL": "https://drops.dagstuhl.de/opus/volltexte/2021/14194/pdf/LIPIcs-ICALP-2021-125.pdf",
     "author": [
       {
         "family": "Ciccone",
@@ -410,7 +435,6 @@
   },
   {
     "DOI": "10.4230/LIPIcs.CONCUR.2020.14",
-    "URL": "https://drops.dagstuhl.de/opus/volltexte/2020/12826/pdf/LIPIcs-CONCUR-2020-14.pdf",
     "author": [
       {
         "family": "Inverso",
@@ -462,7 +486,6 @@
   },
   {
     "DOI": "10.4230/LIPIcs.ECOOP.2018.15",
-    "URL": "http://drops.dagstuhl.de/opus/volltexte/2018/9220/pdf/LIPIcs-ECOOP-2018-15.pdf",
     "author": [
       {
         "family": "Liguoro",
@@ -493,7 +516,6 @@
   },
   {
     "DOI": "10.4204/EPTCS.291.3",
-    "URL": "http://eptcs.web.cse.unsw.edu.au/paper.cgi?PLACES2019.3.pdf",
     "author": [
       {
         "family": "Gerbo",
@@ -545,7 +567,6 @@
   },
   {
     "DOI": "10.22152/programming-journal.org/2018/2/15",
-    "URL": "https://arxiv.org/pdf/1803.10670",
     "author": [
       {
         "family": "Padovani",
@@ -569,7 +590,6 @@
   },
   {
     "DOI": "10.1145/3064849",
-    "URL": "http://dl.acm.org/authorize?N30607",
     "author": [
       {
         "family": "Crafa",
@@ -597,7 +617,6 @@
   },
   {
     "DOI": "10.1145/2814270.2814287",
-    "URL": "http://dl.acm.org/authorize?N30609",
     "author": [
       {
         "family": "Crafa",
@@ -710,7 +729,6 @@
   },
   {
     "DOI": "10.23638/LMCS-13(2:9)2017",
-    "URL": "https://lmcs.episciences.org/3725/pdf",
     "author": [
       {
         "family": "Severi",
@@ -767,7 +785,6 @@
   },
   {
     "DOI": "10.1007/978-3-662-54434-1_30",
-    "URL": "https://hal.archives-ouvertes.fr/hal-01385258/document",
     "author": [
       {
         "family": "Padovani",
@@ -792,7 +809,6 @@
   },
   {
     "DOI": "10.1145/2873052",
-    "URL": "http://dl.acm.org/authorize?N30608",
     "author": [
       {
         "family": "Hüttel",
@@ -991,7 +1007,6 @@
   },
   {
     "DOI": "10.4204/EPTCS.155.9",
-    "URL": "http://rvg.web.cse.unsw.edu.au/eptcs/paper.cgi?PLACES2014.9.pdf",
     "abstract": "There has been a considerable amount of work on retrieving functions in function libraries using their type as search key. The availability of rich component specifications, in the form of behavioral types, enables similar queries where one can search a component library using the behavioral type of a component as the search key. Just like for function libraries, however, component libraries will contain components whose type differs from the searched one in the order of messages or in the position of the branching points. Thus, it makes sense to also look for those components whose type is different from, but isomorphic to, the searched one.In this article we give semantic and axiomatic characterizations of isomorphic session types. The theory of session type isomorphisms turns out to be subtle. In part this is due to the fact that it relies on a non-standard notion of equivalence between processes. In addition, we do not know whether the axiomatization is complete. It is known that the isomorphisms for arrow, product and sum types are not finitely axiomatisable, but it is not clear yet whether this negative results holds also for the family of types we consider in this work.",
     "author": [
       {
@@ -1050,7 +1065,6 @@
   },
   {
     "DOI": "10.2168/LMCS-8(1:24)2012",
-    "URL": "http://arxiv.org/pdf/1203.0780.pdf",
     "author": [
       {
         "family": "Castagna",
@@ -1501,7 +1515,6 @@
   },
   {
     "DOI": "10.2168/LMCS-11(4:13)2015",
-    "URL": "https://arxiv.org/pdf/1510.01752.pdf",
     "author": [
       {
         "family": "Padovani",
@@ -1584,7 +1597,6 @@
   },
   {
     "DOI": "10.1145/2603088.2603116",
-    "URL": "http://dl.acm.org/authorize?N30600",
     "author": [
       {
         "family": "Padovani",
@@ -1719,7 +1731,6 @@
   },
   {
     "DOI": "10.2168/LMCS-8(1:17)2012",
-    "URL": "http://arxiv.org/pdf/1202.2086.pdf",
     "abstract": "We present a calculus that models a form of process interaction based on copyless message passing, in the style of Singularity OS. The calculus is equipped with a type system ensuring that well-typed processes are free from memory faults, memory leaks, and communication errors. The type system is essentially linear, but we show that linearity alone is inadequate, because it leaves room for scenarios where well-typed processes leak significant amounts of memory. We address these problems basing the type system upon an original variant of session types.",
     "author": [
       {
