@@ -40,6 +40,7 @@ BalzerPadovani20:
 CicconePadovani20:
   preprint: https://iris.unito.it/retrieve/handle/2318/1739403/612000/main.pdf
   dblp: conf/ppdp/CicconeP20
+  git: https://gitlab.di.unito.it/luca.padovani/DependentLinearPi
 InversoMelgrattiPadovaniTrubianiTuosto20:
   pdf: https://drops.dagstuhl.de/opus/volltexte/2020/12826/pdf/LIPIcs-CONCUR-2020-14.pdf
   long: https://arxiv.org/pdf/2007.11832.pdf
