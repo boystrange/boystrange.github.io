@@ -94,11 +94,13 @@ title: Luca Padovani
       <span id="{{ entry.id }}">
 	{% if entry.author %}
 	{% for person in entry.author %}
-	{{ person.given }} {{ person.family }},
+	{{ person.given }} {{ person.family }}
+	{%- if forloop.rindex0 == 1 %} and {% else %}, {% endif %}
 	{% endfor %}
 	{% elsif entry.editor %}
 	{% for person in entry.editor %}
-	{{ person.given }} {{ person.family }},
+	{{ person.given }} {{ person.family }}
+	{%- if forloop.rindex0 == 1 %} and {% else %}, {% endif %}
 	{% endfor %}
 	{% endif %}
       </span>
