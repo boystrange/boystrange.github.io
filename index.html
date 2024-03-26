@@ -247,4 +247,16 @@ title: Luca Padovani
     <div class="astro-date">{{ target.date | date: "%d %B %Y" }}</div>
   </div>
   {% endfor %}
+
+  <h2>Quotes</h2>
+
+  {% for quote in site.data.quotes %}
+  <blockquote>
+    <em>&#8220;{{ quote.text }}&#8221;</em>,
+    <a href="{{ quote.source }}">
+      {{ quote.author }}
+      {%- if quote.year %}, {{ quote.year }}{% endif %}
+    </a>
+  </blockquote>
+  {% endfor %}
 </div>
