@@ -1,5 +1,78 @@
 [
   {
+    "author": [
+      {
+        "family": "Carbone",
+        "given": "Marco"
+      },
+      {
+        "family": "Castro-Perez",
+        "given": "David"
+      },
+      {
+        "family": "Ferreira",
+        "given": "Francisco"
+      },
+      {
+        "family": "Gheri",
+        "given": "Lorenzo"
+      },
+      {
+        "family": "Jacobsen",
+        "given": "Frederik Krogsdal"
+      },
+      {
+        "family": "Momigliano",
+        "given": "Alberto"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Scalas",
+        "given": "Alceste"
+      },
+      {
+        "family": "Tirore",
+        "given": "Dawit"
+      },
+      {
+        "family": "Vassor",
+        "given": "Martin"
+      },
+      {
+        "family": "Yoshida",
+        "given": "Nobuko"
+      },
+      {
+        "family": "Zackon",
+        "given": "Daniel"
+      }
+    ],
+    "container-title": "Proceedings of the 26<sup>th</sup> International Conference on Coordination Models and Languages (COORDINATION’24)",
+    "editor": [
+      {
+        "family": "Castellani",
+        "given": "Ilaria"
+      },
+      {
+        "family": "Tiezzi",
+        "given": "Francesco"
+      }
+    ],
+    "id": "CarboneEtAl24",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "The Concurrent Calculi Formalisation Benchmark",
+    "type": "paper-conference"
+  },
+  {
     "DOI": "https://doi.org/10.1016/j.jlamp.2024.100964",
     "author": [
       {
@@ -83,7 +156,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 28<sup>th</sup> international conference on types for proofs and programs (TYPES’22)",
+    "container-title": "Proceedings of the 28<sup>th</sup> International Conference on Types for Proofs and Programs (TYPES’22)",
     "id": "Padovani22",
     "issued": {
       "date-parts": [
@@ -112,7 +185,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of the 14<sup>th</sup> workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’23)",
+    "container-title": "Proceedings of the 14<sup>th</sup> Workshop on Programming Language Approaches to Concurrency and Communication-cEntric Software (PLACES’23)",
     "editor": [
       {
         "family": "Castellani",
@@ -150,7 +223,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 33<sup>rd</sup> international conference on concurrency theory (CONCUR’22)",
+    "container-title": "Proceedings of the 33<sup>rd</sup> International Conference on Concurrency Theory (CONCUR’22)",
     "editor": [
       {
         "family": "Klin",
@@ -223,7 +296,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 36<sup>th</sup> european conference on object-oriented programming (ECOOP’22)",
+    "container-title": "Proceedings of the 36<sup>th</sup> European Conference on Object-Oriented Programming (ECOOP’22)",
     "editor": [
       {
         "family": "Ali",
@@ -378,7 +451,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 48<sup>th</sup> international colloquium on automata, languages, and programming (ICALP’21)",
+    "container-title": "Proceedings of the 48<sup>th</sup> International Colloquium on Automata, Languages, and Programming (ICALP’21)",
     "editor": [
       {
         "family": "Bansal",
@@ -420,7 +493,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the 22<sup>nd</sup> international symposium on principles and practice of declarative programming (PPDP’20)",
+    "container-title": "Proceedings of the 22<sup>nd</sup> International Symposium on Principles and Practice of Declarative Programming (PPDP’20)",
     "id": "CicconePadovani20",
     "issued": {
       "date-parts": [
@@ -459,7 +532,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 31<sup>st</sup> international conference on concurrency theory (CONCUR’20)",
+    "container-title": "Proceedings of the 31<sup>st</sup> International Conference on Concurrency Theory (CONCUR’20)",
     "editor": [
       {
         "family": "Konnov",
@@ -499,7 +572,7 @@
       }
     ],
     "collection-title": "LIPIcs",
-    "container-title": "Proceedings of the 32<sup>nd</sup> european conference on object-oriented programming (ECOOP’18)",
+    "container-title": "Proceedings of the 32<sup>nd</sup> European Conference on Object-Oriented Programming (ECOOP’18)",
     "id": "DeLiguoroPadovani18",
     "issued": {
       "date-parts": [
@@ -528,7 +601,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of the 11<sup>th</sup> workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’19)",
+    "container-title": "Proceedings of the 11<sup>th</sup> Workshop on Programming Language Approaches to Concurrency and Communication-cEntric Software (PLACES’19)",
     "id": "GerboPadovani19",
     "issued": {
       "date-parts": [
@@ -629,7 +702,7 @@
       }
     ],
     "collection-title": "ACM SIGPLAN notices",
-    "container-title": "Proceedings of the ACM international conference on object oriented programming systems languages & applications (OOPSLA’15)",
+    "container-title": "Proceedings of the ACM International Conference on Object Oriented Programming Systems Languages & Applications (OOPSLA’15)",
     "id": "CrafaPadovani15",
     "issued": {
       "date-parts": [
@@ -664,7 +737,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the 21<sup>st</sup> international ACM SIGPLAN symposium on principles and practice of declarative programming (PPDP’19)",
+    "container-title": "Proceedings of the 21<sup>st</sup> International ACM SIGPLAN Symposium on Principles and Practice of Declarative Programming (PPDP’19)",
     "id": "CastagnaDezaniGiachinoPadovani19",
     "issued": {
       "date-parts": [
@@ -793,7 +866,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 26<sup>th</sup> european symposium on programming (ESOP’17)",
+    "container-title": "Proceedings of the 26<sup>th</sup> European Symposium on Programming (ESOP’17)",
     "id": "Padovani17B",
     "issued": {
       "date-parts": [
@@ -991,7 +1064,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 18<sup>th</sup> international conference on coordination models and languages (COORDINATION’16)",
+    "container-title": "Proceedings of the 18<sup>th</sup> International Conference on Coordination Models and Languages (COORDINATION’16)",
     "id": "SeveriPadovaniTuostoDezani16",
     "issued": {
       "date-parts": [
@@ -1024,7 +1097,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of the workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’14)",
+    "container-title": "Proceedings of the Workshop on Programming Language Approaches to Concurrency and Communication-cEntric Software (PLACES’14)",
     "id": "DezaniPadovaniPantovic14",
     "issued": {
       "date-parts": [
@@ -1049,7 +1122,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of workshop on programming language approaches to concurrency and communication-cEntric software (PLACES’13)",
+    "container-title": "Proceedings of Workshop on Programming Language Approaches to Concurrency and Communication-cEntric Software (PLACES’13)",
     "id": "Padovani13A",
     "issued": {
       "date-parts": [
@@ -1136,7 +1209,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the IFIP international conference on formal methods for open object-based distributed systems (FMOODS’11)",
+    "container-title": "Proceedings of the IFIP International Conference on Formal Methods for Open Object-based Distributed Systems (FMOODS’11)",
     "id": "CastagnaDezaniPadovani11",
     "issued": {
       "date-parts": [
@@ -1161,7 +1234,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of the workshop on intersection types and related systems (ITRS’10)",
+    "container-title": "Proceedings of the Workshop on Intersection Types and Related Systems (ITRS’10)",
     "id": "Padovani11B",
     "issued": {
       "date-parts": [
@@ -1186,7 +1259,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of the 2<sup>nd</sup> interaction and concurrency experience (ICE’09)",
+    "container-title": "Proceedings of the 2<sup>nd</sup> Interaction and Concurrency Experience (ICE’09)",
     "id": "Padovani09B",
     "issued": {
       "date-parts": [
@@ -1222,7 +1295,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the 11<sup>th</sup> international ACM SIGPLAN symposium on principles and practice of declarative programming (PPDP’09)",
+    "container-title": "Proceedings of the 11<sup>th</sup> International ACM SIGPLAN Symposium on Principles and Practice of Declarative Programming (PPDP’09)",
     "id": "CastagnaDezaniGiachinoPadovani09",
     "issued": {
       "date-parts": [
@@ -1289,7 +1362,7 @@
       }
     ],
     "collection-title": "ACM SIGPLAN notices",
-    "container-title": "Proceedings of the 11<sup>th</sup> international conference on generative programming and component engineering (GPCE’12)",
+    "container-title": "Proceedings of the 11<sup>th</sup> International Conference on Generative Programming and Component Engineering (GPCE’12)",
     "id": "DamianiPadovaniSchaefer12",
     "issued": {
       "date-parts": [
@@ -1336,7 +1409,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 40<sup>th</sup> international colloquium on automata, languages and programming (ICALP’13), part II",
+    "container-title": "Proceedings of the 40<sup>th</sup> International Colloquium on Automata, Languages and Programming (ICALP’13), Part II",
     "id": "Padovani13B",
     "issued": {
       "date-parts": [
@@ -1361,7 +1434,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 13<sup>th</sup> international conference on coordination models and languages (COORDINATION’11)",
+    "container-title": "Proceedings of the 13<sup>th</sup> International Conference on Coordination Models and Languages (COORDINATION’11)",
     "id": "Padovani11A",
     "issued": {
       "date-parts": [
@@ -1429,7 +1502,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 16<sup>th</sup> international conference on coordination models and languages (COORDINATION’14)",
+    "container-title": "Proceedings of the 16<sup>th</sup> International Conference on Coordination Models and Languages (COORDINATION’14)",
     "id": "PadovaniVieiraVasconcelos14",
     "issued": {
       "date-parts": [
@@ -1465,7 +1538,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 15<sup>th</sup> international conference on coordination models and languages (COORDINATION’13)",
+    "container-title": "Proceedings of the 15<sup>th</sup> International Conference on Coordination Models and Languages (COORDINATION’13)",
     "id": "CoppoDezaniPadovaniYoshida13B",
     "issued": {
       "date-parts": [
@@ -1501,7 +1574,7 @@
         "given": "Nobuko"
       }
     ],
-    "container-title": "Proceedings of the 1<sup>st</sup> international workshop on behavioural types (BEAT’13)",
+    "container-title": "Proceedings of the 1<sup>st</sup> International Workshop on Behavioural Types (BEAT’13)",
     "id": "CoppoDezaniPadovaniYoshida13A",
     "issued": {
       "date-parts": [
@@ -1549,7 +1622,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the IFIP international conference on formal methods and techniques (FORTE’15)",
+    "container-title": "Proceedings of the IFIP International Conference on Formal Methods and Techniques (FORTE’15)",
     "id": "PadovaniNovara15",
     "issued": {
       "date-parts": [
@@ -1581,7 +1654,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 17<sup>th</sup> international conference on coordination models and languages (COORDINATION’15)",
+    "container-title": "Proceedings of the 17<sup>th</sup> International Conference on Coordination Models and Languages (COORDINATION’15)",
     "id": "PadovaniChenTosatto15",
     "issued": {
       "date-parts": [
@@ -1604,7 +1677,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the joint EACSL annual conference on computer science logic and annual ACM/IEEE symposium on logic in computer science (CSL-LICS’14)",
+    "container-title": "Proceedings of the Joint EACSL Annual Conference on Computer Science Logic and Annual ACM/IEEE Symposium on Logic In Computer Science (CSL-LICS’14)",
     "id": "Padovani14B",
     "issued": {
       "date-parts": [
@@ -1627,7 +1700,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 17<sup>th</sup> international conference on foundations of software science and computation structures (FoSSaCS’14)",
+    "container-title": "Proceedings of the 17<sup>th</sup> International Conference on Foundations of Software Science and Computation Structures (FoSSaCS’14)",
     "id": "Padovani14A",
     "issued": {
       "date-parts": [
@@ -1688,7 +1761,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the IFIP international conference on formal methods and techniques (FORTE’13)",
+    "container-title": "Proceedings of the IFIP International Conference on Formal Methods and Techniques (FORTE’13)",
     "id": "BonoPadovaniTosatto13",
     "issued": {
       "date-parts": [
@@ -1716,7 +1789,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the 14<sup>th</sup> international ACM SIGPLAN symposium on principles and practice of declarative programming (PPDP’12)",
+    "container-title": "Proceedings of the 14<sup>th</sup> International ACM SIGPLAN Symposium on Principles and Practice of Declarative Programming (PPDP’12)",
     "id": "JaksicPadovani12",
     "issued": {
       "date-parts": [
@@ -1771,7 +1844,7 @@
       }
     ],
     "collection-title": "EPTCS",
-    "container-title": "Proceedings of the 4<sup>th</sup> interaction and concurrency experience (ICE’11)",
+    "container-title": "Proceedings of the 4<sup>th</sup> Interaction and Concurrency Experience (ICE’11)",
     "id": "BonoPadovani11",
     "issued": {
       "date-parts": [
@@ -1804,7 +1877,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 20<sup>th</sup> european symposium on programming (ESOP’11)",
+    "container-title": "Proceedings of the 20<sup>th</sup> European Symposium on Programming (ESOP’11)",
     "id": "BonoMessaPadovani11",
     "issued": {
       "date-parts": [
@@ -1860,7 +1933,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 10<sup>th</sup> international conference on integrated formal methods (IFM’13)",
+    "container-title": "Proceedings of the 10<sup>th</sup> International Conference on Integrated Formal Methods (IFM’13)",
     "id": "LanevePadovani13",
     "issued": {
       "date-parts": [
@@ -1945,7 +2018,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 20<sup>th</sup> international conference on concurrency theory (CONCUR’09)",
+    "container-title": "Proceedings of the 20<sup>th</sup> International Conference on Concurrency Theory (CONCUR’09)",
     "id": "CastagnaPadovani09",
     "issued": {
       "date-parts": [
@@ -2002,7 +2075,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 19<sup>th</sup> international conference on concurrency theory (CONCUR’08)",
+    "container-title": "Proceedings of the 19<sup>th</sup> International Conference on Concurrency Theory (CONCUR’08)",
     "id": "Padovani08",
     "issued": {
       "date-parts": [
@@ -2031,7 +2104,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Concurrency, graphs and models (Ugo65’08)",
+    "container-title": "Concurrency, Graphs and Models (Ugo65’08)",
     "id": "LanevePadovani08",
     "issued": {
       "date-parts": [
@@ -2064,7 +2137,7 @@
       }
     ],
     "collection-title": "ACM SIGPLAN notices",
-    "container-title": "Proceedings of the 35<sup>th</sup> ACM SIGPLAN-SIGACT symposium on principles of programming languages (POPL’08)",
+    "container-title": "Proceedings of the 35<sup>th</sup> ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL’08)",
     "id": "CastagnaGesbertPadovani08",
     "issued": {
       "date-parts": [
@@ -2093,7 +2166,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 18<sup>th</sup> international conference on concurrency theory (CONCUR’07)",
+    "container-title": "Proceedings of the 18<sup>th</sup> International Conference on Concurrency Theory (CONCUR’07)",
     "id": "LanevePadovani07",
     "issued": {
       "date-parts": [
@@ -2122,7 +2195,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 9<sup>th</sup> IFIP international conference on formal methods for open object-based distributed systems (FMOODS’07)",
+    "container-title": "Proceedings of the 9<sup>th</sup> IFIP International Conference on Formal Methods for Open Object-based Distributed Systems (FMOODS’07)",
     "id": "BernardoPadovani07",
     "issued": {
       "date-parts": [
@@ -2153,7 +2226,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the ACM SIGPLAN workshop on programming language technologies for XML (PLAN-x’07)",
+    "container-title": "Proceedings of the ACM SIGPLAN Workshop on Programming Language Technologies for XML (PLAN-X’07)",
     "id": "CastagnaGesbertPadovani07",
     "issued": {
       "date-parts": [
@@ -2189,7 +2262,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 3<sup>rd</sup> international workshop on web services and formal methods (WS-FM’06)",
+    "container-title": "Proceedings of the 3<sup>rd</sup> International Workshop on Web Services and Formal Methods (WS-FM’06)",
     "id": "CarpinetiCastagnaLanevePadovani06",
     "issued": {
       "date-parts": [
@@ -2217,7 +2290,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "The art of modelling computational systems: A journey from logic and concurrency to security and privacy",
+    "container-title": "The Art of Modelling Computational Systems: A Journey from Logic and Concurrency to Security and Privacy",
     "id": "LanevePadovani19",
     "issued": {
       "date-parts": [
@@ -2261,7 +2334,7 @@
       }
     ],
     "collection-title": "ACM SIGPLAN notices",
-    "container-title": "Proceedings of the 41<sup>st</sup> ACM SIGPLAN-SIGACT symposium on principles of programming languages (POPL’14)",
+    "container-title": "Proceedings of the 41<sup>st</sup> ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL’14)",
     "id": "CastagnaEtAl14",
     "issued": {
       "date-parts": [
@@ -2329,7 +2402,7 @@
         "given": "Andrea"
       }
     ],
-    "container-title": "Proceedings of the 11<sup>th</sup> international workshop on coordination, organization, institutions and norms in multi-agent systems (COIN’10)",
+    "container-title": "Proceedings of the 11<sup>th</sup> International Workshop on Coordination, Organization, Institutions and Norms in Multi-Agent Systems (COIN’10)",
     "id": "BaldoniEtAl10",
     "issued": {
       "date-parts": [
@@ -2358,7 +2431,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of international conference on foundations of software science and computation structures (FoSSaCS’06)",
+    "container-title": "Proceedings of International Conference on Foundations of Software Science and Computation Structures (FoSSaCS’06)",
     "id": "LanevePadovani06",
     "issued": {
       "date-parts": [
@@ -2387,7 +2460,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 7<sup>th</sup> IFIP international conference on formal methods for open object-based distributed systems (FMOODS’05)",
+    "container-title": "Proceedings of the 7<sup>th</sup> IFIP International Conference on Formal Methods for Open Object-based Distributed Systems (FMOODS’05)",
     "id": "BusiPadovani05",
     "issued": {
       "date-parts": [
@@ -2412,7 +2485,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 14<sup>th</sup> international conference on compiler construction (CC’05)",
+    "container-title": "Proceedings of the 14<sup>th</sup> International Conference on Compiler Construction (CC’05)",
     "id": "Padovani05",
     "issued": {
       "date-parts": [
@@ -2441,7 +2514,7 @@
       }
     ],
     "collection-title": "LNAI",
-    "container-title": "Proceedings of the 5<sup>th</sup> international conference on mathematical knowledge management (MKM’06)",
+    "container-title": "Proceedings of the 5<sup>th</sup> International Conference on Mathematical Knowledge Management (MKM’06)",
     "id": "PadovaniZacchiroli06",
     "issued": {
       "date-parts": [
@@ -2474,7 +2547,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 3<sup>rd</sup> international conference on generative programming and component engineering (GPCE’04)",
+    "container-title": "Proceedings of the 3<sup>rd</sup> International Conference on Generative Programming and Component Engineering (GPCE’04)",
     "id": "PadovaniSacerdotiCoenZacchiroli04",
     "issued": {
       "date-parts": [
@@ -2503,7 +2576,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 3<sup>rd</sup> international conference on mathematical knowledge management (MKM’04)",
+    "container-title": "Proceedings of the 3<sup>rd</sup> International Conference on Mathematical Knowledge Management (MKM’04)",
     "id": "PadovaniSolmi04",
     "issued": {
       "date-parts": [
@@ -2526,7 +2599,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the 5<sup>th</sup> annual GNOME user and developer european conference (GUADEC’04)",
+    "container-title": "Proceedings of the 5<sup>th</sup> Annual GNOME User and Developer European Conference (GUADEC’04)",
     "id": "Padovani04B",
     "issued": {
       "date-parts": [
@@ -2550,7 +2623,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the international conference on TeX, XML, and digital typography (TUG’04)",
+    "container-title": "Proceedings of the International Conference on TeX, XML, and Digital Typography (TUG’04)",
     "id": "Padovani04A",
     "issued": {
       "date-parts": [
@@ -2575,7 +2648,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the 2<sup>nd</sup> international conference on mathematical knowledge management (MKM’03)",
+    "container-title": "Proceedings of the 2<sup>nd</sup> International Conference on Mathematical Knowledge Management (MKM’03)",
     "id": "Padovani03A",
     "issued": {
       "date-parts": [
@@ -2687,7 +2760,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the MathML international conference (MathML’02)",
+    "container-title": "Proceedings of the MathML International Conference (MathML’02)",
     "id": "Padovani02",
     "issued": {
       "date-parts": [
@@ -2715,7 +2788,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the MathML international conference (MathML’02)",
+    "container-title": "Proceedings of the MathML International Conference (MathML’02)",
     "id": "XieWattPadovani02",
     "issued": {
       "date-parts": [
@@ -2750,7 +2823,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "Proceedings of the international conference on theorem proving in higher order logics (TPHOLs’01)",
+    "container-title": "Proceedings of the International Conference on Theorem Proving in Higher Order Logics (TPHOLs’01)",
     "id": "AspertiPadovaniSacerdotiCoenSchena01A",
     "issued": {
       "date-parts": [
@@ -2785,7 +2858,7 @@
         "given": "Irene"
       }
     ],
-    "container-title": "Proceedings of the extreme markup languages conference (EXTREME’01)",
+    "container-title": "Proceedings of the Extreme Markup Languages Conference (EXTREME’01)",
     "id": "AspertiPadovaniSacerdotiCoenSchena01B",
     "issued": {
       "date-parts": [
@@ -2810,7 +2883,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Proceedings of the extreme markup languages conference (EXTREME’01)",
+    "container-title": "Proceedings of the Extreme Markup Languages Conference (EXTREME’01)",
     "id": "CasariniPadovani01",
     "issued": {
       "date-parts": [
@@ -2842,7 +2915,7 @@
         "given": "Irene"
       }
     ],
-    "container-title": "Proceedings of the 8<sup>th</sup> international conference on libraries and associations in the transient world: New technologies and new forms of cooperation (crimea’01)",
+    "container-title": "Proceedings of the 8<sup>th</sup> International Conference on Libraries and Associations in the Transient World: New Technologies and New Forms of Cooperation (Crimea’01)",
     "id": "AspertiPadovaniSacerdotiCoenSchena01C",
     "issued": {
       "date-parts": [
@@ -2867,7 +2940,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Behavioural types: From theory to tools",
+    "container-title": "Behavioural Types: from Theory to Tools",
     "id": "MelgrattiPadovani17",
     "issued": {
       "date-parts": [
@@ -2888,7 +2961,7 @@
         "given": "Luca"
       }
     ],
-    "container-title": "Behavioural types: From theory to tools",
+    "container-title": "Behavioural Types: from Theory to Tools",
     "id": "Padovani17C",
     "issued": {
       "date-parts": [
@@ -2923,7 +2996,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "International school on formal methods for the design of computer, communication and software systems (SFM’15)",
+    "container-title": "International School on Formal Methods for the Design of Computer, Communication and Software Systems (SFM’15)",
     "id": "CoppoDezaniPadovaniYoshida15",
     "issued": {
       "date-parts": [
@@ -2948,7 +3021,7 @@
       }
     ],
     "collection-title": "LNCS",
-    "container-title": "International school on formal methods for the design of computer, communication and software systems (SFM’09)",
+    "container-title": "International School on Formal Methods for the Design of Computer, Communication and Software Systems (SFM’09)",
     "id": "Padovani09A",
     "issued": {
       "date-parts": [
