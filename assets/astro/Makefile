@@ -15,6 +15,7 @@ SOURCES = \
   12P-Pons-Brooks-2024-03-12 \
   IC443-2024-03-13 \
   M104-closeup-2024-03-28 \
+  markarian-chain-2024-04-07 \
   $(NULL)
 
 FOLDER = /Users/luca/Documents/Astro/Final
