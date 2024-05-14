@@ -1,10 +1,13 @@
-- key:		Jup
+- key:		M5
+  title:	M5
+  date:		2024-05-12
+- key:		Jupiter
   title:	Jupiter and Europe
   date:		2023-09-12
-- key:		Jup
+- key:		Jupiter
   date:		2023-08-21
   title:	Io transit on Jupiter
-- key:		Sat
+- key:		Saturn
   title:	Saturn
   date:		2023-08-16
 - key:		M31
@@ -16,25 +19,25 @@
 - key:          M81
   date:		2024-02-14
   title:	"M81 (Bode's Galaxy), M82 (Cigar Galaxy) and NGC 3077"
-- key:		Alnitak
+- key:		Horsehead-Nebula
   title:	NGC 2024 (Flame Nebula) and Barnard 33 (Horsehead Nebula)
   date:		2024-02-03
-- key:		Rosette
+- key:		Rosette-Nebula
   title:    	Caldwell 49 (Rosette Nebula)
   date:		2024-02-13
 - key:		Moon
   title:	Mineral moon
   date:		2024-02-25
-- key:		leo-triplet-closeup
+- key:		Leo-Triplet
   title:	"Leo Triplet: M65 (left), M66 (middle) and NGC 3628 (right)"
   date:		2024-03-12
 - key:		12P-Pons-Brooks
   title:	Comet 12P/Pons-Brooks
   date:		2024-03-12
-- key:		IC443
+- key:		Jellyfish-Nebula
   title:	IC 443 (Jellyfish Nebula)
   date:		2024-03-13
-- key:          M104-closeup
+- key:          M104
   title:	M104 (Sombrero Galaxy)
   date:		2024-03-28
 - key:		markarian-chain
