@@ -2,6 +2,29 @@
   {
     "author": [
       {
+        "family": "Horne",
+        "given": "Ross"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Journal of Logical and Algebraic Methods in Programming",
+    "id": "HornePadovani24",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "A Logical Account of Subtyping for Session Types",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Carbone",
         "given": "Marco"
       },
@@ -2448,7 +2471,7 @@
   },
   {
     "DOI": "10.1007/11494881_17",
-    "abstract": "Mobile nets arise as a combination of the name managing techniques of the \\pi-calculus with the representation of concurrency and locality of Petri nets. We propose MAGNETs, a variant of mobile nets that are suitable for an effective, distributed implementation. Such implementation extends an implementation of the Join calculus virtual machine with dynamic reconfiguration features.",
+    "abstract": "Mobile nets arise as a combination of the name managing techniques of the $\\pi$-calculus with the representation of concurrency and locality of Petri nets. We propose MAGNETs, a variant of mobile nets that are suitable for an effective, distributed implementation. Such implementation extends an implementation of the Join calculus virtual machine with dynamic reconfiguration features.",
     "author": [
       {
         "family": "Busi",
