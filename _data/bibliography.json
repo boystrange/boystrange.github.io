@@ -1,5 +1,45 @@
 [
   {
+    "author": [
+      {
+        "family": "Colonnelli",
+        "given": "Iacopo"
+      },
+      {
+        "family": "Medić",
+        "given": "Doriana"
+      },
+      {
+        "family": "Mulone",
+        "given": "Alberto"
+      },
+      {
+        "family": "Bono",
+        "given": "Viviana"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Aldinucci",
+        "given": "Marco"
+      }
+    ],
+    "container-title": "Proceedings of the 26<sup>th</sup> International Symposium on Formal Methods (FM’24)",
+    "id": "ColonnelliEtAl24",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "title": "Introducing SWIRL: An Intermediate Representation Language for Scientific Workflows",
+    "type": "paper-conference"
+  },
+  {
     "DOI": "10.1016/j.jlamp.2024.100986",
     "author": [
       {
@@ -26,6 +66,8 @@
     "volume": "141"
   },
   {
+    "DOI": "10.1007/978-3-031-62697-5_9",
+    "abstract": "POPLMark and POPLMark Reloaded sparked a flurry of work on machine-checked proofs, and fostered the adoption of proof mechanisation in programming language research. Both challenges were purposely limited in scope, and they do not address concurrency-related issues. We propose a new collection of benchmark challenges focused on the difficulties that typically arise when mechanising formal models of concurrent and distributed programming languages, such as process calculi. Our benchmark challenges address three key topics: linearity, scope extrusion, and coinductive reasoning. The goal of this new benchmark is to clarify, compare, and advance the state of the art, fostering the adoption of proof mechanisation in future research on concurrency.",
     "author": [
       {
         "family": "Carbone",
@@ -95,9 +137,11 @@
         ]
       ]
     },
+    "page": "149-158",
     "publisher": "Springer",
     "title": "The Concurrent Calculi Formalisation Benchmark",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "volume": "14676"
   },
   {
     "DOI": "10.1016/j.jlamp.2024.100964",
