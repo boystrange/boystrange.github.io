@@ -2,6 +2,54 @@
   {
     "author": [
       {
+        "family": "Lago",
+        "given": "Ugo Dal"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 26<sup>th</sup> International Symposium on Principles and Practice of Declarative Programming (PPDP’24)",
+    "id": "DalLagoPadovani24",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "publisher": "ACM",
+    "title": "On the Almost-Sure Termination of Binary Sessions",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Dagnino",
+        "given": "Francesco"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      }
+    ],
+    "container-title": "Proceedings of the 26<sup>th</sup> International Symposium on Principles and Practice of Declarative Programming (PPDP’24)",
+    "id": "DagninoPadovani24",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "publisher": "ACM",
+    "title": "sMALL CaPS: An Infinitary Linear Logic for a Calculus of Pure Sessions",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
         "family": "Colonnelli",
         "given": "Iacopo"
       },
