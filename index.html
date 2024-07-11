@@ -233,17 +233,16 @@ title: Luca Padovani
   <h2>Astrophotography</h2>
 
   <p>
-    I like to take pictures of distant objects.  Below is a
-    selection of my best pictures in reverse chronological
-    order. High resolution pictures available on request.
+    I like to take pictures of distant objects.  Below are some of
+    my best pictures in reverse chronological order. High resolution
+    pictures available on request.
   </p>
 
   {% assign targets = site.data.astro | sort: "date" | reverse %}
   {% for target in targets %}
   <div class="astro-container">
     <img class="rounded shadow-dark" src='/assets/astro/{{ target.key }}-{{ target.date }}.jpg' alt="{{ section.key }}" width="100%"/>
-    <div class="astro-title">{{ target.title }}</div>
-    <div class="astro-date">{{ target.date | date: "%d %B %Y" }}</div>
+    <div class="astro-title">{{ target.title }}<br/>{{ target.date | date: "%d %B %Y" }}</div>
   </div>
   {% endfor %}
 
