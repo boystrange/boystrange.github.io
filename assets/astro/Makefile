@@ -21,7 +21,7 @@ SOURCES = \
   M101,2024-06-07,final,tif \
   Veil-Nebula,2024-07-11,final,tif \
   North-America-Nebula,2024-07-24,final,tif \
-  IC1396,2024-08-02,final,tif \
+  IC1396,2024-08-02,final2,jpg \
   $(NULL)
 
 FOLDER = /Users/luca/Documents/Astro/Targets
