@@ -17,7 +17,7 @@ SOURCES = \
   M104,2024-03-28,final,jpg \
   Markarian-Chain,2024-04-07,final,tif \
   M5,2024-05-12,closeup,tif \
-  M16,2024-06-01,final,tif \
+  M16,2024-06-01,final2,jpg \
   M101,2024-06-07,final,tif \
   Veil-Nebula,2024-07-11,final,tif \
   North-America-Nebula,2024-07-24,final,tif \
