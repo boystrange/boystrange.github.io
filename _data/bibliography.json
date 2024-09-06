@@ -1,5 +1,6 @@
 [
   {
+    "DOI": "10.1145/3678232.3678239",
     "author": [
       {
         "family": "Lago",
@@ -24,6 +25,7 @@
     "type": "paper-conference"
   },
   {
+    "DOI": "10.1145/3678232.3678234",
     "author": [
       {
         "family": "Dagnino",
