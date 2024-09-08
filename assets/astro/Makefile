@@ -23,7 +23,7 @@ SOURCES = \
   North-America-Nebula,2024-07-24,final,jpg \
   North-America-Nebula,2024-07-06,final,tif \
   IC1396,2024-08-02,final2,tif \
-  Helix-Nebula,2024-08-31,final,tif \
+  Helix-Nebula,2024-09-06,final,tif \
   $(NULL)
 
 FOLDER = /Users/luca/Documents/Astro/Targets
