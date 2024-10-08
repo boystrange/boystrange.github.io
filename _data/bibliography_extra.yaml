@@ -1,5 +1,8 @@
 DalLagoPadovani24:
   slides: ppdp_2024
+  dblp : conf/ppdp/LagoP24
+DagninoPadovani24:
+  dblp: conf/ppdp/DagninoP24
 ColonnelliEtAl24:
   long: https://arxiv.org/pdf/2407.01838
   dblp: conf/fm/ColonnelliMMBPA24
