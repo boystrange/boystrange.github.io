@@ -9,6 +9,7 @@ SOURCES = \
   Saturn,2023-08-16,final,png \
   M31,2023-09-27,final,jpg \
   M42,2024-02-20,final,tif \
+  M42,2024-11-16,final,jpg \
   M81,2024-02-14,final,jpg \
   Rosette-Nebula,2024-02-13,final2,jpg \
   Leo-Triplet,2024-03-12,closeup,jpg \
@@ -37,7 +38,9 @@ sources:
 		ext=`echo $$f | cut -d, -f4`; \
 		input=$(FOLDER)/$$object/$$date/$$file.$$ext; \
 		output=$$object-$$date.jpg; \
-		sips $(OPTIONS) -o $$output $$input; \
+		sips -s format jpeg -o temp.jpg $$input; \
+		sips -Z 800x800 -o $$output temp.jpg; \
+		rm -f temp.jpg; \
 	done
 
 test:
