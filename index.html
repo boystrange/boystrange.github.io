@@ -241,21 +241,21 @@ title: Luca Padovani
 
   {% assign targets = site.data.astro | sort: "date" | reverse %}
   {% for target in targets %}
-  <div class="astro-container">
-    <img class="rounded shadow-dark" src='/assets/astro/{{ target.key }}-{{ target.date }}.jpg' alt="{{ section.key }}" width="100%"/>
+  <div class="rounded shadow-dark astro-container zoomable-container"
+       id='{{ target.key }}-{{ target.date }}-container'>
+    <img class="zoomable-image"
+	 id='{{ target.key }}-{{ target.date }}-image'
+	 src='/assets/astro/{{ target.key }}-{{ target.date }}.jpg'
+	 alt="{{ section.key }}"
+	 width="100%"/>
     <div class="astro-title">{{ target.title }}<br/>{{ target.date | date: "%d %B %Y" }}</div>
   </div>
-  {% endfor %}
+  {%- endfor %}
 
-  <h2>Quotes</h2>
-
-  {% for quote in site.data.quotes %}
-  <blockquote>
-    <em>&#8220;{{ quote.text }}&#8221;</em>,
-    <a href="{{ quote.source }}">
-      {{ quote.author }}
-      {%- if quote.year %}, {{ quote.year }}{% endif %}
-    </a>
-  </blockquote>
-  {% endfor %}
+  <script>
+    {% for target in targets %}
+    zoom('{{ target.key }}-{{ target.date }}-container',
+	 '{{ target.key }}-{{ target.date }}-image');
+    {% endfor %}
+  </script>
 </div>

@@ -3,7 +3,7 @@ NULL =
 
 SOURCES = \
   Moon,2024-02-25,final,tif \
-  Horsehead-Nebula,2024-02-03,final,tif \
+  Horsehead-Nebula,2024-11-23,final,jpg \
   Jupiter,2023-08-21,final,png \
   Jupiter,2023-09-12,final,jpg \
   Saturn,2023-08-16,final,png \
@@ -28,7 +28,7 @@ SOURCES = \
   $(NULL)
 
 FOLDER = /Users/luca/Documents/Astro/Targets
-OPTIONS = -s format jpeg -Z 800x800
+OPTIONS = -s format jpeg -Z 1600x1600
 
 sources:
 	@for f in $(SOURCES); do \
@@ -39,7 +39,7 @@ sources:
 		input=$(FOLDER)/$$object/$$date/$$file.$$ext; \
 		output=$$object-$$date.jpg; \
 		sips -s format jpeg -o temp.jpg $$input; \
-		sips -Z 800x800 -o $$output temp.jpg; \
+		sips -Z 1600x1600 -o $$output temp.jpg; \
 		rm -f temp.jpg; \
 	done
 
