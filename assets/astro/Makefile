@@ -3,7 +3,7 @@ NULL =
 
 SOURCES = \
   Moon,2024-02-25,final,tif \
-  Horsehead-Nebula,2024-11-23,final,jpg \
+  Horsehead-Nebula,2024-12-02,final,jpg \
   Jupiter,2023-08-21,final,png \
   Jupiter,2023-09-12,final,jpg \
   Saturn,2023-08-16,final,png \
