@@ -10,8 +10,9 @@ SOURCES = \
   M31,2023-09-27,final,jpg \
   M42,2024-02-20,final,tif \
   M42,2024-11-16,final,jpg \
+  M45,2025-01-01,final,jpg \
   M81,2024-02-14,final,jpg \
-  Rosette-Nebula,2024-02-13,final2,jpg \
+  Rosette-Nebula,2024-12-30,final,jpg \
   Leo-Triplet,2024-03-12,closeup,jpg \
   12P-Pons-Brooks,2024-03-12,final,tif \
   Jellyfish-Nebula,2024-03-13,final,jpg \
