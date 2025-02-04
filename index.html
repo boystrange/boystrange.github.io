@@ -239,37 +239,25 @@ title: Luca Padovani
     magnify and right-click to download.
   </p>
 
-  {% assign targets = site.data.astro %}
+  {% assign targets = site.data.astro | sort: 'date' | reverse %}
   {% for target in targets %}
-  {% assign a = target.file | split: "-" %}
-  {% assign title = a[3] | replace: "_", " " %}
-  {% assign year = a[0] %}
-  {% assign month = a[1] %}
-  {% assign day = a[2] %}
-  {% assign date = a[0] | append: "-" | append: a[1] | append: "-" | append: a[2] %}
-  {% assign key = title | replace: " ", "_" | replace: ",", "_" | replace: "(", "_" | replace: ")", "_" | replace: "'", "_" %}
   <div class="rounded shadow-dark astro-container zoomable-container"
-       id='{{ key }}-{{ date }}-container'>
+       id="{{ target.wiki }}-{{ target.date }}-container">
     <img class="zoomable-image"
-	 id='{{ key }}-{{ date }}-image'
+	 id="{{ target.wiki }}-{{ target.date }}-image"
 	 src='/assets/astro/{{ target.file | escape }}.jpg'
-	 alt="{{ title }}"
+	 alt="{{ target.title }}"
 	 width="100%"/>
-    <div class="astro-title">{{ title }}<br/>{{ date | date: "%d %B %Y" }}</div>
+    <div class="astro-title">
+      <a href="https://en.wikipedia.org/wiki/{{ target.wiki }}">{{ target.title | replace: "~", " " }}</a><br/>{{ target.date | date: "%d %B %Y" }}
+    </div>
   </div>
   {%- endfor %}
 
   <script>
     {% for target in targets %}
-    {% assign a = target.file | split: "-" %}
-    {% assign title = a[3] | replace: "_", " " %}
-    {% assign year = a[0] %}
-    {% assign month = a[1] %}
-    {% assign day = a[2] %}
-    {% assign date = a[0] | append: "-" | append: a[1] | append: "-" | append: a[2] %}
-    {% assign key = title | replace: " ", "_" | replace: ",", "_" | replace: "(", "_" | replace: ")", "_" | replace: "'", "_" %}
-    zoom('{{ key }}-{{ date }}-container',
-	 '{{ key }}-{{ date }}-image');
+    zoom("{{ target.wiki }}-{{ target.date }}-container",
+	 "{{ target.wiki }}-{{ target.date }}-image");
     {% endfor %}
   </script>
 </div>

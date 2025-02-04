@@ -223,6 +223,10 @@ span.email::after {
     top: 8px;
     left: 8px;
     text-transform: lowercase;
+
+    a {
+	color: white;
+    }
 }
 
 blockquote {
