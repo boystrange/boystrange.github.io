@@ -22,7 +22,7 @@ $my-border-radius: 1px;
 $background-color:    $my-background-color;
 $link-color:          $my-link-color;
 
-$title-1-size: 2rem;
+$title-1-size: 2.5rem;
 $title-2-size: 1.5rem;
 $title-3-size: 1.25rem;
 $title-4-size: 1rem;
@@ -73,12 +73,14 @@ h1 {
     font-family: $my-primary-font-family;
     font-weight: normal;
     font-style: italic;
-    padding: 1ex 0;
+    padding: 2rem 0;
     margin: 0;
     color: white;
 }
 
 header {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
     background-color: $my-link-color;
     color: white;
     margin: 0 0 1ex 0;
