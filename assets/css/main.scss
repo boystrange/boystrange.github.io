@@ -87,6 +87,8 @@ header {
 }
 
 footer {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
     background-color: $my-link-color;
     color: white;
     padding: 1ex 0;
