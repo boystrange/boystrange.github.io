@@ -14,7 +14,7 @@ $my-code-font-family:      "Fira Code", monospace;
 
 $my-primary-color:    #333;
 $my-icon-color:       #04A;
-$my-link-color:       #047;
+$my-link-color:       #058;
 $my-background-color: #FFF;
 
 $my-border-radius: 1px;
@@ -27,7 +27,7 @@ $title-2-size: 1.5rem;
 $title-3-size: 1.25rem;
 $title-4-size: 1rem;
 
-$thick-line-color: lighten($my-link-color, 40%);
+$thick-line-color: $my-link-color;
 $thin-line-color:  $thick-line-color;
 
 $button-text-color:       white;
@@ -115,6 +115,10 @@ a {
     text-decoration: underline !important;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 .hidden {
     display: none;
 }
@@ -182,6 +186,7 @@ span.tag {
 
 a.tag {
     background-color: $my-link-color;
+    text-decoration: none;
     color: white;
 
     span:last-child {

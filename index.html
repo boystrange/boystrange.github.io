@@ -142,7 +142,7 @@ title: Luca Padovani
 
 	{% if extra.html %}
 	<a class="tag" href="{{ extra.html }}">
-	  <span>html</span>
+	  <span>web</span>
 	</a>
 	{% endif %}
 
@@ -154,34 +154,29 @@ title: Luca Padovani
 
 	{% if extra.preprint %}
 	<a class="tag" href="{{ extra.preprint }}">
-	  <span>preprint</span>
-	  <span>pdf</span>
+	  <span>preprint</span><span>pdf</span>
 	</a>
 	{% endif %}
 
 	{% if extra.long %}
 	<a class="tag" href="{{ extra.long }}">
-	  <span>long version</span>
-	  <span>pdf</span>
+	  <span>long version</span><span>pdf</span>
 	</a>
 	{% endif %}
 
 	{% if extra.slides %}
 	<a class="tag" href="../assets/talks/{{ extra.slides }}.pdf">
-	  <span>slides</span>
-	  <span>pdf</span>
+	  <span>slides</span><span>pdf</span>
 	</a>
 	{% endif %}
 
 	{% if extra.git %}
 	<a class="tag" href="{{ extra.git }}">
-	  <span>artifact</span>
-	  <span>git</span>
+	  <span>artifact</span><span>git</span>
 	</a>
 	{% elsif extra.artifact_html %}
 	<a class="tag" href="{{ extra.artifact_html }}">
-	  <span>artifact</span>
-	  <span>html</span>
+	  <span>artifact</span><span>web</span>
 	</a>
 	{% endif %}
 
