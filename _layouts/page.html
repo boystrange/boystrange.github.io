@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"/>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="{{ "/assets/js/zoom.js" | relative_url }}"></script>
   </head>
   <body>
     <header class="shadow-light">
@@ -26,28 +27,5 @@
 	  was generated on {{ site.time | date: "%d %B %Y" }}</em>.
       </div>
     </footer>
-    <script type="text/javascript">
-      window.MathJax = {
-	  options: {
-	      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-	      ignoreHtmlClass: 'tex2jax_ignore',
-	      processHtmlClass: 'tex2jax_process',
-	  },
-	  tex: {
-	      inlineMath: [['$','$'], ['\\(','\\)']],
-	      processEscapes: true,
-	      macros: { },
-	      autoload: {
-		  color: [],
-		  colorV2: ['color']
-	      },
-	      packages: {'[+]': ['noerrors', 'html']}
-	  },
-	  loader: {
-	      load: ['[tex]/noerrors', '[tex]/html']
-	  }
-      };
-    </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
   </body>
 </html>

@@ -14,7 +14,7 @@ $my-code-font-family:      "Fira Code", monospace;
 
 $my-primary-color:    #333;
 $my-icon-color:       #04A;
-$my-link-color:       #047;
+$my-link-color:       #058;
 $my-background-color: #FFF;
 
 $my-border-radius: 1px;
@@ -22,12 +22,12 @@ $my-border-radius: 1px;
 $background-color:    $my-background-color;
 $link-color:          $my-link-color;
 
-$title-1-size: 2rem;
+$title-1-size: 2.5rem;
 $title-2-size: 1.5rem;
 $title-3-size: 1.25rem;
 $title-4-size: 1rem;
 
-$thick-line-color: lighten($my-link-color, 40%);
+$thick-line-color: $my-link-color;
 $thin-line-color:  $thick-line-color;
 
 $button-text-color:       white;
@@ -73,18 +73,22 @@ h1 {
     font-family: $my-primary-font-family;
     font-weight: normal;
     font-style: italic;
-    padding: 1ex 0;
+    padding: 2rem 0;
     margin: 0;
     color: white;
 }
 
 header {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
     background-color: $my-link-color;
     color: white;
     margin: 0 0 1ex 0;
 }
 
 footer {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
     background-color: $my-link-color;
     color: white;
     padding: 1ex 0;
@@ -108,6 +112,10 @@ h4 {
 
 a {
     color: $my-link-color;
+    text-decoration: underline !important;
+}
+
+a:hover {
     text-decoration: none !important;
 }
 
@@ -178,6 +186,7 @@ span.tag {
 
 a.tag {
     background-color: $my-link-color;
+    text-decoration: none;
     color: white;
 
     span:last-child {
@@ -208,7 +217,7 @@ span.email::after {
 
 .astro-container {
     font-family: $my-secondary-font-family;
-    position: relative;
+    //position: relative;
     color: white;
     img {
 	border: 0;
@@ -223,8 +232,29 @@ span.email::after {
     top: 8px;
     left: 8px;
     text-transform: lowercase;
+
+    a {
+	color: white;
+    }
 }
 
 blockquote {
     margin: 1em 0;
+}
+
+.zoomable-container {
+    // max-width: 300px;
+    // max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    padding: 0;
+    position: relative;
+    cursor: crosshair;
+}
+
+.zoomable-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    // transition: transform .2s;
 }

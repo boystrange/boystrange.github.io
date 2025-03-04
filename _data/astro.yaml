@@ -1,63 +1,84 @@
-- key:		Helix-Nebula
-  title:	Helix Nebula (NGC 7293)
-  date:		2024-09-06
-- key:		IC1396
-  title:	Elephant's Trunk (IC 1396)
-  date:		2024-08-02
-- key:          Veil-Nebula
-  title:        Western Veil Nebula (NGC 6960)
-  date:         2024-07-11
-- key:          North-America-Nebula
-  title:        North America Nebula (NGC 7000)
-  date:         2024-07-06
-- key:		M101
-  title:	Pinwheel Galaxy (M101)
-  date:		2024-06-07
-- key:		M16
-  title:	Eagle Nebula (M16)
-  date:		2024-06-01
-- key:		M5
-  title:	M5 Globular Cluster
-  date:		2024-05-12
-- key:		Jupiter
-  title:	Jupiter and Europe
-  date:		2023-09-12
-- key:		Jupiter
-  date:		2023-08-21
-  title:	Io transit on Jupiter
-- key:		Saturn
-  title:	Saturn
-  date:		2023-08-16
-- key:		M31
-  title:	Andromeda Galaxy (M31)
-  date:		2023-09-27
-- key:		M42
-  date:		2024-02-20
-  title:	"Orion Nebula (M42), De Mairan's Nebula (M43) and Running Man Nebula (Sh2-279)"
-- key:          M81
-  date:		2024-02-14
-  title:	"Bode's Galaxy (M81), Cigar Galaxy (M82) and NGC 3077"
-- key:		Horsehead-Nebula
-  title:	Flame Nebula (NGC 2024) and Horsehead Nebula (Barnard 33)
-  date:		2024-02-03
-- key:		Rosette-Nebula
-  title:    	Rosette Nebula (Caldwell 49)
-  date:		2024-02-13
-- key:		Moon
-  title:	Mineral moon
-  date:		2024-02-25
-- key:		Leo-Triplet
-  title:	"Leo Triplet (M65 left, M66 middle and NGC 3628 right)"
-  date:		2024-03-12
-- key:		12P-Pons-Brooks
-  title:	12P/Pons-Brooks Comet
-  date:		2024-03-12
-- key:		Jellyfish-Nebula
-  title:	Jellyfish Nebula (IC 443)
-  date:		2024-03-13
-- key:          M104
-  title:	Sombrero Galaxy (M104)
-  date:		2024-03-28
-- key:		markarian-chain
-  title:	Markarian's Chain
-  date:		2024-04-07
+- title: Jupiter~and~Europe
+  date:  2023-09-12
+  wiki:  Jupiter
+  file:  "2023-09-12.Jupiter~and~Europe.Jupiter"
+- title: Andromeda~Galaxy~(M31)
+  date:  2023-09-27
+  wiki:  Andromeda_Galaxy
+  file:  "2023-09-27.Andromeda~Galaxy~(M31).Andromeda_Galaxy"
+- title: Bode's~Galaxy~(M81),~Cigar~Galaxy~(M82)~and~NGC3077
+  date:  2024-02-14
+  wiki:  Messier_81
+  file:  "2024-02-14.Bode's~Galaxy~(M81),~Cigar~Galaxy~(M82)~and~NGC3077.Messier_81"
+- title: Leo~Triplet~(M65~Left,~M66~Middle,~NGC3628~Right)
+  date:  2024-03-12
+  wiki:  Leo_Triplet
+  file:  "2024-03-12.Leo~Triplet~(M65~Left,~M66~Middle,~NGC3628~Right).Leo_Triplet"
+- title: Sombrero~Galaxy~(M104)
+  date:  2024-03-28
+  wiki:  Sombrero_Galaxy
+  file:  "2024-03-28.Sombrero~Galaxy~(M104).Sombrero_Galaxy"
+- title: Western~Veil~Nebula~(NGC6960)
+  date:  2024-07-11
+  wiki:  Veil_Nebula
+  file:  "2024-07-11.Western~Veil~Nebula~(NGC6960).Veil_Nebula"
+- title: Flame~Nebula~(NGC2024)~and~Horsehead~Nebula~(B33)
+  date:  2024-12-02
+  wiki:  Horsehead_Nebula
+  file:  "2024-12-02.Flame~Nebula~(NGC2024)~and~Horsehead~Nebula~(B33).Horsehead_Nebula"
+- title: Great~Orion~Nebula~(M42)
+  date:  2024-12-25
+  wiki:  Orion_Nebula
+  file:  "2024-12-25.Great~Orion~Nebula~(M42).Orion_Nebula"
+- title: Rosette~Nebula~(Caldwell~49)
+  date:  2024-12-30
+  wiki:  Rosette_Nebula
+  file:  "2024-12-30.Rosette~Nebula~(Caldwell~49).Rosette_Nebula"
+- title: The~Pleiades~(M45)
+  date:  2025-01-01
+  wiki:  Pleiades
+  file:  "2025-01-01.The~Pleiades~(M45).Pleiades"
+- title: Jellyfish~Nebula~(IC443)
+  date:  2025-02-01
+  wiki:  IC_443
+  file:  "2025-02-01.Jellyfish~Nebula~(IC443).IC_443"
+- title: Saturn
+  date:  2023-08-16
+  wiki:  Saturn
+  file:  "2023-08-16.Saturn.Saturn"
+- title: Mineral~Moon
+  date:  2024-02-25
+  wiki:  Moon
+  file:  "2024-02-25.Mineral~Moon.Moon"
+- title: 12P~Pons-Brooks
+  date:  2024-03-12
+  wiki:  12P'Pons–Brooks
+  file:  "2024-03-12.12P~Pons-Brooks.12P'Pons–Brooks"
+- title: Markarian's~Chain
+  date:  2024-04-07
+  wiki:  Markarian's_Chain
+  file:  "2024-04-07.Markarian's~Chain.Markarian's_Chain"
+- title: M5~Globular~Cluster
+  date:  2024-05-12
+  wiki:  Messier_5
+  file:  "2024-05-12.M5~Globular~Cluster.Messier_5"
+- title: Eagle~Nebula~(M16)
+  date:  2024-06-01
+  wiki:  Eagle_Nebula
+  file:  "2024-06-01.Eagle~Nebula~(M16).Eagle_Nebula"
+- title: Pinwheel~Galaxy~(M101)
+  date:  2024-06-07
+  wiki:  Pinwheel_Galaxy
+  file:  "2024-06-07.Pinwheel~Galaxy~(M101).Pinwheel_Galaxy"
+- title: North~America~Nebula~(NGC7000)
+  date:  2024-07-06
+  wiki:  North_America_Nebula
+  file:  "2024-07-06.North~America~Nebula~(NGC7000).North_America_Nebula"
+- title: Elephant's~Trunk~(IC1396)
+  date:  2024-08-02
+  wiki:  Elephant's_Trunk_Nebula
+  file:  "2024-08-02.Elephant's~Trunk~(IC1396).Elephant's_Trunk_Nebula"
+- title: Helix~Nebula~(NGC7293)
+  date:  2024-09-06
+  wiki:  Helix_Nebula
+  file:  "2024-09-06.Helix~Nebula~(NGC7293).Helix_Nebula"
