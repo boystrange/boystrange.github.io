@@ -14,8 +14,8 @@ title: Luca Padovani
       Bologna</a>. My research interests include <em>programming
       languages</em>, <em>type systems</em>, <em>concurrency
       theory</em> and <em>formal software verification</em>. On
-      clear nights, I'm also an
-      amateur <a href="#astro">astrophotographer</a>.
+      clear nights, I'm also an amateur
+      <a href="#astro">astrophotographer</a>.
     </p>
   </div>
   <div class="col-md-1-3">
@@ -35,7 +35,10 @@ title: Luca Padovani
       <li><i class="fa-li fas fa-envelope fa-fw"></i>
 	<span class="email">@unib<b>2</b>a.padovani</span>
       </li>
-      <li><i class="fa-li fas fa-phone"></i>N/A</li>
+      <!-- <li><i class="fa-li fas fa-phone"></i>N/A</li> -->
+      <li><i class="fa-li far fa-thumbs-down"></i>
+	Social networks? No thanks.
+      </li>
     </ul>
   </div>
   <div class="col-md-1-3">
@@ -60,8 +63,8 @@ title: Luca Padovani
       <li><i class="fa-li fab fa-github"></i>
 	<a href="https://github.com/boystrange">GitHub</a>
       </li>
-      <li><i class="fa-li far fa-thumbs-down"></i>
-	Social networks? No thanks.
+      <li><i class="fa-li fa-solid fa-user-astronaut"></i>
+	<a href="https://app.astrobin.com/u/luca.padovani">AstroBin</a>
       </li>
     </ul>
   </div>
@@ -246,11 +249,19 @@ title: Luca Padovani
   {% for target in targets %}
   <div class="rounded shadow-dark astro-container zoomable-container"
        id="{{ target.wiki }}-{{ target.date }}-container">
+    {% if target.abin %}
+    <img class="zoomable-image"
+	 id="{{ target.wiki }}-{{ target.date }}-image"
+	 src="https://cdn.astrobin.com/thumbs/{{ target.abin }}"
+	 alt="{{ target.title }}"
+	 width="100%"/>
+    {% else %}
     <img class="zoomable-image"
 	 id="{{ target.wiki }}-{{ target.date }}-image"
 	 src='/assets/astro/{{ target.file | escape }}.jpg'
 	 alt="{{ target.title }}"
 	 width="100%"/>
+    {% endif %}
     <div class="astro-title">
       <a href="https://en.wikipedia.org/wiki/{{ target.wiki }}">{{ target.title | replace: "~", " " }}</a><br/>{{ target.date | date: "%d %B %Y" }}
     </div>
