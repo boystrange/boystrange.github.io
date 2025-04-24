@@ -12,14 +12,29 @@
     ],
     "collection-title": "LIPIcs",
     "container-title": "Proceedings of the 39<sup>th</sup> European Conference on Object-Oriented Programming (ECOOP’25)",
+    "editor": [
+      {
+        "family": "Aldrich",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Silva",
+        "given": "Alexandra"
+      }
+    ],
     "id": "PadovaniZavattaro25",
     "issued": {
-      "date-parts": []
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
     },
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
     "publisher-place": "Dagstuhl, Germany",
     "title": "Fair Termination of Asynchronous Binary Sessions",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "volume": "333"
   },
   {
     "DOI": "10.1145/3678232.3678239",
