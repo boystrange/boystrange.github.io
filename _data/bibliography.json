@@ -37,6 +37,47 @@
     "volume": "333"
   },
   {
+    "author": [
+      {
+        "family": "Bravetti",
+        "given": "Mario"
+      },
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Zavattaro",
+        "given": "Gianluigi"
+      }
+    ],
+    "collection-title": "LIPIcs",
+    "container-title": "Proceedings of the 36<sup>th</sup> International Conference on Concurrency Theory (CONCUR’25)",
+    "editor": [
+      {
+        "family": "Bouyer",
+        "given": "Patricia"
+      },
+      {
+        "dropping-particle": "van de",
+        "family": "Pol",
+        "given": "Jaco"
+      }
+    ],
+    "id": "BravettiPadovaniZavattaro25",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
+    "publisher-place": "Dagstuhl, Germany",
+    "title": "A Sound and Complete Characterization of Fair Asynchronous Session Subtyping",
+    "type": "paper-conference"
+  },
+  {
     "DOI": "10.1145/3678232.3678239",
     "author": [
       {
