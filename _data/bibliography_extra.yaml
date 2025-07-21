@@ -14,6 +14,7 @@ ColonnelliEtAl24:
   long: https://arxiv.org/pdf/2407.01838
   dblp: conf/fm/ColonnelliMMBPA24
 CarboneEtAl24:
+  long: https://concurrentbenchmark.github.io/concurrentbenchmark/Concurrent-Calculi-Formalisation-Benchmark.pdf
   dblp: conf/coordination/CarboneCFGJMPSTVYZ24
 CicconeDagninoPadovani24:
   dblp: journals/jlap/CicconeDP24
