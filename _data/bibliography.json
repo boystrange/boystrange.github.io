@@ -39,6 +39,7 @@
     "volume": "333"
   },
   {
+    "DOI": "10.4230/LIPIcs.CONCUR.2025.11",
     "author": [
       {
         "family": "Bravetti",
@@ -74,10 +75,12 @@
         ]
       ]
     },
+    "page": "1-17",
     "publisher": "Schloss Dagstuhl–Leibniz-Zentrum für Informatik",
     "publisher-place": "Dagstuhl, Germany",
     "title": "A Sound and Complete Characterization of Fair Asynchronous Session Subtyping",
-    "type": "paper-conference"
+    "type": "paper-conference",
+    "volume": "348"
   },
   {
     "DOI": "10.1145/3678232.3678239",
