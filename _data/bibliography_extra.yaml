@@ -1,5 +1,6 @@
 BravettiPadovaniZavattaro25:
   long: http://arxiv.org/abs/2506.06078
+  dblp: conf/concur/BravettiPZ25
 PadovaniZavattaro25:
   long: http://arxiv.org/abs/2503.07273
   slides: ecoop_2025
