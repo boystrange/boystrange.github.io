@@ -1,5 +1,32 @@
 [
   {
+    "DOI": "10.1145/3803862",
+    "abstract": "We study a theory of asynchronous session types ensuring that well-typed processes terminate under a suitable fairness assumption. Fair termination entails starvation freedom and orphan message freedom namely that all messages, including those that are produced early taking advantage of asynchrony, are eventually consumed. The theory is based on a novel fair asynchronous subtyping relation for session types that is coarser than the existing ones. The type system is also the first of its kind that is firmly rooted in linear logic: fair asynchronous subtyping is incorporated as a natural generalization of the cut and axiom rules of linear logic and asynchronous communication is modeled through a suitable set of commuting conversions and of deep cut reductions in linear logic proofs.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Zavattaro",
+        "given": "Gianluigi"
+      }
+    ],
+    "container-title": "ACM Transactions on Programming Languages and Systems",
+    "id": "PadovaniZavattaro26",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "1-50",
+    "publisher": "ACM",
+    "title": "Fair Termination of Asynchronous Binary Sessions",
+    "type": "article-journal"
+  },
+  {
     "DOI": "10.4230/LIPIcs.ECOOP.2025.24",
     "author": [
       {
