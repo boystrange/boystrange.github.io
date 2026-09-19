@@ -1,5 +1,34 @@
 [
   {
+    "DOI": "10.1007/s10817-026-09765-w",
+    "abstract": "The formalisation of session calculi is made difficult by the management of session channels, which are linear resources that cannot be discarded or duplicated and whose type changes over time, as input/output operations are performed on them. Context splitting, the channel management technique directly related to the way session type theories are usually written with pen and paper, is often considered a hindrance and a notable source of complexity, to the point where several alternative approaches have been recently proposed. In this paper we describe the Agda formalisation of a process calculus based on classical linear logic that supports the modeling of binary sessions through their encoding with explicit continuation channels. The formalisation turns out to be remarkably compact despite the adoption of context splitting. We argue that the logical nature of the calculus and the use of explicit continuations are contributing factors to the simplicity of its formalisation.",
+    "author": [
+      {
+        "family": "Padovani",
+        "given": "Luca"
+      },
+      {
+        "family": "Raffaelli",
+        "given": "Claudia"
+      }
+    ],
+    "container-title": "Journal of Automated Reasoning",
+    "id": "PadovaniRaffaelli26",
+    "issue": "19",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "1-33",
+    "publisher": "Springer",
+    "title": "A Continuation-Based Solution of the Linearity Challenge",
+    "type": "article-journal",
+    "volume": "70"
+  },
+  {
     "DOI": "10.1145/3803862",
     "abstract": "We study a theory of asynchronous session types ensuring that well-typed processes terminate under a suitable fairness assumption. Fair termination entails starvation freedom and orphan message freedom namely that all messages, including those that are produced early taking advantage of asynchrony, are eventually consumed. The theory is based on a novel fair asynchronous subtyping relation for session types that is coarser than the existing ones. The type system is also the first of its kind that is firmly rooted in linear logic: fair asynchronous subtyping is incorporated as a natural generalization of the cut and axiom rules of linear logic and asynchronous communication is modeled through a suitable set of commuting conversions and of deep cut reductions in linear logic proofs.",
     "author": [
