@@ -90,6 +90,8 @@ title: Luca Padovani
       <i class="fa-li far fa-file-alt type"></i>
       {% when "chapter" %}
       <i class="fa-li fas fa-file type"></i>
+      {% when "manuscript" %}
+      <i class="fa-li far fa-file type"></i>
       {% else %}
       <i class="fa-li fas fa-question-circle type"></i>
       {% endcase %}
@@ -116,6 +118,10 @@ title: Luca Padovani
       {% if entry.container-title %}
       <em>{{ entry.container-title }}</em>,
       {% endif %}
+
+	  {% if entry.type == "manuscript" %}
+	  unpublished manuscript,
+	  {% endif %}
 
       {% if entry.page %}
       pages {{ entry.page }},
